@@ -105,16 +105,19 @@ def format_line(k, v):
     def one_line(s):
         return s.replace("\r\n", "\\n").replace("\r", "\\n").replace("\n", "\\n")
 
+    def escape_eq(s):
+        # XUnity rejette toute ligne contenant plus d'un = non échappé
+        return re.sub(r'(?<!\\)=', r'\\=', s)
+
     if is_regex_key(k):
         # Valeur toujours entre guillemets (convention P5XTES) : XUnity retire les guillemets
         # extérieurs, ce qui protège ceux de la traduction (<link="s|301">...)
         if v.startswith('"') and v.endswith('"') and len(v) > 1:
             v = v[1:-1]
-        return f'{one_line(k)}="{one_line(v)}"\n'
+        return f'{one_line(k)}="{escape_eq(one_line(v))}"\n'
 
     # Clé normale : échapper les = non déjà échappés
-    k_escaped = re.sub(r'(?<!\\)=', r'\\=', one_line(k))
-    return f"{k_escaped}={one_line(v)}\n"
+    return f"{escape_eq(one_line(k))}={escape_eq(one_line(v))}\n"
 
 def target_module(k, file, rel_dir):
     """Détermine le fichier compilé de destination d'une entrée."""

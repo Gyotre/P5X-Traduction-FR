@@ -1,0 +1,59 @@
+name: Publication Automatique de la Traduction FR
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Numéro de version (ex: v1.0.0)'
+        required: true
+        default: 'v1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code source
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Compiler les traductions et générer translation.zip
+        id: build
+        run: |
+          python 03_Outils_Traduction/generer_pack_release.py
+          SHA=$(sha256sum 06_Releases/translation.zip | awk '{print $1}')
+          echo "SHA256=$SHA" >> $GITHUB_OUTPUT
+          TAG="${{ github.ref_name }}"
+          if [ -z "$TAG" ] || [ "$TAG" = "main" ]; then
+            TAG="${{ github.event.inputs.version }}"
+          fi
+          echo "RELEASE_TAG=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Créer la GitHub Release compatible P5XfrLauncher
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.build.outputs.RELEASE_TAG }}
+          name: Mise à jour Traduction FR ${{ steps.build.outputs.RELEASE_TAG }}
+          body: |
+            ## Traduction Française - Persona 5: The Phantom X
+            
+            Cette release est automatiquement synchronisée avec **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)**.
+            
+            ### Empreinte de vérification (SHA-256)
+            translation.zip: ${{ steps.build.outputs.SHA256 }}
+            
+            ---
+            *Mise à jour automatique par GitHub Actions.*
+          files: |
+            06_Releases/translation.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

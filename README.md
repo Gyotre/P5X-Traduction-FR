@@ -10,32 +10,38 @@ Ce dossier contient l'ensemble des fichiers de textes, les outils de développem
 ```text
 _Traduction-P5X/
 │
+├── 📂 00_Documentation/              <- Guides et documentation de référence
+│   ├── 📄 DOCUMENTATION_TECHNIQUE_P5X_TRADUCTION.docx (Documentation A-Z complète)
+│   └── 📄 GUIDE_DU_TRADUCTEUR.md        (Guide pratique pas à pas pour traduire)
+│
 ├── 📂 TRADUCTION_FACILE/            <- LA SOURCE : fichiers JSON {"Texte anglais": "Traduction"}
-│   ├── 📂 00_Configuration_et_Substitutions/ (noms propres, voir GUIDE)
-│   ├── 📂 01_Personnages/ ... 📂 11_Textes_Generaux_Steam/
+│   ├── 📂 00_Configuration_et_Substitutions/ (noms propres, règles)
+│   └── 📂 01_Personnages/ ... 📂 11_Textes_Generaux_Steam/
 │
 ├── 📂 TRADUCTION_FR/                <- Généré / références (ne pas éditer à la main)
 │   ├── 📂 00_Compiles_Modulaires/     (copie de ce qui est envoyé au jeu)
 │   ├── 📄 01_Kits_Personnages/00_Regex_Dynamiques.txt (regex écrites à la main, compilées aussi)
 │   └── 📄 Glossaire_Officiel_P5_FR.md (termes officiels Persona)
 │
-├── 📂 03_Outils_Traduction/         <- Scripts
+├── 📂 03_Outils_Traduction/         <- Scripts d'ingénierie et de compilation
 │   ├── 🐍 convertisseur_json.py       (Compile TRADUCTION_FACILE -> jeu + configure XUnity)
 │   ├── 🐍 valider_traductions.py      (Balises, variables $1/{{A}}, conflits entre fichiers)
 │   ├── 🐍 statistiques_avancement.py  (Avancement par catégorie)
 │   ├── 🐍 chercher_texte.py           (Recherche un mot, en anglais ou en français)
 │   ├── 🐍 generer_pack_release.py     (ZIP prêt à partager dans 06_Releases/)
-│   ├── 🐍 extraire_tout_le_jeu.py / adapter_p5xtes_en_json.py (régénèrent les JSON, sources requises)
-│   └── 📂 _obsoletes/                 (anciens scripts gardés pour mémoire)
+│   └── 🐍 extraire_tout_le_jeu.py / adapter_p5xtes_en_json.py (régénèrent les JSON, sources requises)
 │
-├── 📂 04_Launcher_P5X_FR/           <- Launcher + Éditeur visuel (Python/Tkinter)
-├── 📂 05_Paquet_BepInEx_Preconfigure/ <- BepInEx + XUnity.AutoTranslator (A_COPIER_DANS_LE_JEU/)
-├── 📂 BACKUP_TRADUCTIONS_MIKU/      <- Sauvegarde manuelle
+├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction + Launcher (Python/Tkinter)
+│   ├── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
+│   └── 🐍 launcher_p5x.py             (Gestionnaire Mods ON/OFF et lancement du jeu)
 │
-├── 🚀 Lancer_Launcher.bat           <- Le launcher
-├── ✏️ Ouvrir_Editeur_Traduction.bat <- L'éditeur visuel
-├── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu
-└── 📄 GUIDE_DU_TRADUCTEUR.md        <- Guide pratique pas à pas pour traduire
+├── 📂 05_Paquet_BepInEx_Preconfigure/ <- Modpack BepInEx + XUnity prêt à l'emploi (A_COPIER_DANS_LE_JEU/)
+│
+├── 📂 _Sauvegardes/                  <- Archives et sauvegardes de sécurité (ex: BACKUP_TRADUCTIONS_MIKU)
+│
+├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet de traduction
+├── 🚀 Lancer_Launcher.bat           <- Le launcher (Gestion mods ON/OFF et démarrage)
+└── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu en 1 clic
 ```
 
 > La synchronisation écrit uniquement dans `BepInEx/Translation/fr/Text/` et `BepInEx/config/AutoTranslatorConfig.ini`.
@@ -55,11 +61,16 @@ Double-clique sur **`Lancer_Launcher.bat`** :
 - Le bouton **"BASCULER MODS ON / OFF"** dans le launcher permet d'activer ou désactiver instantanément BepInEx (`winhttp.dll` <-> `winhttp.dll.disabled`).
 - Quand les mods sont désactivés, le jeu est 100 % officiel sans aucune injection mémoire, ce qui est parfait avant une mise à jour du jeu.
 
-### 3. Traduire tes premiers équipements ou kits
-1. Double-clique sur **`Ouvrir_Editeur_Traduction.bat`** (ou bouton **"ÉDITEUR FACILE"** du launcher), choisis une fiche et remplis les champs.
-   Tu peux aussi éditer directement un JSON de `TRADUCTION_FACILE/` (VS Code, Notepad++…) : `"Texte anglais": "Ta traduction"`.
-2. Lance `python 03_Outils_Traduction/valider_traductions.py` pour t'assurer qu'aucune balise ou variable n'est cassée.
-3. Clique sur **"ENREGISTRER & APPLIQUER AU JEU"** (éditeur) ou **"SYNCHRONISER LA TRADUCTION FR"** (launcher), puis teste en jeu (Alt + R recharge à chaud).
+### 3. Traduire avec l'Atelier de traduction
+Double-clique sur **`Atelier_Traduction.bat`** (ou bouton **"ATELIER DE TRADUCTION"** du launcher) :
+1. À gauche, choisis une section : **Personnages** (un fichier par personnage), **Arcanes & Cartes de Révélation**, Armes, Personas, Interface, Combat, Histoire…
+2. Pour chaque texte : l'anglais en bleu, ta traduction dans la case en dessous. `Tab` passe à la case suivante, **= EN** recopie l'anglais (pour garder un nom tel quel).
+3. **Chercher partout** trouve un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
+4. Les **textes à variables** (violet) : écris `$1`, `$2`… là où l'anglais montre `[$1]`, `[$2]`… (valeurs calculées par le jeu).
+5. **⚡ INJECTER DANS LE JEU** : vérifie les balises et variables, enregistre, compile et envoie dans le jeu. En jeu : **Alt + R**.
+
+Bon à savoir : une même phrase peut exister dans plusieurs fichiers ; l'option « Recopier dans les fichiers identiques » (cochée par défaut)
+reporte ta traduction partout, sinon le compilateur pourrait garder une autre version.
 
 ---
 

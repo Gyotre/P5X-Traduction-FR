@@ -211,7 +211,7 @@ class P5XLauncher(tk.Tk):
                                relief="flat", padx=12, pady=6, cursor="hand2")
         btn_deploy.pack(side="left", padx=(0, 8))
 
-        btn_editor = tk.Button(btn_row, text="ÉDITEUR FACILE", command=self.open_editor,
+        btn_editor = tk.Button(btn_row, text="ATELIER DE TRADUCTION", command=self.open_editor,
                                font=("Segoe UI", 9, "bold"), bg="#5B2B84", fg=TEXT_WHITE, 
                                relief="flat", padx=12, pady=6, cursor="hand2")
         btn_editor.pack(side="left", padx=(0, 8))
@@ -330,7 +330,7 @@ class P5XLauncher(tk.Tk):
             self.log(f"Erreur d'installation BepInEx : {e}")
 
     def open_editor(self):
-        editor_script = os.path.join(os.path.dirname(__file__), "editeur_traduction.py")
+        editor_script = os.path.join(os.path.dirname(__file__), "traducteur_p5x.py")
         if os.path.exists(editor_script):
             subprocess.Popen([sys.executable, editor_script])
         else:

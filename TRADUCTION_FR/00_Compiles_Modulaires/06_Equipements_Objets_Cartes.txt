@@ -4,8 +4,8 @@
 2 Set Effect: Increase Fire damage dealt by 10%.\n4 Set Effect: Increase Attack by 15%. If target is weak to Fire, increase Attack by 15% more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de 10%.\nEffet 4 pièces : Augmente l'Attaque de 15%. Si la cible est faible au Feu, augmente l'Attaque de 15% de plus.
 2 Set Effect：Increase Fire damage dealt by 10%.\n\n4 Set Effect：Increase Attack by 15%. If target is weak to Fire, increase Attack by 15% more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de 10%.\n\nEffet 4 pièces : Augmente l'Attaque de 15%. Si la cible est faible au Feu, augmente l'Attaque de 15% de plus.
 2 Set Effect：Increase Fire damage dealt by 10%.\n4 Set Effect：Increase Attack by 15%. If target is weak to Fire, increase Attack by 15% more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de 10%.\nEffet 4 pièces : Augmente l'Attaque de 15%. Si la cible est faible au Feu, augmente l'Attaque de 15% de plus.
-2 Set Effect: Increase Fire damage dealt by <color\=#2899ff>10%</color>.\n\n4 Set Effect: Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color=#2899ff>10%</color>.\n\nEffet 4 pièces : Augmente l'Attaque de <color=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color=#2899ff>15%</color> de plus.
-2 Set Effect: Increase Fire damage dealt by <color\=#2899ff>10%</color>.\n4 Set Effect: Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color=#2899ff>10%</color>.\nEffet 4 pièces : Augmente l'Attaque de <color=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color=#2899ff>15%</color> de plus.
+2 Set Effect: Increase Fire damage dealt by <color\=#2899ff>10%</color>.\n\n4 Set Effect: Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color\=#2899ff>10%</color>.\n\nEffet 4 pièces : Augmente l'Attaque de <color\=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color\=#2899ff>15%</color> de plus.
+2 Set Effect: Increase Fire damage dealt by <color\=#2899ff>10%</color>.\n4 Set Effect: Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color\=#2899ff>10%</color>.\nEffet 4 pièces : Augmente l'Attaque de <color\=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color\=#2899ff>15%</color> de plus.
 [Strife]=[Strife]
 Strife=Strife
 Strife·Sun=Strife · Soleil
@@ -23,10 +23,10 @@ Compare=Comparer
 Speed=Vitesse
 Attack=Attaque
 Defense=Défense
-<size\=25>Sun</size>=<size=25>Soleil</size>
-<size\=25>Moon</size>=<size=25>Lune</size>
-<size\=25>Star</size>=<size=25>Étoile</size>
-<size\=25>Planet</size>=<size=25>Monde</size>
+<size\=25>Sun</size>=<size\=25>Soleil</size>
+<size\=25>Moon</size>=<size\=25>Lune</size>
+<size\=25>Star</size>=<size\=25>Étoile</size>
+<size\=25>Planet</size>=<size\=25>Monde</size>
 $1·Sun=$1·Soleil
 $1·Moon=$1·Lune
 $1·Star=$1·Étoile
@@ -38,145 +38,145 @@ Main Stat=Stats Pincipale
 Select=Sélection
 Main Stats=Stats Principal
 Substats=Sous Stats
-<color\=#FFDE00>{{A}}×$1</color>=<color=#FFDE00>{{A}}×$1</color>
-<size\=23>2 Set Effect: Increase Fire DMG by <color\=#2899ff>$1</color>.</size>=<size=23>Effet 2 piéce: Augmente les dégats de Feu par <color=#2899ff>$1</color>.</size>
-<size\=23>4 Set Effect: Increase ATK by <color\=#2899ff>$1</color>. Additionally increase ATK by <color\=#2899ff>$2</color> if the foe is weak to Fire.=<size=23>Effet 4 piéces: Augmente l'ATQ par <color=#2899ff>$1</color>. Également augmente l'ATQ par <color=#2899ff>$2</color>  si un ennemie a une faiblesse feu
+<color\=#FFDE00>{{A}}×$1</color>=<color\=#FFDE00>{{A}}×$1</color>
+<size\=23>2 Set Effect: Increase Fire DMG by <color\=#2899ff>$1</color>.</size>=<size\=23>Effet 2 piéce: Augmente les dégats de Feu par <color\=#2899ff>$1</color>.</size>
+<size\=23>4 Set Effect: Increase ATK by <color\=#2899ff>$1</color>. Additionally increase ATK by <color\=#2899ff>$2</color> if the foe is weak to Fire.=<size\=23>Effet 4 piéces: Augmente l'ATQ par <color\=#2899ff>$1</color>. Également augmente l'ATQ par <color\=#2899ff>$2</color>  si un ennemie a une faiblesse feu
 2 Set Effect：Increase Fire damage dealt by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Fire damage dealt by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Fire damage dealt by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Fire damage dealt by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Fire damage dealt by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Fire damage dealt by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Feu infligés de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Fire damage dealt by 10%.=Effet 2 pièces : Augmente les dégâts de Feu infligés de 10%.
 2 Set Effect:Increase Fire damage dealt by 10%.=Effet 2 pièces : Augmente les dégâts de Feu infligés de 10%.
 4 Set Effect：Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 4 pièces : Augmente l'Attaque de <color\=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color\=#2899ff>15%</color> de plus.
-4 Set Effect：Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 4 pièces : Augmente l'Attaque de <color=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color=#2899ff>15%</color> de plus.
+4 Set Effect：Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 4 pièces : Augmente l'Attaque de <color\=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color\=#2899ff>15%</color> de plus.
 4 Set Effect:Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 4 pièces : Augmente l'Attaque de <color\=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color\=#2899ff>15%</color> de plus.
-4 Set Effect:Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 4 pièces : Augmente l'Attaque de <color=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color=#2899ff>15%</color> de plus.
+4 Set Effect:Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=Effet 4 pièces : Augmente l'Attaque de <color\=#2899ff>15%</color>. Si la cible est faible au Feu, augmente l'Attaque de <color\=#2899ff>15%</color> de plus.
 4 Set Effect：Increase Attack by 15%. If target is weak to Fire, increase Attack by 15% more.=Effet 4 pièces : Augmente l'Attaque de 15%. Si la cible est faible au Feu, augmente l'Attaque de 15% de plus.
 4 Set Effect:Increase Attack by 15%. If target is weak to Fire, increase Attack by 15% more.=Effet 4 pièces : Augmente l'Attaque de 15%. Si la cible est faible au Feu, augmente l'Attaque de 15% de plus.
 2 Set Effect：Increase Attack by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente l'Attaque de <color\=#2899ff>12%</color>.
-2 Set Effect：Increase Attack by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente l'Attaque de <color=#2899ff>12%</color>.
+2 Set Effect：Increase Attack by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente l'Attaque de <color\=#2899ff>12%</color>.
 2 Set Effect:Increase Attack by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente l'Attaque de <color\=#2899ff>12%</color>.
-2 Set Effect:Increase Attack by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente l'Attaque de <color=#2899ff>12%</color>.
+2 Set Effect:Increase Attack by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente l'Attaque de <color\=#2899ff>12%</color>.
 2 Set Effect：Increase Attack by 12%.=Effet 2 pièces : Augmente l'Attaque de 12%.
 2 Set Effect:Increase Attack by 12%.=Effet 2 pièces : Augmente l'Attaque de 12%.
 2 Set Effect：Increase Curse damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Malédiction de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Curse damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Malédiction de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Curse damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Malédiction de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Curse damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Malédiction de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Curse damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Malédiction de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Curse damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Malédiction de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Curse damage by 10%.=Effet 2 pièces : Augmente les dégâts de Malédiction de 10%.
 2 Set Effect:Increase Curse damage by 10%.=Effet 2 pièces : Augmente les dégâts de Malédiction de 10%.
 2 Set Effect：Decrease damage taken by <color\=#2899ff>8%</color>.=Effet 2 pièces : Réduit les dégâts subis de <color\=#2899ff>8%</color>.
-2 Set Effect：Decrease damage taken by <color\=#2899ff>8%</color>.=Effet 2 pièces : Réduit les dégâts subis de <color=#2899ff>8%</color>.
+2 Set Effect：Decrease damage taken by <color\=#2899ff>8%</color>.=Effet 2 pièces : Réduit les dégâts subis de <color\=#2899ff>8%</color>.
 2 Set Effect:Decrease damage taken by <color\=#2899ff>8%</color>.=Effet 2 pièces : Réduit les dégâts subis de <color\=#2899ff>8%</color>.
-2 Set Effect:Decrease damage taken by <color\=#2899ff>8%</color>.=Effet 2 pièces : Réduit les dégâts subis de <color=#2899ff>8%</color>.
+2 Set Effect:Decrease damage taken by <color\=#2899ff>8%</color>.=Effet 2 pièces : Réduit les dégâts subis de <color\=#2899ff>8%</color>.
 2 Set Effect：Decrease damage taken by 8%.=Effet 2 pièces : Réduit les dégâts subis de 8%.
 2 Set Effect:Decrease damage taken by 8%.=Effet 2 pièces : Réduit les dégâts subis de 8%.
 2 Set Effect：Increase Electric damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Électriques de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Electric damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Électriques de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Electric damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Électriques de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Electric damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Électriques de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Electric damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Électriques de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Electric damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Électriques de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Electric damage by 10%.=Effet 2 pièces : Augmente les dégâts Électriques de 10%.
 2 Set Effect:Increase Electric damage by 10%.=Effet 2 pièces : Augmente les dégâts Électriques de 10%.
 2 Set Effect：Increase Physical damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Physiques de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Physical damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Physiques de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Physical damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Physiques de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Physical damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Physiques de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Physical damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Physiques de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Physical damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Physiques de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Physical damage by 10%.=Effet 2 pièces : Augmente les dégâts Physiques de 10%.
 2 Set Effect:Increase Physical damage by 10%.=Effet 2 pièces : Augmente les dégâts Physiques de 10%.
 2 Set Effect：Increase Wind damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Vent de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Wind damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Vent de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Wind damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Vent de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Wind damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Vent de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Wind damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Vent de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Wind damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Vent de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Wind damage by 10%.=Effet 2 pièces : Augmente les dégâts de Vent de 10%.
 2 Set Effect:Increase Wind damage by 10%.=Effet 2 pièces : Augmente les dégâts de Vent de 10%.
 2 Set Effect：Increase Defense by <color\=#2899ff>20%</color>.=Effet 2 pièces : Augmente la Défense de <color\=#2899ff>20%</color>.
-2 Set Effect：Increase Defense by <color\=#2899ff>20%</color>.=Effet 2 pièces : Augmente la Défense de <color=#2899ff>20%</color>.
+2 Set Effect：Increase Defense by <color\=#2899ff>20%</color>.=Effet 2 pièces : Augmente la Défense de <color\=#2899ff>20%</color>.
 2 Set Effect:Increase Defense by <color\=#2899ff>20%</color>.=Effet 2 pièces : Augmente la Défense de <color\=#2899ff>20%</color>.
-2 Set Effect:Increase Defense by <color\=#2899ff>20%</color>.=Effet 2 pièces : Augmente la Défense de <color=#2899ff>20%</color>.
+2 Set Effect:Increase Defense by <color\=#2899ff>20%</color>.=Effet 2 pièces : Augmente la Défense de <color\=#2899ff>20%</color>.
 2 Set Effect：Increase Defense by 20%.=Effet 2 pièces : Augmente la Défense de 20%.
 2 Set Effect:Increase Defense by 20%.=Effet 2 pièces : Augmente la Défense de 20%.
 2 Set Effect：Increase healing by <color\=#2899ff>9%</color>.=Effet 2 pièces : Augmente les soins de <color\=#2899ff>9%</color>.
-2 Set Effect：Increase healing by <color\=#2899ff>9%</color>.=Effet 2 pièces : Augmente les soins de <color=#2899ff>9%</color>.
+2 Set Effect：Increase healing by <color\=#2899ff>9%</color>.=Effet 2 pièces : Augmente les soins de <color\=#2899ff>9%</color>.
 2 Set Effect:Increase healing by <color\=#2899ff>9%</color>.=Effet 2 pièces : Augmente les soins de <color\=#2899ff>9%</color>.
-2 Set Effect:Increase healing by <color\=#2899ff>9%</color>.=Effet 2 pièces : Augmente les soins de <color=#2899ff>9%</color>.
+2 Set Effect:Increase healing by <color\=#2899ff>9%</color>.=Effet 2 pièces : Augmente les soins de <color\=#2899ff>9%</color>.
 2 Set Effect：Increase healing by 9%.=Effet 2 pièces : Augmente les soins de 9%.
 2 Set Effect:Increase healing by 9%.=Effet 2 pièces : Augmente les soins de 9%.
 2 Set Effect：Increase Ice damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Glace de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Ice damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Glace de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Ice damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Glace de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Ice damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Glace de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Ice damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Glace de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Ice damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Glace de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Ice damage by 10%.=Effet 2 pièces : Augmente les dégâts de Glace de 10%.
 2 Set Effect:Increase Ice damage by 10%.=Effet 2 pièces : Augmente les dégâts de Glace de 10%.
 2 Set Effect：Increase max HP by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente les PV max de <color\=#2899ff>12%</color>.
-2 Set Effect：Increase max HP by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente les PV max de <color=#2899ff>12%</color>.
+2 Set Effect：Increase max HP by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente les PV max de <color\=#2899ff>12%</color>.
 2 Set Effect:Increase max HP by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente les PV max de <color\=#2899ff>12%</color>.
-2 Set Effect:Increase max HP by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente les PV max de <color=#2899ff>12%</color>.
+2 Set Effect:Increase max HP by <color\=#2899ff>12%</color>.=Effet 2 pièces : Augmente les PV max de <color\=#2899ff>12%</color>.
 2 Set Effect：Increase max HP by 12%.=Effet 2 pièces : Augmente les PV max de 12%.
 2 Set Effect:Increase max HP by 12%.=Effet 2 pièces : Augmente les PV max de 12%.
 2 Set Effect：Increase Nuclear damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Nucléaires de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Nuclear damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Nucléaires de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Nuclear damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Nucléaires de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Nuclear damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Nucléaires de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Nuclear damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Nucléaires de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Nuclear damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Nucléaires de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Nuclear damage by 10%.=Effet 2 pièces : Augmente les dégâts Nucléaires de 10%.
 2 Set Effect:Increase Nuclear damage by 10%.=Effet 2 pièces : Augmente les dégâts Nucléaires de 10%.
 2 Set Effect：Increase Psychokinesis damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Psychiques de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Psychokinesis damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Psychiques de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Psychokinesis damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Psychiques de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Psychokinesis damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Psychiques de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Psychokinesis damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Psychiques de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Psychokinesis damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts Psychiques de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Psychokinesis damage by 10%.=Effet 2 pièces : Augmente les dégâts Psychiques de 10%.
 2 Set Effect:Increase Psychokinesis damage by 10%.=Effet 2 pièces : Augmente les dégâts Psychiques de 10%.
 2 Set Effect：Increase Bless damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Bénédiction de <color\=#2899ff>10%</color>.
-2 Set Effect：Increase Bless damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Bénédiction de <color=#2899ff>10%</color>.
+2 Set Effect：Increase Bless damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Bénédiction de <color\=#2899ff>10%</color>.
 2 Set Effect:Increase Bless damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Bénédiction de <color\=#2899ff>10%</color>.
-2 Set Effect:Increase Bless damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Bénédiction de <color=#2899ff>10%</color>.
+2 Set Effect:Increase Bless damage by <color\=#2899ff>10%</color>.=Effet 2 pièces : Augmente les dégâts de Bénédiction de <color\=#2899ff>10%</color>.
 2 Set Effect：Increase Bless damage by 10%.=Effet 2 pièces : Augmente les dégâts de Bénédiction de 10%.
 2 Set Effect:Increase Bless damage by 10%.=Effet 2 pièces : Augmente les dégâts de Bénédiction de 10%.
 2 Set Effect：Increase SP recovery by <color\=#2899ff>80%</color>.=Effet 2 pièces : Augmente la récupération de PC de <color\=#2899ff>80%</color>.
-2 Set Effect：Increase SP recovery by <color\=#2899ff>80%</color>.=Effet 2 pièces : Augmente la récupération de PC de <color=#2899ff>80%</color>.
+2 Set Effect：Increase SP recovery by <color\=#2899ff>80%</color>.=Effet 2 pièces : Augmente la récupération de PC de <color\=#2899ff>80%</color>.
 2 Set Effect:Increase SP recovery by <color\=#2899ff>80%</color>.=Effet 2 pièces : Augmente la récupération de PC de <color\=#2899ff>80%</color>.
-2 Set Effect:Increase SP recovery by <color\=#2899ff>80%</color>.=Effet 2 pièces : Augmente la récupération de PC de <color=#2899ff>80%</color>.
+2 Set Effect:Increase SP recovery by <color\=#2899ff>80%</color>.=Effet 2 pièces : Augmente la récupération de PC de <color\=#2899ff>80%</color>.
 2 Set Effect：Increase SP recovery by 80%.=Effet 2 pièces : Augmente la récupération de PC de 80%.
 2 Set Effect:Increase SP recovery by 80%.=Effet 2 pièces : Augmente la récupération de PC de 80%.
 2 Set Effect：Increase critical rate by <color\=#2899ff>7.5%</color>.=Effet 2 pièces : Augmente le taux critique de <color\=#2899ff>7.5%</color>.
-2 Set Effect：Increase critical rate by <color\=#2899ff>7.5%</color>.=Effet 2 pièces : Augmente le taux critique de <color=#2899ff>7.5%</color>.
+2 Set Effect：Increase critical rate by <color\=#2899ff>7.5%</color>.=Effet 2 pièces : Augmente le taux critique de <color\=#2899ff>7.5%</color>.
 2 Set Effect:Increase critical rate by <color\=#2899ff>7.5%</color>.=Effet 2 pièces : Augmente le taux critique de <color\=#2899ff>7.5%</color>.
-2 Set Effect:Increase critical rate by <color\=#2899ff>7.5%</color>.=Effet 2 pièces : Augmente le taux critique de <color=#2899ff>7.5%</color>.
+2 Set Effect:Increase critical rate by <color\=#2899ff>7.5%</color>.=Effet 2 pièces : Augmente le taux critique de <color\=#2899ff>7.5%</color>.
 2 Set Effect：Increase critical rate by 7.5%.=Effet 2 pièces : Augmente le taux critique de 7.5%.
 2 Set Effect:Increase critical rate by 7.5%.=Effet 2 pièces : Augmente le taux critique de 7.5%.
 2 Set Effect：Increase Speed by <color\=#2899ff>6</color>.=Effet 2 pièces : Augmente la Vitesse de <color\=#2899ff>6</color>.
-2 Set Effect：Increase Speed by <color\=#2899ff>6</color>.=Effet 2 pièces : Augmente la Vitesse de <color=#2899ff>6</color>.
+2 Set Effect：Increase Speed by <color\=#2899ff>6</color>.=Effet 2 pièces : Augmente la Vitesse de <color\=#2899ff>6</color>.
 2 Set Effect:Increase Speed by <color\=#2899ff>6</color>.=Effet 2 pièces : Augmente la Vitesse de <color\=#2899ff>6</color>.
-2 Set Effect:Increase Speed by <color\=#2899ff>6</color>.=Effet 2 pièces : Augmente la Vitesse de <color=#2899ff>6</color>.
+2 Set Effect:Increase Speed by <color\=#2899ff>6</color>.=Effet 2 pièces : Augmente la Vitesse de <color\=#2899ff>6</color>.
 2 Set Effect：Increase Speed by 6.=Effet 2 pièces : Augmente la Vitesse de 6.
 2 Set Effect:Increase Speed by 6.=Effet 2 pièces : Augmente la Vitesse de 6.
 2 Set Effect：Increase ailment accuracy by <color\=#2899ff>15%</color>.=Effet 2 pièces : Augmente la précision des altérations de <color\=#2899ff>15%</color>.
-2 Set Effect：Increase ailment accuracy by <color\=#2899ff>15%</color>.=Effet 2 pièces : Augmente la précision des altérations de <color=#2899ff>15%</color>.
+2 Set Effect：Increase ailment accuracy by <color\=#2899ff>15%</color>.=Effet 2 pièces : Augmente la précision des altérations de <color\=#2899ff>15%</color>.
 2 Set Effect:Increase ailment accuracy by <color\=#2899ff>15%</color>.=Effet 2 pièces : Augmente la précision des altérations de <color\=#2899ff>15%</color>.
-2 Set Effect:Increase ailment accuracy by <color\=#2899ff>15%</color>.=Effet 2 pièces : Augmente la précision des altérations de <color=#2899ff>15%</color>.
+2 Set Effect:Increase ailment accuracy by <color\=#2899ff>15%</color>.=Effet 2 pièces : Augmente la précision des altérations de <color\=#2899ff>15%</color>.
 2 Set Effect：Increase ailment accuracy by 15%.=Effet 2 pièces : Augmente la précision des altérations de 15%.
 2 Set Effect:Increase ailment accuracy by 15%.=Effet 2 pièces : Augmente la précision des altérations de 15%.
 4 Set Effect：Increase critical damage by <color\=#2899ff>30%</color> for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de <color\=#2899ff>30%</color> pendant 2 tours. Se réactive après un coup critique.
-4 Set Effect：Increase critical damage by <color\=#2899ff>30%</color> for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de <color=#2899ff>30%</color> pendant 2 tours. Se réactive après un coup critique.
+4 Set Effect：Increase critical damage by <color\=#2899ff>30%</color> for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de <color\=#2899ff>30%</color> pendant 2 tours. Se réactive après un coup critique.
 4 Set Effect:Increase critical damage by <color\=#2899ff>30%</color> for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de <color\=#2899ff>30%</color> pendant 2 tours. Se réactive après un coup critique.
-4 Set Effect:Increase critical damage by <color\=#2899ff>30%</color> for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de <color=#2899ff>30%</color> pendant 2 tours. Se réactive après un coup critique.
+4 Set Effect:Increase critical damage by <color\=#2899ff>30%</color> for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de <color\=#2899ff>30%</color> pendant 2 tours. Se réactive après un coup critique.
 4 Set Effect：Increase critical damage by 30% for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de 30% pendant 2 tours. Se réactive après un coup critique.
 4 Set Effect:Increase critical damage by 30% for 2 turns. Reapply effect after dealing a critical hit.=Effet 4 pièces : Augmente les dégâts critiques de 30% pendant 2 tours. Se réactive après un coup critique.
 4 Set Effect：Increase shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color\=#2899ff>18%</color>.
-4 Set Effect：Increase shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color=#2899ff>18%</color>.
+4 Set Effect：Increase shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color\=#2899ff>18%</color>.
 4 Set Effect:Increase shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color\=#2899ff>18%</color>.
-4 Set Effect:Increase shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color=#2899ff>18%</color>.
+4 Set Effect:Increase shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color\=#2899ff>18%</color>.
 4 Set Effect：Increase shield by 18%.=Effet 4 pièces : Augmente les boucliers de 18%.
 4 Set Effect:Increase shield by 18%.=Effet 4 pièces : Augmente les boucliers de 18%.
 4 Set Effect：Increase Resonance damage by <color\=#2899ff>40%</color>.=Effet 4 pièces : Augmente les dégâts de Résonance de <color\=#2899ff>40%</color>.
-4 Set Effect：Increase Resonance damage by <color\=#2899ff>40%</color>.=Effet 4 pièces : Augmente les dégâts de Résonance de <color=#2899ff>40%</color>.
+4 Set Effect：Increase Resonance damage by <color\=#2899ff>40%</color>.=Effet 4 pièces : Augmente les dégâts de Résonance de <color\=#2899ff>40%</color>.
 4 Set Effect:Increase Resonance damage by <color\=#2899ff>40%</color>.=Effet 4 pièces : Augmente les dégâts de Résonance de <color\=#2899ff>40%</color>.
-4 Set Effect:Increase Resonance damage by <color\=#2899ff>40%</color>.=Effet 4 pièces : Augmente les dégâts de Résonance de <color=#2899ff>40%</color>.
+4 Set Effect:Increase Resonance damage by <color\=#2899ff>40%</color>.=Effet 4 pièces : Augmente les dégâts de Résonance de <color\=#2899ff>40%</color>.
 4 Set Effect：Increase Resonance damage by 40%.=Effet 4 pièces : Augmente les dégâts de Résonance de 40%.
 4 Set Effect:Increase Resonance damage by 40%.=Effet 4 pièces : Augmente les dégâts de Résonance de 40%.
 4 Set Effect：Increase Fire damage to foes with debuffs by <color\=#2899ff>20%</color>.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de <color\=#2899ff>20%</color>.
-4 Set Effect：Increase Fire damage to foes with debuffs by <color\=#2899ff>20%</color>.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de <color=#2899ff>20%</color>.
+4 Set Effect：Increase Fire damage to foes with debuffs by <color\=#2899ff>20%</color>.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de <color\=#2899ff>20%</color>.
 4 Set Effect:Increase Fire damage to foes with debuffs by <color\=#2899ff>20%</color>.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de <color\=#2899ff>20%</color>.
-4 Set Effect:Increase Fire damage to foes with debuffs by <color\=#2899ff>20%</color>.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de <color=#2899ff>20%</color>.
+4 Set Effect:Increase Fire damage to foes with debuffs by <color\=#2899ff>20%</color>.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de <color\=#2899ff>20%</color>.
 4 Set Effect：Increase Fire damage to foes with debuffs by 20%.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de 20%.
 4 Set Effect:Increase Fire damage to foes with debuffs by 20%.=Effet 4 pièces : Augmente les dégâts de Feu contre les ennemis affaiblis de 20%.
 Strife: Sky=Strife : Ciel

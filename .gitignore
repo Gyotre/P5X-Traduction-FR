@@ -9,5 +9,6 @@ __pycache__/
 # Réglages personnels du launcher (chemin du jeu, nom du héros)
 04_Launcher_P5X_FR/launcher_config.json
 
-# Sauvegardes automatiques des scripts d'extraction (git fait déjà l'historique)
+# Sauvegardes locales et automatiques
 BACKUP_TRADUCTION_FACILE_*/
+_Sauvegardes/

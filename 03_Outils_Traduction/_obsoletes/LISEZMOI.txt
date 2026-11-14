@@ -1,4 +1,0 @@
-﻿Scripts conservés pour mémoire, plus utilisés (ils visent l'ancienne arborescence 01_Traduction_FR / ORIGINAL_ANGLAIS) :
-- installer_traductions_dans_jeu.py : remplacé par convertisseur_json.py (qui configure aussi XUnity)
-- generer_dossiers_langues.py       : dossiers EN/JP/TW/KR/CN abandonnés
-- generer_tous_les_json.py          : remplacé par extraire_tout_le_jeu.py + adapter_p5xtes_en_json.py
