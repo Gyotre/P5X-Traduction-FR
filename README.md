@@ -41,7 +41,8 @@ _Traduction-P5X/
 │
 ├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet de traduction
 ├── 🚀 Lancer_Launcher.bat           <- Le launcher (Gestion mods ON/OFF et démarrage)
-└── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu en 1 clic
+├── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu en 1 clic
+└── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
 ```
 
 > La synchronisation écrit uniquement dans `BepInEx/Translation/fr/Text/` et `BepInEx/config/AutoTranslatorConfig.ini`.
@@ -71,6 +72,15 @@ Double-clique sur **`Atelier_Traduction.bat`** (ou bouton **"ATELIER DE TRADUCTI
 
 Bon à savoir : une même phrase peut exister dans plusieurs fichiers ; l'option « Recopier dans les fichiers identiques » (cochée par défaut)
 reporte ta traduction partout, sinon le compilateur pourrait garder une autre version.
+
+---
+
+## 🔄 Compatibilité Totale avec P5XfrLauncher (Garloulou)
+
+Le projet intègre un pipeline de publication 100 % automatisé pour alimenter les mises à jour du launcher **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)** :
+* **Génération automatique de `translation.zip`** : Conforme à l'arborescence directe `BepInEx/Translation/fr/Text/` et `BepInEx/config/AutoTranslatorConfig.ini`.
+* **Vérification d'intégrité SHA-256** : Le hash SHA-256 est calculé et injecté dans chaque release pour validation automatique par le launcher.
+* **Publication GitHub Actions** : Dès qu'un tag de version (ex: `v1.0.0`) est envoyé sur GitHub, la release est générée, empaquetée et publiée automatiquement.
 
 ---
 
