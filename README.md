@@ -7,6 +7,12 @@ Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier 
 > Le launcher officiel et recommandé pour jouer au jeu et gérer les mises à jour automatiques est **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)** développé par **Garloulou**.  
 > Le script `launcher_p5x.py` présent dans le dossier `04_Launcher_P5X_FR/` n'était qu'un **prototype de test interne** utilisé pour valider les injections. Pour jouer au quotidien, utilisez exclusivement le launcher de Garloulou !
 
+> 🧪 **État d'avancement actuel (Phase de Test) :**  
+> Pour le moment, **seul le kit complet de Hatsune Miku** (compétences en combat et dans les menus, passifs d'Awareness/Conscience 0-2, Piste, Miku's Stage, etc.) a été traduit afin de tester et valider l'ensemble du projet. Le reste du jeu sera traduit progressivement.  
+>  
+> 🐛 **Signalement de bugs :**  
+> Si vous constatez un bug, un texte qui déborde, une coquille ou un problème d'injection, n'hésitez pas à ouvrir un ticket dans l'onglet **[Issues](https://github.com/Gyotre/P5X-Traduction-Francaise/issues)** !
+
 ---
 
 ## 📁 Structure du Projet
