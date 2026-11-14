@@ -1,0 +1,61 @@
+Ends in $1d $2h=Fin dans $1j $2h
+Ends in $1d=Fin dans $1j
+Ends in $1h $2m=Fin dans $1h $2m
+$1d $2h $3m left=Encore $1d $2h $3m
+$1d $2h $3m=$1j $2h $3m
+$1d $2h=$1j $2h
+$1h $2m=$1h $2m
+$1h $2m $3s=$1h $2m $3s
+$1m=$1m
+$1d $2 left=Encore $1j $2
+Free=Gratuit
+Claim=Récupérer
+Price=Prix
+Wonder Lv.=Nv Wonder
+Wonder EXP=XP Wonder
+Thief Lv=Nv Voleurs
+Thief Rarity=Rareté Voleurs
+Score=Score
+Rarity=Rareté
+Element=Élément
+Fuse=Fusion
+∞=∞
+<size\=15>Monthly</size>=Mois
+<size\=16>Daily</size>=Journée
+<size\=13>Weekly</size>=Semains
+Left:=Encore
+Unlocks at Lv. $1=Débloque au Nv $1
+Quantity=Quandtité
+Cost=Prix
+Total=Total
+Mouse & Keyboard Mode=Mode Clavier Souris
+Controller Mode=Mode Manette
+Change Name=Changer de nom
+Copy ID=Copié l'ID
+Change Title=Changer le Titre
+Change Avatar=Changer d'Avatar
+Avatar=Avatar
+Block=Bloquer
+$1 Lv.$2=$1 Nv.$
+$1 <color\=#0F69CB>Lv.$2</color>=$1 <color=#0F69CB>Nv.$2</color>
+Melee Attacks=Attaque de Mélé
+Auto-Battle=Combat-Auto
+ATK=ATQ
+HP=PV
+DEF=DEF
+SPD=VIT
+Persona levels=Niveau de Persona
+DEF increased by 8.8%.=DEF augmenter de 8.8%
+Café Leblanc=Café Leblanc
+Leblanc=Leblanc
+/Stamina=/Endurance
+Stamina=Endurance
+Stamina maxed=Endurance
+Insufficient Stamina=Endurance insufficente
+5★ Weapon Case=Caisse d'arme 5★
+4★ Weapon Case=Caisse d'arme 4★
+4★ Thief=Voleur 4★
+4★ Weapon=Arme 4★
+3★ Weapon Case=Caisse d'Arme 3★
+Please choose one 4★ Weapon=Veuillez sélectionner une Arme 4★
+<size\=26>Limited Weapon Case</size>=Limite de Caisse d'Arme

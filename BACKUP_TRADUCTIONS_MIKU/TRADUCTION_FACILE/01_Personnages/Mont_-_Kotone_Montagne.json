@@ -1,0 +1,14 @@
+{
+  "Deal $1 ATK Ice damage to <color\\=#FFFF00>all</color> foes, with a $2 base chance to inflict Freeze.": "",
+  "Deal <color\\=#FFFC40>$1</color> ATK Ice damage to all foes, with a <color\\=#FFFC40>$2</color> base chance to inflict <link\\=\"s|103\"><u>Freeze</u></link>.": "",
+  "Deal $1 ATK Ice damage to <color\\=#FFFF00>1</color> foe, and gain 4 [Ice Crystal].": "",
+  "Deal <color\\=#FFFC40>$1</color> ATK Ice damage to 1 foe, and gain 4 <link\\=\"s|119\"><u>[Ice Crystal]</u></link>.": "",
+  "Deal $1 ATK Ice damage to <color\\=#FFFF00>1</color> foe, increase damage by $3 when you have $2 stacks of [Ice Crystal] or have [Parhelion].": "",
+  "Deal <color\\=#FFFC40>$1</color> ATK Ice damage to 1 foe, increase damage if you have 10 <link\\=\"s|119\"><u>[Ice Crystal]</u></link>. The lower the foe's HP are, the higher the damage will be, up to a maximum of <color\\=#FFFC40>$2</color>.\\nPassive: [Blade Dancer] increase damage. The lower the foe's HP are, the higher the damage will be, up to a maximum of <color\\=#FFFC40>$3</color>。": "",
+  "Deal $1 ATK Ice damage to <color\\=#FFFF00>1</color> foe. The lower the foe's HP, the higher the DMG Dealt.\\nWhen they are below $2 HP gain the maximum boost, up to $3.": "",
+  "Number of Ice Crystal": "",
+  "Parhelion": "",
+  "Increase damage of [Durandal of Ice]": "",
+  "I<color\\=#000000>c</color>e Crystal": "",
+  "P<color\\=#000000>a</color>rhelion": ""
+}

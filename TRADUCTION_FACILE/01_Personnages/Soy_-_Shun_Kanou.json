@@ -1,0 +1,17 @@
+{
+  "Deal $2 Max HP Ice damage to <color=#FFFF00>$1</color> foe, with a $3 base chance to inflict freeze.": "",
+  "Deal <color=#FFFC40>$1</color> Max HP Ice damage to 1 foe, with a <color=#FFFC40>$2</color> base chance to inflict <link=\"s|103\"><u>Freeze</u></link>.": "",
+  "Deal $2 Max HP Phys damage to <color=#FFFF00>$1</color> foe and decrease their DEF by $3 for 2 turns, increase the effect to $4 when in [Wilderness Savior].": "",
+  "Deal <color=#FFFC40>$1</color> Max HP Phys damage to 1 foe, decrease the target's DEF by <color=#FFFC40>$2</color> for 2 turns. When in the <link=\"s|151\"><u>[Wilderness Savoir]</u></link> state, increase the DEF Down debuff to <color=#FFFC40>$3</color>.": "",
+  "Increase <color=#FFFF00>all</color> ally's Max HP based on $1 Max HP (up to $2 Max HP), increase the chance of being attacked for 2 turns. Restore all allies' HP based on $3 Max HP.": "",
+  "Increase all allies' Max HP based on <color=#FFFC40>$1</color> Max HP (Up to <color=#FFFC40>$2</color> Max HP), increase the chance of being attacked for 2 turns. Restore all allies' HP based on <color=#FFFC40>$3</color> Max HP. \\nCooldown Time: 1 turn.": "",
+  "Increase <color=#FFFF00>all</color> allies' Max HP based on $1 Max HP (Up to $2 Max HP) for 2 turns. Restore all allies' HP equal to $3 Max HP. Deal $4 Max HP Ice damage to <color=#FFFF00>1</color> foe.": "",
+  "Gain after attacked. At the end of turn, spend [Wilderness Savior] to restore HP": "",
+  "Heavily increase Chance of Attacked": "",
+  "Increase Max HP by $1": "",
+  "<color=#FF0000>{{A}}</color> entered Wilderness Savior, restore missing HP at the end of turn!": "",
+  "<color=#FF0000>{{A}}</color> Chance of Attacked Up!": "",
+  "<color=#FF0000>$1</color> attacked $2, DEF Down!": "",
+  "W<color=#000000>i</color>lderness Savior": "",
+  "C<color=#000000>h</color>ance of Attacked Up": ""
+}

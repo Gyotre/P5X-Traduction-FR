@@ -1,0 +1,1697 @@
+Skill Level up Description //
+Base Stats=Base Stats
+Stats=Stats
+No Status Info=No Status Info
+Skill Effects=Skill Effects
+Info=Info
+Weapon Effects=Weapon Effects
+Revelation Effects=Revelation Effects
+
+Increase Melee Attack damage multiplier based on Lv.=Increase Melee Attack damage multiplier based on Lv.
+Deal light Phys damage to 1 foe=Deal light Phys damage to 1 foe
+Deal light Phys damage to 1 foe.=Deal light Phys damage to 1 foe.
+Deal light Gun damage to 1 foe.=Deal light Gun damage to 1 foe.
+
+Gun Attack=Gun Attack
+Gun Attack=Gun Attack
+"<size\=18> stack</size>"="<size\=18> stack</size>"
+"<size\=18>$1 stacks</size>"="<size\=18>$1 stacks</size>"
+
+Multiplier:=Multiplier:
+Ammo:=Ammo:
+Accuracy:=Accuracy:
+Base Crit Rate:=Base Crit Rate:
+Deal light Gun damage to 1 foe. Can fire until out of ammo.=Deal light Gun damage to 1 foe. Can fire until out of ammo.
+Deal light Gun damage to 1 foe. Can fire until out of ammo.=Deal light Gun damage to 1 foe. Can fire until out of ammo.
+Deal Gun damage to 1 foe. Can fire until out of ammo.=Deal Gun damage to 1 foe. Can fire until out of ammo.
+"Deal Gun damage to 1 foe $1 times. Can fire until out of ammo."="Deal Gun damage to 1 foe $1 times. Can fire until out of ammo."
+"Deal Gun damage to random foes $1 times. Can fire until out of ammo."="Deal Gun damage to random foes $1 times. Can fire until out of ammo."
+"Deal Gun damage to 1 foe $1 times. Consecutive attacks against the same foe will deal decreased damage. Shots may hit foes besides the intended target."="Deal Gun damage to 1 foe $1 times. Consecutive attacks against the same foe will deal decreased damage. Shots may hit foes besides the intended target."
+Deal Fire damage to 1 foe.=Deal Fire damage to 1 foe.
+
+Unable to use this command in this state.=Unable to use this command in this state.
+"Use Limit: $1/$2"="Use Limit: $1/$2"
+Cannot use more items...=Cannot use more items...
+
+----------
+Elemental Ailments Mental Ailments TECHNICAL
+----------
+<color\=#66ccff>Mental Ailment</color>=<color\=#66ccff>Mental Ailment</color>
+<color\=#66ccff>Elemental Ailment</color>=<color\=#66ccff>Elemental Ailment</color>
+
+<color\=#FF8C35>Burn</color>=<color\=#FF8C35>Burn</color>
+<color\=#DFFFFF>Freeze</color>=<color\=#DFFFFF>Freeze</color>
+<color\=#FCE54E>Shock</color>=<color\=#FCE54E>Shock</color>
+<color\=#52E54E>Windswept</color>=<color\=#52E54E>Windswept</color>
+<color\=#01F8FD>Radiation</color>=<color\=#01F8FD>Radiation</color>
+<color\=#01F8FD>Radiation</color>=<color\=#01F8FD>Radiation</color>
+
+Burn=Burn
+Lose HP after acting=Lose HP after acting
+Freeze=Freeze
+Shock=Shock
+"Increase Crit Taken Rate by $1"="Increase Crit Taken Rate by $1"
+Windswept=Windswept
+Radiation=Radiation
+Increase DMG Taken by 15%; \nSeen as an Elemental Ailment=Increase DMG Taken by 15%; \nSeen as an Elemental Ailment
+
+<color\=#FBF6C1>Dizzy</color>=<color\=#FBF6C1>Dizzy</color>
+Dizzy=Dizzy
+<color\=#80EEED>Forget</color>=<color\=#80EEED>Forget</color>
+Forget=Forget
+<color\=#E59FFF>Sleep</color>=<color\=#E59FFF>Sleep</color>
+Sleep=Sleep
+<color\=#C0F081>Confuse</color>=<color\=#C0F081>Confuse</color>
+Confuse=Confuse
+<color\=#FCC6FA>Fear</color>=<color\=#FCC6FA>Fear</color>
+Fear=Fear
+<color\=#B69ABB>Despair</color>=<color\=#B69ABB>Despair</color>
+Despair=Despair
+<color\=#F77F76>Rage</color>=<color\=#F77F76>Rage</color>
+Rage=Rage
+<color\=#AF4FA6>Brainwash</color>=<color\=#AF4FA6>Brainwash</color>
+Brainwash=Brainwash
+
+"<color\=#FF0037>Curse</color>"="<color\=#FF0037>Curse</color>"
+"<color\=#FFFF9E>Blessing</color>"="<color\=#FFFF9E>Blessing</color>"
+"<color\=#FF0000>$1</color> recovered from Down!"="<color\=#FF0000>$1</color> recovered from Down!"
+
+<color\=#66ccff>Fire TECHNICAL</color>=<color\=#66ccff>Fire TECHNICAL</color>
+Fire TECHNICAL=Fire TECHNICAL
+Backdraft=Backdraft
+Ice Burn=Ice Burn
+Hurricane Flame=Hurricane Flame
+
+<color\=#66ccff>Ice TECHNICAL</color>=<color\=#66ccff>Ice TECHNICAL</color>
+Fire TECHNICAL=Fire TECHNICAL
+Frigid Bolt=Frigid Bolt
+<color\=#66ccff>[Ice Seal]</color>=<color\=#66ccff>[Ice Seal]</color>
+Ice Seal=Ice Seal
+"Unable to act for $1 turn."="Unable to act for $1 turn."
+
+<color\=#66ccff>Wind TECHNICAL</color>=<color\=#66ccff>Wind TECHNICAL</color>
+Wind TECHNICAL=Wind TECHNICAL
+<color\=#66ccff>Elec TECHNICAL</color>=<color\=#66ccff>Elec TECHNICAL</color>
+Elec TECHNICAL=Elec TECHNICAL
+<color\=#66ccff>Psy TECHNICAL</color>=<color\=#66ccff>Psy TECHNICAL</color>
+Psy TECHNICAL=Psy TECHNICAL
+<color\=#66ccff>Nuke TECHNICAL</color>=<color\=#66ccff>Nuke TECHNICAL</color>
+Nuke TECHNICAL=Nuke TECHNICAL
+<color\=#66ccff>Bless TECHNICAL</color>=<color\=#66ccff>Bless TECHNICAL</color>
+Bless TECHNICAL=Bless TECHNICAL
+<color\=#66ccff>Curse TECHNICAL</color>=<color\=#66ccff>Curse TECHNICAL</color>
+Curse TECHNICAL=Curse TECHNICAL
+
+----------
+Elemental Ailments Mental Ailments TECHNICAL Descriptions
+----------
+<color\=#FF8C35>Burn</color>, <color\=#DFFFFF>Freeze</color>, <color\=#FCE54E>Shock</color>, <color\=#52E54E>Windswept</color>.=<color\=#FF8C35>Burn</color>, <color\=#DFFFFF>Freeze</color>, <color\=#FCE54E>Shock</color>, <color\=#52E54E>Windswept</color>.
+<color\=#FBF6C1>Dizzy</color>, <color\=#80EEED>Forget</color>, <color\=#E59FFF>Sleep</color>, <color\=#F77F76>Rage</color>, <color\=#B69ABB>Despair</color>, <color\=#FCC6FA>Fear</color>, <color\=#C0F081>Confuse</color>, <color\=#AF4FA6>Brainwash</color>=<color\=#FBF6C1>Dizzy</color>, <color\=#80EEED>Forget</color>, <color\=#E59FFF>Sleep</color>, <color\=#F77F76>Rage</color>, <color\=#B69ABB>Despair</color>, <color\=#FCC6FA>Fear</color>, <color\=#C0F081>Confuse</color>, <color\=#AF4FA6>Brainwash</color>
+
+Increase foe's DMG Taken by 15% for 2 turns, seen as 1 Elemental Ailment.=Increase foe's DMG Taken by 15% for 2 turns, seen as 1 Elemental Ailment.
+Increase foe's DMG Taken by 15% for 2 turns, seen as 1 Elemental Ailment.=Increase foe's DMG Taken by 15% for 2 turns, seen as 1 Elemental Ailment.
+Restore 1% Max HP each turn for 2 turns=Restore 1% Max HP each turn for 2 turns
+Lose 1% Max HP each turn for 2 turns=Lose 1% Max HP each turn for 2 turns
+
+Heavily increase ATK and decrease DEF, forced to use basic ATK=Heavily increase ATK and decrease DEF, forced to use basic ATK
+
+"Some Fire skills have additional effects on foes with certain ailments.\nOn foes with Burn, activate [Backdraft]: Increase Skill Damage by $1.\nOn foes with Freeze, activate [Ice Burn]: $2 base chance to increase targets' Fire/Ice DMG Taken by $3 for $4 turns.\nOn foes with Windswept, activate [Hurricane Flame]: Deal bonus Fire damage equal to $6 of the target's Max HP ($5 time)."="Some Fire skills have additional effects on foes with certain ailments.\nOn foes with Burn, activate [Backdraft]: Increase Skill Damage by $1.\nOn foes with Freeze, activate [Ice Burn]: $2 base chance to increase targets' Fire/Ice DMG Taken by $3 for $4 turns.\nOn foes with Windswept, activate [Hurricane Flame]: Deal bonus Fire damage equal to $6 of the target's Max HP ($5 time)."
+"When activating Fire TECHNICAL on foes with Burn, activate [Backdraft]: Increase Skill Damage by $1."="When activating Fire TECHNICAL on foes with Burn, activate [Backdraft]: Increase Skill Damage by $1."
+"When activating Fire TECHNICAL on foes with Freeze, activate [Ice Burn]: $1 base chance to increase targets' Fire/Ice DMG Taken by $2 for $3 turns."="When activating Fire TECHNICAL on foes with Freeze, activate [Ice Burn]: $1 base chance to increase targets' Fire/Ice DMG Taken by $2 for $3 turns."
+"When activating Fire TECHNICAL on foes with Freeze or Ice TECHNICAL on foes with Burn, activate [Ice Burn]: $1 base chance to increase targets' Fire/Ice DMG Taken by $2 for $3 turns."="When activating Fire TECHNICAL on foes with Freeze or Ice TECHNICAL on foes with Burn, activate [Ice Burn]: $1 base chance to increase targets' Fire/Ice DMG Taken by $2 for $3 turns."
+"When activating Fire TECHNICAL on foes with Windswept, activate [Hurricane Flame]: Deal bonus Fire damage equal to $2 of the target's Max HP ($1 time)."="When activating Fire TECHNICAL on foes with Windswept, activate [Hurricane Flame]: Deal bonus Fire damage equal to $2 of the target's Max HP ($1 time)."
+
+"Some Ice skills have additional effects on foes with certain ailments.\nOn foes with Shock, activate [Frigid Bold]: Increase Skill Damage by $1.\nOn foes with Burn, activate [Ice Burn]: $2 base chance to increase targets' Fire/Ice DMG Taken by $3 for $4 turns.\nOn foes with Freeze, activate [Ice Seal]: $5 base chance to inflict Ice Seal for $6 turn."="Some Ice skills have additional effects on foes with certain ailments.\nOn foes with Shock, activate [Frigid Bold]: Increase Skill Damage by $1.\nOn foes with Burn, activate [Ice Burn]: $2 base chance to increase targets' Fire/Ice DMG Taken by $3 for $4 turns.\nOn foes with Freeze, activate [Ice Seal]: $5 base chance to inflict Ice Seal for $6 turn."
+"When activating Ice TECHNICAL on foes with Shock, activate [Frigid Bolt]: Increase Skill Damage by $1."="When activating Ice TECHNICAL on foes with Shock, activate [Frigid Bolt]: Increase Skill Damage by $1."
+"When activating Ice TECHNICAL on foes with Burn, activate [Ice Burn]: $1 base chance to increase targets' Fire/Ice DMG Taken by $2 for $3 turns."="When activating Ice TECHNICAL on foes with Burn, activate [Ice Burn]: $1 base chance to increase targets' Fire/Ice DMG Taken by $2 for $3 turns."
+"When activating Ice TECHNICAL on foes with Freeze, activate [Ice Burn]: $1 base chance to inflict Ice Seal for $2 turn."="When activating Ice TECHNICAL on foes with Freeze, activate [Ice Burn]: $1 base chance to inflict Ice Seal for $2 turn."
+
+--------------------------------------------------
+WONDER's Persona Skill Details
+--------------------------------------------------
+--- Normal Generalized Skills ---
+
+"Deal light Phys damage to 1 foe."="Deal light Phys damage to 1 foe."
+"Deal Phys damage to 1 foe"="Deal Phys damage to 1 foe"
+"Deal heavy Phys damage to 1 foe"="Deal heavy Phys damage to 1 foe"
+"Deal severe Phys damage to 1 foe"="Deal severe Phys damage to 1 foe"
+"Deal Phys damage to 1 foe."="Deal Phys damage to 1 foe."
+"Deal heavy Phys damage to 1 foe."="Deal heavy Phys damage to 1 foe."
+"Deal severe Phys damage to 1 foe."="Deal severe Phys damage to 1 foe."
+"Deal colossal Phys damage to 1 foe $1 times."="Deal colossal Phys damage to 1 foe $1 times."
+"Deal Phys damage to all foes"="Deal Phys damage to all foes"
+"Deal heavy Phys to all foes"="Deal heavy Phys to all foes"
+"Deal severe Phys to all foes"="Deal severe Phys to all foes"
+"Deal Phys damage to all foes."="Deal Phys damage to all foes."
+"Deal heavy Phys damage to all foes."="Deal heavy Phys damage to all foes."
+"Deal severe Phys damage to all foes."="Deal severe Phys damage to all foes."
+
+"Deal Gun damage to 1 foe"="Deal Gun damage to 1 foe"
+"Deal heavy Gun damage to 1 foe"="Deal heavy Gun damage to 1 foe"
+"Deal severe Gun damage to 1 foe"="Deal severe Gun damage to 1 foe"
+"Deal Gun damage to 1 foe."="Deal Gun damage to 1 foe."
+"Deal heavy Gun damage to 1 foe."="Deal heavy Gun damage to 1 foe."
+"Deal severe Gun damage to 1 foe."="Deal severe Gun damage to 1 foe."
+"Deal Gun damage to all foes"="Deal Gun damage to all foes"
+"Deal heavy Gun to all foes"="Deal heavy Gun to all foes"
+"Deal severe Gun to all foes"="Deal severe Gun to all foes"
+"Deal Gun damage to all foes."="Deal Gun damage to all foes."
+"Deal heavy Gun damage to all foes."="Deal heavy Gun damage to all foes."
+"Deal severe Gun damage to all foes."="Deal severe Gun damage to all foes."
+
+"Deal Fire damage to 1 foe"="Deal Fire damage to 1 foe"
+"Deal heavy Fire damage to 1 foe"="Deal heavy Fire damage to 1 foe"
+"Deal severe Fire damage to 1 foe"="Deal severe Fire damage to 1 foe"
+"Deal Fire damage to 1 foe."="Deal Fire damage to 1 foe."
+"Deal heavy Fire damage to 1 foe."="Deal heavy Fire damage to 1 foe."
+"Deal severe Fire damage to 1 foe."="Deal severe Fire damage to 1 foe."
+"Deal Fire damage to all foes"="Deal Fire damage to all foes"
+"Deal heavy Fire to all foes"="Deal heavy Fire to all foes"
+"Deal severe Fire to all foes"="Deal severe Fire to all foes"
+"Deal Fire damage to all foes."="Deal Fire damage to all foes."
+"Deal heavy Fire damage to all foes."="Deal heavy Fire damage to all foes."
+"Deal severe Fire damage to all foes."="Deal severe Fire damage to all foes."
+
+"Deal Ice damage to 1 foe"="Deal Ice damage to 1 foe"
+"Deal heavy Ice damage to 1 foe"="Deal heavy Ice damage to 1 foe"
+"Deal severe Ice damage to 1 foe"="Deal severe Ice damage to 1 foe"
+"Deal Ice damage to 1 foe."="Deal Ice damage to 1 foe."
+"Deal heavy Ice damage to 1 foe."="Deal heavy Ice damage to 1 foe."
+"Deal severe Ice damage to 1 foe."="Deal severe Ice damage to 1 foe."
+"Deal Ice damage to all foes"="Deal Ice damage to all foes"
+"Deal heavy Ice to all foes"="Deal heavy Ice to all foes"
+"Deal severe Ice to all foes"="Deal severe Ice to all foes"
+"Deal Ice damage to all foes."="Deal Ice damage to all foes."
+"Deal heavy Ice damage to all foes."="Deal heavy Ice damage to all foes."
+"Deal severe Ice damage to all foes."="Deal severe Ice damage to all foes."
+
+"Deal Wind damage to 1 foe"="Deal Wind damage to 1 foe"
+"Deal heavy Wind damage to 1 foe"="Deal heavy Wind damage to 1 foe"
+"Deal severe Wind damage to 1 foe"="Deal severe Wind damage to 1 foe"
+"Deal Wind damage to 1 foe."="Deal Wind damage to 1 foe."
+"Deal heavy Wind damage to 1 foe."="Deal heavy Wind damage to 1 foe."
+"Deal severe Wind damage to 1 foe."="Deal severe Wind damage to 1 foe."
+"Deal Wind damage to all foes"="Deal Wind damage to all foes"
+"Deal heavy Wind to all foes"="Deal heavy Wind to all foes"
+"Deal severe Wind to all foes"="Deal severe Wind to all foes"
+"Deal Wind damage to all foes."="Deal Wind damage to all foes."
+"Deal heavy Wind damage to all foes."="Deal heavy Wind damage to all foes."
+"Deal severe Wind damage to all foes."="Deal severe Wind damage to all foes."
+
+"Deal Elec damage to 1 foe"="Deal Elec damage to 1 foe"
+"Deal heavy Elec damage to 1 foe"="Deal heavy Elec damage to 1 foe"
+"Deal severe Elec damage to 1 foe"="Deal severe Elec damage to 1 foe"
+"Deal Elec damage to 1 foe."="Deal Elec damage to 1 foe."
+"Deal heavy Elec damage to 1 foe."="Deal heavy Elec damage to 1 foe."
+"Deal severe Elec damage to 1 foe."="Deal severe Elec damage to 1 foe."
+"Deal Elec damage to all foes"="Deal Elec damage to all foes"
+"Deal heavy Elec to all foes"="Deal heavy Elec to all foes"
+"Deal severe Elec to all foes"="Deal severe Elec to all foes"
+"Deal Elec damage to all foes."="Deal Elec damage to all foes."
+"Deal heavy Elec damage to all foes."="Deal heavy Elec damage to all foes."
+"Deal severe Elec damage to all foes."="Deal severe Elec damage to all foes."
+
+"Deal Psy damage to 1 foe"="Deal Psy damage to 1 foe"
+"Deal heavy Psy damage to 1 foe"="Deal heavy Psy damage to 1 foe"
+"Deal severe Psy damage to 1 foe"="Deal severe Psy damage to 1 foe"
+"Deal Psy damage to 1 foe."="Deal Psy damage to 1 foe."
+"Deal heavy Psy damage to 1 foe."="Deal heavy Psy damage to 1 foe."
+"Deal severe Psy damage to 1 foe."="Deal severe Psy damage to 1 foe."
+"Deal Psy damage to all foes"="Deal Psy damage to all foes"
+"Deal heavy Psy to all foes"="Deal heavy Psy to all foes"
+"Deal severe Psy to all foes"="Deal severe Psy to all foes"
+"Deal Psy damage to all foes."="Deal Psy damage to all foes."
+"Deal heavy Psy damage to all foes."="Deal heavy Psy damage to all foes."
+"Deal severe Psy damage to all foes."="Deal severe Psy damage to all foes."
+
+"Deal Nuke damage to 1 foe"="Deal Nuke damage to 1 foe"
+"Deal heavy Nuke damage to 1 foe"="Deal heavy Nuke damage to 1 foe"
+"Deal severe Nuke damage to 1 foe"="Deal severe Nuke damage to 1 foe"
+"Deal Nuke damage to 1 foe."="Deal Nuke damage to 1 foe."
+"Deal heavy Nuke damage to 1 foe."="Deal heavy Nuke damage to 1 foe."
+"Deal severe Nuke damage to 1 foe."="Deal severe Nuke damage to 1 foe."
+"Deal Nuke damage to all foes"="Deal Nuke damage to all foes"
+"Deal heavy Nuke to all foes"="Deal heavy Nuke to all foes"
+"Deal severe Nuke to all foes"="Deal severe Nuke to all foes"
+"Deal Nuke damage to all foes."="Deal Nuke damage to all foes."
+"Deal heavy Nuke damage to all foes."="Deal heavy Nuke damage to all foes."
+"Deal severe Nuke damage to all foes."="Deal severe Nuke damage to all foes."
+
+"Deal Bless damage to 1 foe"="Deal Bless damage to 1 foe"
+"Deal heavy Bless damage to 1 foe"="Deal heavy Bless damage to 1 foe"
+"Deal severe Bless damage to 1 foe"="Deal severe Bless damage to 1 foe"
+"Deal Bless damage to 1 foe."="Deal Bless damage to 1 foe."
+"Deal heavy Bless damage to 1 foe."="Deal heavy Bless damage to 1 foe."
+"Deal severe Bless damage to 1 foe."="Deal severe Bless damage to 1 foe."
+"Deal Bless damage to all foes"="Deal Bless damage to all foes"
+"Deal heavy Bless to all foes"="Deal heavy Bless to all foes"
+"Deal severe Bless to all foes"="Deal severe Bless to all foes"
+"Deal Bless damage to all foes."="Deal Bless damage to all foes."
+"Deal heavy Bless damage to all foes."="Deal heavy Bless damage to all foes."
+"Deal severe Bless damage to all foes."="Deal severe Bless damage to all foes."
+
+"Deal Curse damage to 1 foe"="Deal Curse damage to 1 foe"
+"Deal heavy Curse damage to 1 foe"="Deal heavy Curse damage to 1 foe"
+"Deal severe Curse damage to 1 foe"="Deal severe Curse damage to 1 foe"
+"Deal Curse damage to 1 foe."="Deal Curse damage to 1 foe."
+"Deal heavy Curse damage to 1 foe."="Deal heavy Curse damage to 1 foe."
+"Deal severe Curse damage to 1 foe."="Deal severe Curse damage to 1 foe."
+"Deal Curse damage to all foes"="Deal Curse damage to all foes"
+"Deal heavy Curse to all foes"="Deal heavy Curse to all foes"
+"Deal severe Curse to all foes"="Deal severe Curse to all foes"
+"Deal Curse damage to all foes."="Deal Curse damage to all foes."
+"Deal heavy Curse damage to all foes."="Deal heavy Curse damage to all foes."
+"Deal severe Curse damage to all foes."="Deal severe Curse damage to all foes."
+
+"Deal Almighty damage to 1 foe"="Deal Almighty damage to 1 foe"
+"Deal heavy Almighty damage to 1 foe"="Deal heavy Almighty damage to 1 foe"
+"Deal severe Almighty damage to 1 foe"="Deal severe Almighty damage to 1 foe"
+"Deal Almighty damage to 1 foe."="Deal Almighty damage to 1 foe."
+"Deal heavy Almighty damage to 1 foe."="Deal heavy Almighty damage to 1 foe."
+"Deal severe Almighty damage to 1 foe."="Deal severe Almighty damage to 1 foe."
+"Deal Almighty damage to all foes"="Deal Almighty damage to all foes"
+"Deal heavy Almighty to all foes"="Deal heavy Almighty to all foes"
+"Deal severe Almighty to all foes"="Deal severe Almighty to all foes"
+"Deal Almighty damage to all foes."="Deal Almighty damage to all foes."
+"Deal heavy Almighty damage to all foes."="Deal heavy Almighty damage to all foes."
+"Deal severe Almighty damage to all foes."="Deal severe Almighty damage to all foes."
+
+//ST Multi-Hit Constant
+Deal <color\=#FFFF00>$2</color> ATK $3 damage to <color\=#FFFF00>1</color> foe $1 times.=Deal <color\=#FFFF00>$2</color> ATK $3 damage to <color\=#FFFF00>1</color> foe $1 times.
+
+//ST Multi-Hit Random
+Deal <color\=#FFFF00>$2</color> ATK $3 damage to <color\=#FFFF00>1</color> foe $1 times.=Deal <color\=#FFFF00>$2</color> ATK $3 damage to <color\=#FFFF00>1</color> foe $1 times.
+"Deal Phys damage to 1 foe $1 times."="Deal Phys damage to 1 foe $1 times."
+
+//ST + Ailment
+"Deal $1 ATK $2 damage to <color\=#FFFF00>1</color> foe with a $3 base chance to inflict $4 for 2 turns."="Deal $1 ATK $2 damage to <color\=#FFFF00>1</color> foe with a $3 base chance to inflict $4 for 2 turns."
+"Deal $1 ATK $2 damage to <color\=#FFFF00>1</color> foe with a $3 base chance to inflict $4 for 2 turns."="Deal $1 ATK $2 damage to <color\=#FFFF00>1</color> foe with a $3 base chance to inflict $4 for 2 turns."
+
+//AoE + Ailment (2 turns)
+"Deal $1 ATK $2 damage to <color\=#FFFF00>all</color> foes and has a $3 chance to inflict $4 for 2 turns."="Deal $1 ATK $2 damage to <color\=#FFFF00>all</color> foes and has a $3 chance to inflict $4 for 2 turns."
+"Deal $1 ATK $2 damage to <color\=#FFFF00>all</color> foes and has a $3 chance to inflict $4 for 2 turns."="Deal $1 ATK $2 damage to <color\=#FFFF00>all</color> foes and has a $3 chance to inflict $4 for 2 turns."
+
+"Deal <color\=#FFFF00>$1</color> ATK $2 damage to all foes and has a <color\=#FFFF00>$3</color> chance to inflict $4 for $5 turns."="Deal <color\=#FFFF00>$1</color> ATK $2 damage to all foes and has a <color\=#FFFF00>$3</color> chance to inflict $4 for $5 turns."
+
+//AoE + Reduce DEF
+Deal $1 ATK $2 damage to <color\=#FFFF00>all</color> foes and reduce their DEF by <color\=#FFFC40>$3</color> for 2 turns.=Deal $1 ATK $2 damage to <color\=#FFFF00>all</color> foes and reduce their DEF by <color\=#FFFC40>$3</color> for 2 turns.
+
+//ST Ailment
+"$1 base chance to inflict $3 on <color\=#FFFF00>1</color> foe for $2 turns."="$1 base chance to inflict $3 on <color\=#FFFF00>1</color> foe for $2 turns."
+
+//AoE Ailment
+"$1 base chance to inflict $3 on <color\=#FFFF00>all</color> foes for $2 turns."="$1 base chance to inflict $3 on <color\=#FFFF00>all</color> foes for $2 turns."
+
+--- Physical ---
+
+//Lucky Punch
+"Deal Phys damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Crit Rate by $2, and decrease Accuracy by $3."="Deal Phys damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Crit Rate by $2, and decrease Accuracy by $3."
+"Deal Phys damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Crit Rate by $2, and decrease Accuracy by $3."="Deal Phys damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Crit Rate by $2, and decrease Accuracy by $3."
+
+//Memory Blow
+Deal <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> foes, there is a <color\=#FFFF00>$3</color> chance to inflict $4 for $5 turns.=Deal <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> foes, there is a <color\=#FFFF00>$3</color> chance to inflict $4 for $5 turns.
+
+Painful Judgement
+"Deal $2 ATK Phys damage to <color\=#FFFF00>1</color> foe $1 times, inflict the foe with [Nightmare] and there is a $3 base chance to inflict Fear."="Deal $2 ATK Phys damage to <color\=#FFFF00>1</color> foe $1 times, inflict the foe with [Nightmare] and there is a $3 base chance to inflict Fear."
+
+Gae Bulg
+"Deal $1 ATK Phys damage to <color\=#FFFF00>1</color> foe, increase Crit Rate based on the amount of debuffs the foe have."="Deal $1 ATK Phys damage to <color\=#FFFF00>1</color> foe, increase Crit Rate based on the amount of debuffs the foe have."
+
+Dragon Slayer
+"Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes. If you don't have [Dragon Blood], gain [Dragon Blood]. If you have [Dragon Blood], boost [Dragon Blood] and refresh its duration."="Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes. If you don't have [Dragon Blood], gain [Dragon Blood]. If you have [Dragon Blood], boost [Dragon Blood] and refresh its duration."
+
+Hassou Tobi
+"Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes 8 times, increase skill damage based on the number of foes."="Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes 8 times, increase skill damage based on the number of foes."
+
+--- Gun ---
+
+Snap
+
+//One-Shot Kill
+"Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe with a $2 increase in Crit Rate."="Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe with a $2 increase in Crit Rate."
+
+//Triple Down
+"Deal Gun damage to <color\=#FFFF00>all</color> foes equal to $2 of ATK ($1 hits). Increase Crit Rate by $3, and decrease Accuracy by $4."="Deal Gun damage to <color\=#FFFF00>all</color> foes equal to $2 of ATK ($1 hits). Increase Crit Rate by $3, and decrease Accuracy by $4."
+
+Janosik
+"Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe with a $2 fixed chance to inflict [Mark]."="Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe with a $2 fixed chance to inflict [Mark]."
+"Deal $2 ATK Gun damage to <color\=#FFFF00>all</color> foes $1 times. If there is a foe with [Mark], increase skill ATK by $3 and Crit DMG by $4."="Deal $2 ATK Gun damage to <color\=#FFFF00>all</color> foes $1 times. If there is a foe with [Mark], increase skill ATK by $3 and Crit DMG by $4."
+
+//Seth
+"Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe. If this skill crits, decrease an additional Down Points."="Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe. If this skill crits, decrease an additional Down Points."
+
+Riot Gun
+"Deal Gun damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Crit Rate by $2, and decrease Accuracy by $3."="Deal Gun damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Crit Rate by $2, and decrease Accuracy by $3."
+
+--- Fire ---
+
+//Fire Offering
+<size\=21>Deals <color\=#FFFF00>$1</color> ATK Fire damage to <color\=#FFFF00>1</color> foe and has a <color\=#FFFF00>$2</color> chance of inflicting <link\=s|102><u>Burn</u></link> for 2 turns. If there are no foes with <link\=s|102><u>Burn</u></link>, then the chance of inflicting is doubled. </size>=<size\=21>Deals <color\=#FFFF00>$1</color> ATK Fire damage to <color\=#FFFF00>1</color> foe and has a <color\=#FFFF00>$2</color> chance of inflicting <link\=s|102><u>Burn</u></link> for 2 turns. If there are no foes with <link\=s|102><u>Burn</u></link>, then the chance of inflicting is doubled. </size>
+
+//Hell's Calamity
+<size\=22>Deals <color\=#FFFF00>$1</color> ATK Fire damage to <color\=#FFFF00>1</color> foe. If the foe is inflicted with Burn, deals an additional <color\=#FFFF00>$1</color> ATK Fire damage and reset the duration of Burn.</size>=<size\=22>Deals <color\=#FFFF00>$1</color> ATK Fire damage to <color\=#FFFF00>1</color> foe. If the foe is inflicted with Burn, deals an additional <color\=#FFFF00>$1</color> ATK Fire damage and reset the duration of Burn.</size>
+
+Overheat
+"Deal $1 ATK Fire damage to <color\=#FFFF00>all</color> foes, with a $2 fixed chance to inflict the main target with Burn."="Deal $1 ATK Fire damage to <color\=#FFFF00>all</color> foes, with a $2 fixed chance to inflict the main target with Burn."
+
+Fury Incarnate
+"Deal Fire damage to <color\=#FFFF00>1</color> foe equal to $2 of ATK ($1 hits). Inflict [Trauma] for $3 turns. When [Trauma] is active, each time the target takes 1 hit of Fire damage, increase their Crit DMG Taken by $4 for $5 turns. Stacks up to $6 times."="Deal Fire damage to <color\=#FFFF00>1</color> foe equal to $2 of ATK ($1 hits). Inflict [Trauma] for $3 turns. When [Trauma] is active, each time the target takes 1 hit of Fire damage, increase their Crit DMG Taken by $4 for $5 turns. Stacks up to $6 times."
+
+--- Ice ---
+
+Blizzard
+"Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foes, with a $2 base chance to inflict the main target with Freeze for $3 turns."="Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foes, with a $2 base chance to inflict the main target with Freeze for $3 turns."
+"Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foes, with a $2 base chance to inflict all foes with Freeze for $3 turns."="Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foes, with a $2 base chance to inflict all foes with Freeze for $3 turns."
+
+Avalanche
+"Deal Ice damage to <color\=#FFFF00>1</color> foe, with a $1 fixed chance to ignore weakness and Down Points to down the foe. If this skill downed the foe, deal $2 hit of Ice damage."="Deal Ice damage to <color\=#FFFF00>1</color> foe, with a $1 fixed chance to ignore weakness and Down Points to down the foe. If this skill downed the foe, deal $2 hit of Ice damage."
+
+Divine Fathom
+"Deal Ice damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' Follow Up DMG Taken Amp by $2 and Ice DMG Taken by $3 for $4 turns."="Deal Ice damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' Follow Up DMG Taken Amp by $2 and Ice DMG Taken by $3 for $4 turns."
+
+Revelation of Fate
+"Deal Ice damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase the target's DMG Taken by $2, when attacked by an Assassin, additionally decrease DEF by $3. Lasts for $4 turns."="Deal Ice damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase the target's DMG Taken by $2, when attacked by an Assassin, additionally decrease DEF by $3. Lasts for $4 turns."
+
+--- Electric ---
+
+Electric Surge
+"Deal $1 ATK Elec damage to <color\=#FFFF00>1</color> foe, there is a $2 base chance to inflict Shock for $3 turns."="Deal $1 ATK Elec damage to <color\=#FFFF00>1</color> foe, there is a $2 base chance to inflict Shock for $3 turns."
+
+Heavenly Thunder
+"Deal $1 ATK Elec damage to <color\=#FFFF00>all</color> foes. When [Thunder God's Might] is at $2 stacks, there is a $3 base chance to inflict all foes with Shock for $4 turns."="Deal $1 ATK Elec damage to <color\=#FFFF00>all</color> foes. When [Thunder God's Might] is at $2 stacks, there is a $3 base chance to inflict all foes with Shock for $4 turns."
+
+--- Wind ---
+
+Magarula
+Deal <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> foes, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.=Deal <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> foes, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.
+
+Narcissus
+"Deal $1 ATK Wind damage to <color\=#FFFF00>1</color> foe, with a $2 base chance to inflict Windswept for $3 turns."="Deal $1 ATK Wind damage to <color\=#FFFF00>1</color> foe, with a $2 base chance to inflict Windswept for $3 turns."
+
+Vishnu
+Deal Wind DMG to <color\=#FFFF00>1</color> foe, with a chance to inflict <color\=#FFFF00>Windswept</color>. If the target is in Windswept, refreshes its duration, increase this damage and increase their Wind DMG Taken.=Deal Wind DMG to <color\=#FFFF00>1</color> foe, with a chance to inflict <color\=#FFFF00>Windswept</color>. If the target is in Windswept, refreshes its duration, increase this damage and increase their Wind DMG Taken.
+
+--- Psy ---
+
+//ST
+"Deal Psy damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Deal a TECHNICAL and increase Skill Damage by $2 for foes with a Mental Ailment."="Deal Psy damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Deal a TECHNICAL and increase Skill Damage by $2 for foes with a Mental Ailment."
+
+//AoE
+"Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Deal a TECHNICAL and increase Skill Damage by $2 for foes with a Mental Ailment."="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Deal a TECHNICAL and increase Skill Damage by $2 for foes with a Mental Ailment."
+"Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Deal a TECHNICAL and increase Skill Damage by $2 for foes with a Mental Ailment."="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Deal a TECHNICAL and increase Skill Damage by $2 for foes with a Mental Ailment."
+
+Okuninushi
+"Deal Psy damage to <color\=#FFFF00>all</color> foes equal to of $1 ATK. Increase DMG Dealt by $1 if the foe is inflicted with Mental Ailments. Additionally increase DMG Dealt by $2 if the foe is weak to Psy."="Deal Psy damage to <color\=#FFFF00>all</color> foes equal to of $1 ATK. Increase DMG Dealt by $1 if the foe is inflicted with Mental Ailments. Additionally increase DMG Dealt by $2 if the foe is weak to Psy."
+
+Kohryu
+"Evolved. Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes. There is a $2 base chance to inflict the main target with Dizzy for $3 turns."="Evolved. Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes. There is a $2 base chance to inflict the main target with Dizzy for $3 turns."
+"Evolved. Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes. There is a $2 base chance to inflict all foes with Dizzy for $3 turns."="Evolved. Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes. There is a $2 base chance to inflict all foes with Dizzy for $3 turns."
+
+Shiva
+"Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes, trigger additional effects based on the amount of Wisdom consumed."="Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes, trigger additional effects based on the amount of Wisdom consumed."
+
+--- Nuke ---
+
+//Basic Nuke ST
+"Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, increase DMG Dealt to foe infliced with Elemental Ailments by $2."="Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, increase DMG Dealt to foe infliced with Elemental Ailments by $2."
+"Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Deal a TECHNICAL and increase DMG Dealt to foe infliced with Elemental Ailments by $2."="Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Deal a TECHNICAL and increase DMG Dealt to foe infliced with Elemental Ailments by $2."
+
+Bishamonten
+"Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase skill damage by $2 if foe is inflicted with any Elemental Ailment."="Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase skill damage by $2 if foe is inflicted with any Elemental Ailment."
+"Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Skill Damage by $2 if foe is inflicted with any Elemental Ailment. Increase Nuke allies' ATK by $3 for $4 turns."="Deal Nuke damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. Increase Skill Damage by $2 if foe is inflicted with any Elemental Ailment. Increase Nuke allies' ATK by $3 for $4 turns."
+
+//Basic Nuke AoE
+"Deal Nuke damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Deal a TECHNICAL and increase DMG Dealt to foes with Elemental Ailments by $2."="Deal Nuke damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Deal a TECHNICAL and increase DMG Dealt to foes with Elemental Ailments by $2."
+
+--- Bless ---
+"Bless"="Bless"
+
+//ST Bless with varying stacks
+"Deal Bless damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, chance to grant user $2-$3 Blessing."="Deal Bless damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, chance to grant user $2-$3 Blessing."
+
+//ST Bless with constant stacks
+"Deal Bless damage to <color\=#FFFF00>1</color> foe equal to <color\=#FFFF00>$1</color> of ATK, grant user $2 <link\="s|111"><u>Blessing</u></link>."="Deal Bless damage to <color\=#FFFF00>1</color> foe equal to <color\=#FFFF00>$1</color> of ATK, grant user $2 <link\="s|111"><u>Blessing</u></link>."
+
+"Deal Bless damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, grant user $2 Blessing."="Deal Bless damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, grant user $2 Blessing."
+"Deal Bless damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, with a high chance to grant user $2 Blessing."="Deal Bless damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, with a high chance to grant user $2 Blessing."
+
+//AoE Bless with varying stacks
+"Deal Bless damage to <color\=#FFFF00>all</color> foes equal to <color\=#FFFF00>$1</color> of ATK, grant user $2-$3 Blessing."="Deal Bless damage to <color\=#FFFF00>all</color> foes equal to <color\=#FFFF00>$1</color> of ATK, grant user $2-$3 Blessing."
+
+"Deal Bless damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, with a chance to grant user $2 Blessing."="Deal Bless damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, with a chance to grant user $2 Blessing."
+"Deal Bless damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, with a high chance to grant user $2 Blessing."="Deal Bless damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, with a high chance to grant user $2 Blessing."
+
+//ST Bless Instakill
+Deal <color\=#FFFF00>$1</color> ATK Bless damage to <color\=#FFFF00>1</color> foe with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance.=Deal <color\=#FFFF00>$1</color> ATK Bless damage to <color\=#FFFF00>1</color> foe with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance.
+
+//AoE Bless Instakill
+Deal <color\=#FFFF00>$1</color> ATK Bless damage to <color\=#FFFF00>all</color> foes with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance.=Deal <color\=#FFFF00>$1</color> ATK Bless damage to <color\=#FFFF00>all</color> foes with a chance of insta-kill to foes under 50% HP. The lower the HP, the higher the chance.
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes with a chance of insta-kill if the main target is below $2 HP."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes with a chance of insta-kill if the main target is below $2 HP."
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes with a chance of insta-kill if the main target is at low HP."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes with a chance of insta-kill if the main target is at low HP."
+
+Desire of Life Shell
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes, and restore $2 ATK HP to the lowest HP ally."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes, and restore $2 ATK HP to the lowest HP ally."
+"Deal <color\=#fffc40>$1</color> ATK Bless damage to all foes, and restore <color\=#fffc40>$2</color> ATK + <color\=#fffc40>$3</color> HP to the lowest HP ally."="Deal <color\=#fffc40>$1</color> ATK Bless damage to all foes, and restore <color\=#fffc40>$2</color> ATK + <color\=#fffc40>$3</color> HP to the lowest HP ally."
+
+Shining Salvation
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes. Grant user $2 Blessing stacks. For each stack of Blessing on user, increase skill damage by $3, up to $4."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes. Grant user $2 Blessing stacks. For each stack of Blessing on user, increase skill damage by $3, up to $4."
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes. Grant party $2 Blessing stacks. For each stack of Blessing on user, increase skill damage by $3, up to $4."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes. Grant party $2 Blessing stacks. For each stack of Blessing on user, increase skill damage by $3, up to $4."
+
+Absolute Obedience
+"Deal $1 ATK Bless damage to <color\=#FFFF00>1</color> foe. Increase their HIGHLIGHT DMG Taken by $2 for $3 turn."="Deal $1 ATK Bless damage to <color\=#FFFF00>1</color> foe. Increase their HIGHLIGHT DMG Taken by $2 for $3 turn."
+
+--- Curse ---
+Curse=Curse
+
+"Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe, with a chance to inflict $2-$3 Curse"="Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe, with a chance to inflict $2-$3 Curse"
+"Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe, inflict $2 Curse"="Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe, inflict $2 Curse"
+
+"Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foes, with a high chance to inflict $2 Curse"="Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foes, with a high chance to inflict $2 Curse"
+
+Afterlife Judgement
+"Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe. When using this skill, each stack of Blessing on you or each stack of Curse on the target increase DMG Dealt by $2, up to $3 stacks."="Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe. When using this skill, each stack of Blessing on you or each stack of Curse on the target increase DMG Dealt by $2, up to $3 stacks."
+
+//Brand of Malice
+"Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, inflict $2-$3 Curse."="Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, inflict $2-$3 Curse."
+
+Fortune Devourer
+"Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foes, decrease all foes' DEF by $2 and increase their Damage Over Time Taken by $3 for $4 turns."="Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foes, decrease all foes' DEF by $2 and increase their Damage Over Time Taken by $3 for $4 turns."
+
+Death's Mercy
+"Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2. Also, when attacked by a Sweeper, increase Crit Taken Rate by $3. Lasts for $4 turns."="Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2. Also, when attacked by a Sweeper, increase Crit Taken Rate by $3. Lasts for $4 turns."
+
+Single Target Basic Insta-kills
+"Deal Curse damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, with a chance of insta-kill to foes under 50% HP."="Deal Curse damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, with a chance of insta-kill to foes under 50% HP."
+
+AoE Curse Instakill
+"Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, with a chance of insta-kill to foes under 50% HP."="Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, with a chance of insta-kill to foes under 50% HP."
+
+Die For Me!
+"Increase <color\=#FFFF00>all</color> foes' Curse DMG Taken by $1 + $3 for every $2 Ailment ACC you have, up to $4. There is a high chance of insta-kill to foes under $5 HP."="Increase <color\=#FFFF00>all</color> foes' Curse DMG Taken by $1 + $3 for every $2 Ailment ACC you have, up to $4. There is a high chance of insta-kill to foes under $5 HP."
+
+--- Almighty ---
+
+//ST Almighty
+"Deal Almighty damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, ignoring their DEF."="Deal Almighty damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK, ignoring their DEF."
+
+AoE Almighty
+"Deal Almighty damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, ignoring their DEF."="Deal Almighty damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK, ignoring their DEF."
+
+//Spirit Drain
+"Drain $1 SP from <color\=#FFFF00>1</color> foe."="Drain $1 SP from <color\=#FFFF00>1</color> foe."
+
+//Life Drain
+"Deal $1 ATK Almighty damage to <color\=#FFFF00>1</color> foe and drain a small amount of HP."="Deal $1 ATK Almighty damage to <color\=#FFFF00>1</color> foe and drain a small amount of HP."
+
+Carnage Allure
+"Deal $1 ATK Almighty damage and $2 ATK Curse damage to <color\=#FFFF00>all</color> foes. After evolving, deals $3 ATK Almighty damage and $4 ATK Elemental damage to <color\=#FFFF00>all</color> foes."="Deal $1 ATK Almighty damage and $2 ATK Curse damage to <color\=#FFFF00>all</color> foes. After evolving, deals $3 ATK Almighty damage and $4 ATK Elemental damage to <color\=#FFFF00>all</color> foes."
+
+Universal Annihilation
+"Deal Almighty damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 for $3 turns and Downed DMG Taken by $4 for $5 turn. If this skill is selected and used, decrease Down Points of all targets by $6 regardless of affinities.\nCooldown Time: $7 turns (does not count Extra Actions).\nPassive: When other allies knocked down a foe, automatically activate this skill."="Deal Almighty damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 for $3 turns and Downed DMG Taken by $4 for $5 turn. If this skill is selected and used, decrease Down Points of all targets by $6 regardless of affinities.\nCooldown Time: $7 turns (does not count Extra Actions).\nPassive: When other allies knocked down a foe, automatically activate this skill."
+
+--- Recovery ---
+
+ST Heal
+"Restore <color\=#FFFF00>1</color> ally's HP equal to $1 of ATK + $2."="Restore <color\=#FFFF00>1</color> ally's HP equal to $1 of ATK + $2."
+Restore a certain amount of HP to 1 ally.=Restore a certain amount of HP to 1 ally.
+
+AoE Heal
+"Restore <color\=#FFFF00>all</color> allies' HP equal to $1 of ATK + $2."="Restore <color\=#FFFF00>all</color> allies' HP equal to $1 of ATK + $2."
+
+Lotus
+<size\=30>Restore <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> HP to 1 ally and gain 2 stacks of [Sacred Lotus] for 1 turn. If an ally is below 50% Max HP after their turn while [Sacred Lotus] is present, consume one stack and retores <color\=#fffc40>$3</color> ATK + <color\=#fffc40>$4</color> HP to them</size>.=<size\=30>Restore <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> HP to 1 ally and gain 2 stacks of [Sacred Lotus] for 1 turn. If an ally is below 50% Max HP after their turn while [Sacred Lotus] is present, consume one stack and retores <color\=#fffc40>$3</color> ATK + <color\=#fffc40>$4</color> HP to them</size>.
+
+Titania
+"Restore <color\=#FFFF00>all</color> allies' HP equal to $1 of ATK + $2. If an ally's HP is below $3, increase Healing Effect by $4. Restore party's SP by $5."="Restore <color\=#FFFF00>all</color> allies' HP equal to $1 of ATK + $2. If an ally's HP is below $3, increase Healing Effect by $4. Restore party's SP by $5."
+
+Restore $1 ATK + $2 HP to <color\=#FFFF00>all</color> allies, increase Healing Effect by $4 to allies under $3 HP. Restore $5 SP to all allies."
+
+Patra
+Cures <link\=s|107><u>Dizzy</u></link>/<link\=s|109><u>Sleep</u></link>/<link\=s|108><u>Forget</u></link> for 1 ally.=Cures <link\=s|107><u>Dizzy</u></link>/<link\=s|109><u>Sleep</u></link>/<link\=s|108><u>Forget</u></link> for 1 ally.
+
+//Energy Drop
+Cures <link\=s|156><u>Confuse</u></link>/<link\=s|157><u>Fear</u></link>/<link\=s|155><u>Despair</u></link>/<link\=s|110><u>Rage</u></link>/<link\=s|158><u>Brainwash</u></link> for 1 ally.=Cures <link\=s|156><u>Confuse</u></link>/<link\=s|157><u>Fear</u></link>/<link\=s|155><u>Despair</u></link>/<link\=s|110><u>Rage</u></link>/<link\=s|158><u>Brainwash</u></link> for 1 ally.
+
+//Baisudi
+Cures <link\=s|102><u>Burn</u></link>/<link\=s|103><u>Freeze</u></link>/<link\=s|104><u>Shock</u></link>/<link\=s|105><u>Windswept</u></link> for 1 ally.=Cures <link\=s|102><u>Burn</u></link>/<link\=s|103><u>Freeze</u></link>/<link\=s|104><u>Shock</u></link>/<link\=s|105><u>Windswept</u></link> for 1 ally.
+
+//
+Restore <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> HP to all allies and cures 1 <link\=s|101><u>Elemental Ailment</u></link>.=Restore <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> HP to all allies and cures 1 <link\=s|101><u>Elemental Ailment</u></link>.
+
+//
+Restore <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> HP to 1 ally and cures 1 <link\=s|101><u>Elemental Ailment</u></link>.=Restore <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> HP to 1 ally and cures 1 <link\=s|101><u>Elemental Ailment</u></link>.
+
+Sarasvati Divine Chant
+"Restore $1 ATK + $2 HP to <color\=#FFFF00>all</color> allies, then decrease all allies' DMG Taken by $3 for $4 turns."="Restore $1 ATK + $2 HP to <color\=#FFFF00>all</color> allies, then decrease all allies' DMG Taken by $3 for $4 turns."
+
+Unicorn Deep Cleanse
+"Restore $1 ATK + $2 HP to <color\=#FFFF00>1</color> ally, then dispel 1 random debuff. After dispelling, additionally restore $3 ATK + $4 HP."="Restore $1 ATK + $2 HP to <color\=#FFFF00>1</color> ally, then dispel 1 random debuff. After dispelling, additionally restore $3 ATK + $4 HP."
+
+Lakshmi Lotus
+"Restore $1 ATK + $2 HP to <color\=#FFFF00>1</color> ally, then gains $3 stacks of [Sacred Lotus] for $7 turn. [Sacred Lotus]: When any ally is below $4 Max HP after their turn, consumes one stack of [Sacred Lotus] and restore $5 ATK + $6 HP to them."="Restore $1 ATK + $2 HP to <color\=#FFFF00>1</color> ally, then gains $3 stacks of [Sacred Lotus] for $7 turn. [Sacred Lotus]: When any ally is below $4 Max HP after their turn, consumes one stack of [Sacred Lotus] and restore $5 ATK + $6 HP to them."
+
+--- Buffs ---
+
+Tarukaja
+"Increase <color\=#FFFF00>1</color> ally's ATK by $1. For every $2 of the user's ATK, increase the target's ATK by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>1</color> ally's ATK by $1. For every $2 of the user's ATK, increase the target's ATK by $3 more, up to $4. Lasts for $5 turns."
+
+Matarukaja
+"Increase <color\=#FFFF00>party's</color> ATK by $1. For every $2 of the user's ATK, increase party's ATK by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>party's</color> ATK by $1. For every $2 of the user's ATK, increase party's ATK by $3 more, up to $4. Lasts for $5 turns."
+
+//Rakukaja
+"Increase <color\=#FFFF00>1</color> ally's DEF by $1. For every $2 of the user's DEF, increase the target's DEF by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>1</color> ally's DEF by $1. For every $2 of the user's DEF, increase the target's DEF by $3 more, up to $4. Lasts for $5 turns."
+
+Marakukaja
+"Increase <color\=#FFFF00>party's</color> DEF by $1. For every $2 of the user's DEF, increase party's DEF by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>party's</color> DEF by $1. For every $2 of the user's DEF, increase party's DEF by $3 more, up to $4. Lasts for $5 turns."
+
+Sukukaja
+"Increase <color\=#FFFF00>1</color> ally's Ailment ACC and Ailment RES by $1. For every $2 of the user's Ailment ACC, increase the target's Ailment ACC by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>1</color> ally's Ailment ACC and Ailment RES by $1. For every $2 of the user's Ailment ACC, increase the target's Ailment ACC by $3 more, up to $4. Lasts for $5 turns."
+
+Masukukaja
+"Increase <color\=#FFFF00>party's</color> Ailment ACC and Ailment RES by $1. For every $2 of the user's Ailment ACC, increase party's Ailment ACC by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>party's</color> Ailment ACC and Ailment RES by $1. For every $2 of the user's Ailment ACC, increase party's Ailment ACC by $3 more, up to $4. Lasts for $5 turns."
+
+Heat Riser
+"Increase ATK, DEF, Ailment ACC, \nand Ailment RES by $1"="Increase ATK, DEF, Ailment ACC, \nand Ailment RES by $1"
+
+//Rebellion
+"Increase <color\=#FFFF00>1</color> ally's Crit Rate. For every $2 of the user's Crit Rate, increase the target's Crit Rate by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>1</color> ally's Crit Rate. For every $2 of the user's Crit Rate, increase the target's Crit Rate by $3 more, up to $4. Lasts for $5 turns."
+
+//Revolution
+"Increase <color\=#FFFF00>party's</color> Crit Rate by $1. For every $2 of the user's Crit Rate, increase party's Crit Rate by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>party's</color> Crit Rate by $1. For every $2 of the user's Crit Rate, increase party's Crit Rate by $3 more, up to $4. Lasts for $5 turns."
+
+Hunter's Code
+"Increase <color\=#FFFF00>1</color> ally's DMG Dealt by $1. For every $2 of the target's Ailment ACC, increase DMG Dealt by $3 more, up to $4. Lasts for $5 turns."="Increase <color\=#FFFF00>1</color> ally's DMG Dealt by $1. For every $2 of the target's Ailment ACC, increase DMG Dealt by $3 more, up to $4. Lasts for $5 turns."
+
+Change
+"Increase <color\=#FFFF00>user's</color> next Physical damage by $1 for $2 turn."="Increase <color\=#FFFF00>user's</color> next Physical damage by $1 for $2 turn."
+
+//Concentrate
+"Increase <color\=#FFFF00>user's</color> next Magic damage by $1 for $2 turn."="Increase <color\=#FFFF00>user's</color> next Magic damage by $1 for $2 turn."
+
+Fire of Purification
+"Increase <color\=#FFFF00>party's</color> ATK by $1 + $3 more for every $2 of the user's ATK, up to $4. Lasts for $5 turns. Grant the main target [Fire of Purification] for $6 turns. [Fire of Purification]: After dealing {{A}} skill damage to foes, there is a $7 base chance to inflict $8 random foe with Burn."="Increase <color\=#FFFF00>party's</color> ATK by $1 + $3 more for every $2 of the user's ATK, up to $4. Lasts for $5 turns. Grant the main target [Fire of Purification] for $6 turns. [Fire of Purification]: After dealing {{A}} skill damage to foes, there is a $7 base chance to inflict $8 random foe with Burn."
+
+Dominion Cohesion
+"Increase <color\=#FFFF00>party's</color> ATK by $1 + $3 more for every $2 of the user's ATK. Lasts for $4 turns. Increase main target's DMG Dealt by $5 + $7 more for every $6 of the user's ATK. Lasts for $8 turn."="Increase <color\=#FFFF00>party's</color> ATK by $1 + $3 more for every $2 of the user's ATK. Lasts for $4 turns. Increase main target's DMG Dealt by $5 + $7 more for every $6 of the user's ATK. Lasts for $8 turn."
+
+Infinite Algorithm
+"Increase <color\=#FFFF00>all</color> allies' ATK by $1, additionally increase the main target's DMG Dealt by $2. Lasts for $3 turns."="Increase <color\=#FFFF00>all</color> allies' ATK by $1, additionally increase the main target's DMG Dealt by $2. Lasts for $3 turns."
+"I<color\=#000000>n</color>finite Algorithm"="I<color\=#000000>n</color>finite Algorithm"
+
+Yggdrasil Derivation
+"Increase <color\=#FFFF00>1</color> ally's ATK by $1 and DMG Dealt by $2. After each turn, additionally increase that ally's Crit DMG by $4 (up to $5). Lasts for $3 turns.\nAfter using this skill, Wonder gains $6 Extra Action. Cooldown Time: $7 turns."="Increase <color\=#FFFF00>1</color> ally's ATK by $1 and DMG Dealt by $2. After each turn, additionally increase that ally's Crit DMG by $4 (up to $5). Lasts for $3 turns.\nAfter using this skill, Wonder gains $6 Extra Action. Cooldown Time: $7 turns."
+"Y<color\=#000000>g</color>gdrasil Derivation"="Y<color\=#000000>g</color>gdrasil Derivation"
+
+Soul Catalysis
+"Increase <color\=#FFFF00>1</color> ally's ATK by $1. If allies activated any Attribute Harmony, additionally increase the main target's Crit Rate by $2. Lasts for $3 turns."="Increase <color\=#FFFF00>1</color> ally's ATK by $1. If allies activated any Attribute Harmony, additionally increase the main target's Crit Rate by $2. Lasts for $3 turns."
+"Increase <color\=#FFFF00>1</color> ally's ATK by $1. If allies activated any Harmony, additionally increase the main target's Crit Rate by $2. Lasts for $3 turns."="Increase <color\=#FFFF00>1</color> ally's ATK by $1. If allies activated any Harmony, additionally increase the main target's Crit Rate by $2. Lasts for $3 turns."
+"S<color\=#000000>o</color>ul Catalysis"="S<color\=#000000>o</color>ul Catalysis"
+
+Temperament Harmony
+"Increase <color\=#FFFF00>1</color> ally's DMG Dealt by $1. Lasts for $2 turns. Grant them [Attunement]: When using a Persona skill, or when receiving a Persona skill from allies, increase Weak DMG by $3 (up to $4). Lasts for $5 turns.\nWhen reaching the maximum value, upgrade [Attunement] to [Harmony]: Change the buff effect to permanent."="Increase <color\=#FFFF00>1</color> ally's DMG Dealt by $1. Lasts for $2 turns. Grant them [Attunement]: When using a Persona skill, or when receiving a Persona skill from allies, increase Weak DMG by $3 (up to $4). Lasts for $5 turns.\nWhen reaching the maximum value, upgrade [Attunement] to [Harmony]: Change the buff effect to permanent."
+Attunement=Attunement
+"A<color\=#000000>t</color>tunement"="A<color\=#000000>t</color>tunement"
+Harmony=Harmony
+"H<color\=#000000>a</color>rmony"="H<color\=#000000>a</color>rmony"
+"Permanently increase Weak DMG by $1"="Permanently increase Weak DMG by $1"
+
+//norn
+"Grant <color\=#FFFF00>all</color> allies $1 ATK + $2 Shield for $3 turns. There is a $4 base chance to inflict Windswept to the foe when the Shield took damage."="Grant <color\=#FFFF00>all</color> allies $1 ATK + $2 Shield for $3 turns. There is a $4 base chance to inflict Windswept to the foe when the Shield took damage."
+
+Elec Wall=Elec Wall
+Wind Wall=Wind Wall
+Psy Wall=Psy Wall
+Add Elec resistance to one ally for 2 turns.=Add Elec resistance to one ally for 2 turns.
+Add Wind resistance to one ally for 2 turns.=Add Wind resistance to one ally for 2 turns.
+Add Psy resistance to one ally for 2 turns.=Add Psy resistance to one ally for 2 turns.
+
+Snow Aegis
+"Grant <color\=#FFFF00>all</color> allies $1 ATK + $2 Shield for 2 turns. When the Shield is active increase DEF by $3."="Grant <color\=#FFFF00>all</color> allies $1 ATK + $2 Shield for 2 turns. When the Shield is active increase DEF by $3."
+
+Sandalphon
+"Grant <color\=#FFFF00>all</color> allies $1 ATK + $2 Shield. Lasts for $3 turns. When the main target has a Shield, increase their DMG Dealt by $4. Lasts for $5 turns."="Grant <color\=#FFFF00>all</color> allies $1 ATK + $2 Shield. Lasts for $3 turns. When the main target has a Shield, increase their DMG Dealt by $4. Lasts for $5 turns."
+
+"Grant all allies Shield for $1 turns."="Grant all allies Shield for $1 turns."
+"Change the lowest HP ally's affinities to Resist all for $1 turns."="Change the lowest HP ally's affinities to Resist all for $1 turns."
+"Change the lowest HP ally's affinities to Null all for $1 turns."="Change the lowest HP ally's affinities to Null all for $1 turns."
+"Change the lowest HP ally's affinities to Drain all for $1 turns."="Change the lowest HP ally's affinities to Drain all for $1 turns."
+
+--- Debuffs ---
+
+Rakunda
+"Decrease <color\=#FFFF00>1</color> foe's DEF by $1 for $2 turns."="Decrease <color\=#FFFF00>1</color> foe's DEF by $1 for $2 turns."
+
+Marakunda
+"Decrease <color\=#FFFF00>all</color> foes' DEF by $1 for $2 turns."="Decrease <color\=#FFFF00>all</color> foes' DEF by $1 for $2 turns."
+
+Tarunda
+"Decrease <color\=#FFFF00>1</color> foe's ATK by $1 for $2 turns."="Decrease <color\=#FFFF00>1</color> foe's ATK by $1 for $2 turns."
+
+Matarunda
+"Decrease <color\=#FFFF00>all</color> foes ATK by $1 for $2 turns."="Decrease <color\=#FFFF00>all</color> foes ATK by $1 for $2 turns."
+
+Debilitate
+"Decrease <color\=#FFFF00>1</color> foe's ATK, DEF, Ailment ACC, and Ailment RES by $1 for $2 turns."="Decrease <color\=#FFFF00>1</color> foe's ATK, DEF, Ailment ACC, and Ailment RES by $1 for $2 turns."
+"Decrease <color\=#FFFF00>1</color> foe's ATK, DEF, Ailment ACC, and Ailment RES by $1 for $2 turns."="Decrease <color\=#FFFF00>1</color> foe's ATK, DEF, Ailment ACC, and Ailment RES by $1 for $2 turns."
+
+Fire Break
+Negate Fire resistance of <color\=#FFFF00>1</color> foe for 2 turns.=Negate Fire resistance of <color\=#FFFF00>1</color> foe for 2 turns.
+
+Elec Break
+Negate Elec resistance of <color\=#FFFF00>1</color> foe for 2 turns.=Negate Elec resistance of <color\=#FFFF00>1</color> foe for 2 turns.
+
+Wind Break
+Negate Wind resistance of <color\=#FFFF00>1</color> foe for 2 turns.=Negate Wind resistance of <color\=#FFFF00>1</color> foe for 2 turns.
+
+Temperament Disruption
+"Decrease <color\=#FFFF00>all</color> foes' DEF by $1 and increase their DMG Taken by $2. Lasts for $3 turns."="Decrease <color\=#FFFF00>all</color> foes' DEF by $1 and increase their DMG Taken by $2. Lasts for $3 turns."
+
+Venomous Vortex
+"Increase <color\=#FFFF00>1</color> foe's DMG Taken by $1. Inflict the target with $2 [Venom] stack for $3 turns. Stacks up to $4 times. [Venom]: Take Curse damage equal to $5 of the highest ATK Thief's ATK, up to $6 of Wonder's ATK."="Increase <color\=#FFFF00>1</color> foe's DMG Taken by $1. Inflict the target with $2 [Venom] stack for $3 turns. Stacks up to $4 times. [Venom]: Take Curse damage equal to $5 of the highest ATK Thief's ATK, up to $6 of Wonder's ATK."
+"Increase <color\=#FFFF00>1</color> foe's DMG Taken by $1. Inflict the target with $2 [Venom] stack for $3 turns. Stacks up to $4 times. [Venom]: Take Curse damage equal to $5 of the highest ATK Thief's ATK, up to $6 of Wonder's ATK."="Increase <color\=#FFFF00>1</color> foe's DMG Taken by $1. Inflict the target with $2 [Venom] stack for $3 turns. Stacks up to $4 times. [Venom]: Take Curse damage equal to $5 of the highest ATK Thief's ATK, up to $6 of Wonder's ATK."
+
+Deconstruction Force Field
+"Increase <color\=#FFFF00>1</color> foes' DMG Taken by $1 and Crit DMG Taken by $2. Lasts for $3 turns."="Increase <color\=#FFFF00>1</color> foes' DMG Taken by $1 and Crit DMG Taken by $2. Lasts for $3 turns."
+"D<color\=#000000>e</color>construction Field"="D<color\=#000000>e</color>construction Field"
+
+--- Dispel ---
+Negates 1 stat reducing effect for <color\=#FFFF00>all</color> allies.=Negates 1 stat reducing effect for <color\=#FFFF00>all</color> allies.
+Negates 1 stat increasing effect for <color\=#FFFF00>all</color> foes.=Negates 1 stat increasing effect for <color\=#FFFF00>all</color> foes.
+
+--- Aliments ---
+"$1 base chance to inflict Rage on <color\=#FFFF00>1</color> foe for $2 turns. Increase DEF by $3 for $4 turns."="$1 base chance to inflict Rage on <color\=#FFFF00>1</color> foe for $2 turns. Increase DEF by $3 for $4 turns."
+
+
+--- Passives ---
+
+--- Wonder HIGHLIGHT ---
+"Deal $1 ATK Phys damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Phys damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Gun damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Fire damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Fire damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Ice damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Ice damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Elec damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Elec damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Wind damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Wind damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Psy damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Psy damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Nuke damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Nuke damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Bless damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Bless damage to <color\=#FFFF00>1</color> foe."
+"Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe."="Deal $1 ATK Curse damage to <color\=#FFFF00>1</color> foe."
+
+"Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes."="Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes."
+"Deal $1 ATK Gun damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Gun damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Fire damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Fire damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Elec damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Elec damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Wind damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Wind damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Nuke damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Nuke damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foe."="Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foe."
+"Deal $1 ATK Almighty damage to <color\=#FFFF00>all</color> foes."="Deal $1 ATK Almighty damage to <color\=#FFFF00>all</color> foes."
+
+"Grant <color\=#FFFF00>all</color> allies $1 + $2 ATK Shield for $3 turns."="Grant <color\=#FFFF00>all</color> allies $1 + $2 ATK Shield for $3 turns."
+"Increase <color\=#FFFF00>all</color> allies $1 DMG Dealt for $2 turns."="Increase <color\=#FFFF00>all</color> allies $1 DMG Dealt for $2 turns."
+
+"Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Phys damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Gun damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Gun damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Fire damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Fire damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Ice damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Elec damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Elec damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Wind damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Wind damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Psy damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Nuke damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Nuke damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Bless damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Curse damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+"Deal $1 ATK Almighty damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."="Deal $1 ATK Almighty damage to <color\=#FFFF00>all</color> foes and increase their DMG Taken by $2 for $3 turns."
+
+"Deal Ice damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. User gains [Divine Oracle].\n[Divine Oracle]: When using a {{A}} skill with {{B}}, spend [Divine Oracle] to increase all allies' ATK by <color\=#fffc40>$2</color> and DMG Bonus by <color\=#fffc40>$3</color>. Lasts for $4 turns."="Deal Ice damage to <color\=#FFFF00>1</color> foe equal to $1 of ATK. User gains [Divine Oracle].\n[Divine Oracle]: When using a {{A}} skill with {{B}}, spend [Divine Oracle] to increase all allies' ATK by <color\=#fffc40>$2</color> and DMG Bonus by <color\=#fffc40>$3</color>. Lasts for $4 turns."
+
+"Increase <color\=#FFFF00>all</color> allies' ATK by $1 and Crit DMG by $2. Lasts for $3 turns."="Increase <color\=#FFFF00>all</color> allies' ATK by $1 and Crit DMG by $2. Lasts for $3 turns."
+
+"Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 and Crit DMG Taken by $3 for $4 turns."="Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 and Crit DMG Taken by $3 for $4 turns."
+"Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 and Crit DMG Taken by $3 for $4 turns."="Deal Curse damage to <color\=#FFFF00>all</color> foes equal to $1 of ATK. Increase all foes' DMG Taken by $2 and Crit DMG Taken by $3 for $4 turns."
+
+----------
+SPECIAL
+---------
+Summon=Summon
+
+Skill activation conditions have not been met=Skill activation conditions have not been met
+Insufficient conditions=Insufficient conditions
+Insufficient conditions=Insufficient conditions
+
+Battle Quotes
+Not enough HP.=Not enough HP.
+Not enough SP.=Not enough SP.
+Not enough ammo.=Not enough ammo.
+Cannot use item in this mode.=Cannot use item in this mode.
+
+"<color\=#FF0000>All allies</color> Max HP Up!"="<color\=#FF0000>All allies</color> Max HP Up!"
+"<color\=#FF0000>All allies</color> ATK Up!"="<color\=#FF0000>All allies</color> ATK Up!"
+"<color\=#FF0000>All allies</color> DEF Up!"="<color\=#FF0000>All allies</color> DEF Up!"
+"<color\=#FF0000>All allies</color> DMG Dealt Up!"="<color\=#FF0000>All allies</color> DMG Dealt Up!"
+
+ATK Up!=ATK Up!
+"<color\=#FF0000>$1</color> ATK Up!"="<color\=#FF0000>$1</color> ATK Up!"
+"<color\=#FF0000>$1</color> ATK Down!"="<color\=#FF0000>$1</color> ATK Down!"
+"<color\=#FF0000>$1</color> ATK Up!"="<color\=#FF0000>$1</color> ATK Up!"
+"<color\=#FF0000>$1</color> ATK Up!"="<color\=#FF0000>$1</color> ATK Up!"
+"<color\=#FF0000>$1</color> DEF Up!"="<color\=#FF0000>$1</color> DEF Up!"
+"<color\=#FF0000>$1</color> DEF Up!"="<color\=#FF0000>$1</color> DEF Up!"
+"<color\=#FF0000>$1</color> permanent DEF Up!"="<color\=#FF0000>$1</color> permanent DEF Up!"
+"<color\=#FF0000>$1</color> DEF Down!"="<color\=#FF0000>$1</color> DEF Down!"
+
+"<color\=#FF0000>$1</color> Ailment ACC/Ailment RES Up!"="<color\=#FF0000>$1</color> Ailment ACC/Ailment RES Up!"
+"<color\=#FF0000>$1</color> DMG Dealt Up!"="<color\=#FF0000>$1</color> DMG Dealt Up!"
+"<color\=#FF0000>$1</color> DMG Dealt Up!"="<color\=#FF0000>$1</color> DMG Dealt Up!"
+"<color\=#FF0000>$1</color> DMG Dealt Up!"="<color\=#FF0000>$1</color> DMG Dealt Up!"
+
+"<color\=#FF0000>$1</color> many Stats Up!"="<color\=#FF0000>$1</color> many Stats Up!"
+"<color\=#FF0000>$1</color> many Stats Up!"="<color\=#FF0000>$1</color> many Stats Up!"
+"<color\=#FF0000>$1</color> many Stats Down!"="<color\=#FF0000>$1</color> many Stats Down!"
+"<color\=#FF0000>$1</color> Crit Rate Up!"="<color\=#FF0000>$1</color> Crit Rate Up!"
+"<color\=#FF0000>All foes</color> DMG Taken Up!"="<color\=#FF0000>All foes</color> DMG Taken Up!"
+"<color\=#FF0000>$1</color> Final DMG Down!"="<color\=#FF0000>$1</color> Final DMG Down!"
+
+"<color\=#FF0000>$1</color> gained Shield!"="<color\=#FF0000>$1</color> gained Shield!"
+"<color\=#FF0000>$1</color> is immune to next damage..."="<color\=#FF0000>$1</color> is immune to next damage..."
+"<color\=#FF0000>$1</color> gained Extra Action!"="<color\=#FF0000>$1</color> gained Extra Action!"
+"<color\=#FF0000>$1</color> has been revived!"="<color\=#FF0000>$1</color> has been revived!"
+
+"<color\=#FF0000>$1</color> changed affinities!"="<color\=#FF0000>$1</color> changed affinities!"
+"<color\=#FF0000>$1</color> changed affinities!"="<color\=#FF0000>$1</color> changed affinities!"
+"<color\=#FF0000>$1</color> gained [$2], changed affinities!"="<color\=#FF0000>$1</color> gained [$2], changed affinities!"
+"<color\=#FF0000>$1</color> lost [$2], reverted all affinities!"="<color\=#FF0000>$1</color> lost [$2], reverted all affinities!"
+"<color\=#FF0000>$1</color> reverted affinities!"="<color\=#FF0000>$1</color> reverted affinities!"
+"<color\=#FF0000>$1</color> reverted affinities!"="<color\=#FF0000>$1</color> reverted affinities!"
+"<color\=#FF0000>$1</color> reverted Fire resistance!"="<color\=#FF0000>$1</color> reverted Fire resistance!"
+"<color\=#FF0000>$1</color> reverted Elec resistance!"="<color\=#FF0000>$1</color> reverted Elec resistance!"
+"<color\=#FF0000>$1</color> reverted Psy resistance!"="<color\=#FF0000>$1</color> reverted Psy resistance!"
+"<color\=#FF0000>$1</color> changed affinities!"="<color\=#FF0000>$1</color> changed affinities!"
+"<color\=#FF0000>$1</color> gained Resist $2!"="<color\=#FF0000>$1</color> gained Resist $2!"
+"<color\=#FF0000>$1</color> now Null all!"="<color\=#FF0000>$1</color> now Null all!"
+
+"Dispelled $1 stats debuff!"="Dispelled $1 stats debuff!"
+
+"<color\=#FF0000>$1</color> restored [$2]!"="<color\=#FF0000>$1</color> restored [$2]!"
+"<color\=#FF0000>$1</color> gained [$2]"="<color\=#FF0000>$1</color> gained [$2]"
+"<color\=#FF0000>$1, $2, $3, $4, $5</color> gained [$6]..."="<color\=#FF0000>$1, $2, $3, $4, $5</color> gained [$6]..."
+"<color\=#FF0000>$1</color> gained [$2]..."="<color\=#FF0000>$1</color> gained [$2]..."
+"<color\=#FF0000>$1</color> gained $2 [$3] stack(s)..."="<color\=#FF0000>$1</color> gained $2 [$3] stack(s)..."
+"<color\=#FF0000>$1</color> gained [$2]..."="<color\=#FF0000>$1</color> gained [$2]..."
+"<color\=#FF0000>$1</color> lost [$2]..."="<color\=#FF0000>$1</color> lost [$2]..."
+"<color\=#FF0000>$1</color> lost all [$2]!"="<color\=#FF0000>$1</color> lost all [$2]!"
+"Dispelled $1 <color\=#FF0000>[$2]</color> stack!"="Dispelled $1 <color\=#FF0000>[$2]</color> stack!"
+"Dispelled <color\=#FF0000>[$1]</color>!"="Dispelled <color\=#FF0000>[$1]</color>!"
+"<color\=#FF0000>$1</color> removed Weaken!"="<color\=#FF0000>$1</color> removed Weaken!"
+"<color\=#FF0000>$1</color> removed Ultimate·Weaken!"="<color\=#FF0000>$1</color> removed Ultimate·Weaken!"
+"Summon consumed $1 <color\=#FF0000>[$2]</color> stack"="Summon consumed $1 <color\=#FF0000>[$2]</color> stack"
+
+"Locked on by <color\=#FF0000>{{A}}</color>!"="Locked on by <color\=#FF0000>{{A}}</color>!"
+"<color\=#FF0000>$1</color> locked on by foe..."="<color\=#FF0000>$1</color> locked on by foe..."
+"<color\=#FF0000>$1</color> locked on by foe..."="<color\=#FF0000>$1</color> locked on by foe..."
+"<color\=#FF0000>$1</color> entered Frenzy!"="<color\=#FF0000>$1</color> entered Frenzy!"
+"<color\=#FF0000>$1</color> entered Frenzy..."="<color\=#FF0000>$1</color> entered Frenzy..."
+"<color\=#FF0000>$1</color> entered Vexation..."="<color\=#FF0000>$1</color> entered Vexation..."
+"<color\=#FF0000>$1</color> entered Vexation..."="<color\=#FF0000>$1</color> entered Vexation..."
+"<color\=#FF0000>$1</color> entered Concentrate..."="<color\=#FF0000>$1</color> entered Concentrate..."
+"<color\=#FF0000>$1</color> is charging, heavily increase next attack's Final DMG..."="<color\=#FF0000>$1</color> is charging, heavily increase next attack's Final DMG..."
+"<color\=#FF0000>$1</color> is [$2]..."="<color\=#FF0000>$1</color> is [$2]..."
+"<color\=#FF0000>$1</color> entered [$2]..."="<color\=#FF0000>$1</color> entered [$2]..."
+"<color\=#FF0000>$1</color> entered [$2]..."="<color\=#FF0000>$1</color> entered [$2]..."
+"<color\=#FF0000>$1</color> entered [$2]..."="<color\=#FF0000>$1</color> entered [$2]..."
+"<color\=#FF0000>$1</color> entered [$2]..."="<color\=#FF0000>$1</color> entered [$2]..."
+"<color\=#FF0000>$1</color> entered $2, unable to act!"="<color\=#FF0000>$1</color> entered $2, unable to act!"
+"<color\=#FF0000>$1</color> exited Charge..."="<color\=#FF0000>$1</color> exited Charge..."
+"<color\=#FF0000>$1</color> removed [$2]..."="<color\=#FF0000>$1</color> removed [$2]..."
+"<color\=#FF0000>$1</color> recovered..."="<color\=#FF0000>$1</color> recovered..."
+
+"<color\=#FF0000>$1</color> inflicted with Dizzy..."="<color\=#FF0000>$1</color> inflicted with Dizzy..."
+"<color\=#FF0000>$1</color> inflicted with Forget..."="<color\=#FF0000>$1</color> inflicted with Forget..."
+"<color\=#FF0000>$1</color> inflicted with Sleep..."="<color\=#FF0000>$1</color> inflicted with Sleep..."
+"<color\=#FF0000>$1</color> inflicted with Rage..."="<color\=#FF0000>$1</color> inflicted with Rage..."
+"<color\=#FF0000>$1</color> inflicted with Despair..."="<color\=#FF0000>$1</color> inflicted with Despair..."
+"<color\=#FF0000>$1</color> inflicted with Fear..."="<color\=#FF0000>$1</color> inflicted with Fear..."
+"<color\=#FF0000>$1</color> inflicted with Confuse..."="<color\=#FF0000>$1</color> inflicted with Confuse..."
+"<color\=#FF0000>$1</color> inflicted with Brainwash..."="<color\=#FF0000>$1</color> inflicted with Brainwash..."
+
+"<color\=#FF0000>$1</color> inflicted with Dizzy..."="<color\=#FF0000>$1</color> inflicted with Dizzy..."
+"<color\=#FF0000>$1</color> inflicted with Forget..."="<color\=#FF0000>$1</color> inflicted with Forget..."
+"<color\=#FF0000>$1</color> inflicted with Sleep..."="<color\=#FF0000>$1</color> inflicted with Sleep..."
+"<color\=#FF0000>$1</color> inflicted with Rage..."="<color\=#FF0000>$1</color> inflicted with Rage..."
+"<color\=#FF0000>$1</color> inflicted with Despair..."="<color\=#FF0000>$1</color> inflicted with Despair..."
+"<color\=#FF0000>$1</color> inflicted with Fear..."="<color\=#FF0000>$1</color> inflicted with Fear..."
+"<color\=#FF0000>$1</color> inflicted with Confuse..."="<color\=#FF0000>$1</color> inflicted with Confuse..."
+"<color\=#FF0000>$1</color> inflicted with Brainwash..."="<color\=#FF0000>$1</color> inflicted with Brainwash..."
+
+"<color\=#FF0000>$1</color> inflicted with Ice Seal..."="<color\=#FF0000>$1</color> inflicted with Ice Seal..."
+"<color\=#FF0000>$1</color> inflicted with Panic..."="<color\=#FF0000>$1</color> inflicted with Panic..."
+"<color\=#FF0000>$1</color> infliced with [$2]..."="<color\=#FF0000>$1</color> infliced with [$2]..."
+
+"<color\=#FF0000>$1</color> recovered from Dizzy!"="<color\=#FF0000>$1</color> recovered from Dizzy!"
+"<color\=#FF0000>$1</color> recovered from Forget!"="<color\=#FF0000>$1</color> recovered from Forget!"
+"<color\=#FF0000>$1</color> recovered from Sleep!"="<color\=#FF0000>$1</color> recovered from Sleep!"
+"<color\=#FF0000>$1</color> recovered from Rage!"="<color\=#FF0000>$1</color> recovered from Rage!"
+"<color\=#FF0000>$1</color> recovered from Despair!"="<color\=#FF0000>$1</color> recovered from Despair!"
+"<color\=#FF0000>$1</color> recovered from Fear!"="<color\=#FF0000>$1</color> recovered from Fear!"
+"<color\=#FF0000>$1</color> recovered from Confuse!"="<color\=#FF0000>$1</color> recovered from Confuse!"
+"<color\=#FF0000>$1</color> recovered from Brainwash!"="<color\=#FF0000>$1</color> recovered from Brainwash!"
+
+"<color\=#FF0000>$1</color> recovered from Ice Seal!"="<color\=#FF0000>$1</color> recovered from Ice Seal!"
+"<color\=#FF0000>$1</color> recovered from [$2]!"="<color\=#FF0000>$1</color> recovered from [$2]!"
+
+"<size\=26><color\=#FF0000>$1</color> marked by $2, DEF Down!</size>"="<size\=26><color\=#FF0000>$1</color> marked by $2, DEF Down!</size>"
+"<color\=#FF0000>$1</color> will escape after $2 turn(s)!"="<color\=#FF0000>$1</color> will escape after $2 turn(s)!"
+
+----------
+Combat Pop-ups for ailments technical
+----------
+"B<color\=#000000>u</color>rn"="B<color\=#000000>u</color>rn"
+"F<color\=#000000>r</color>eeze"="F<color\=#000000>r</color>eeze"
+"S<color\=#000000>h</color>ock"="S<color\=#000000>h</color>ock"
+"W<color\=#000000>i</color>ndswept"="W<color\=#000000>i</color>ndswept"
+"R<color\=#000000>a</color>diation"="R<color\=#000000>a</color>diation"
+"B<color\=#000000>l</color>essing"="B<color\=#000000>l</color>essing"
+"C<color\=#000000>u</color>rse"="C<color\=#000000>u</color>rse"
+
+"D<color\=#000000>o</color>wn"="D<color\=#000000>o</color>wn"
+"D<color\=#000000>i</color>zzy"="D<color\=#000000>i</color>zzy"
+"F<color\=#000000>o</color>rget"="F<color\=#000000>o</color>rget"
+"S<color\=#000000>l</color>eep"="S<color\=#000000>l</color>eep"
+"R<color\=#000000>a</color>ge"="R<color\=#000000>a</color>ge"
+"D<color\=#000000>e</color>spair"="D<color\=#000000>e</color>spair"
+"F<color\=#000000>e</color>ar"="F<color\=#000000>e</color>ar"
+"C<color\=#000000>o</color>nfuse"="C<color\=#000000>o</color>nfuse"
+"B<color\=#000000>r</color>ainwash"="B<color\=#000000>r</color>ainwash"
+
+"I<color\=#000000>c</color>e Burn"="I<color\=#000000>c</color>e Burn"
+"I<color\=#000000>c</color>e Seal"="I<color\=#000000>c</color>e Seal"
+
+----------
+Combat Pop-ups for buffs
+----------
+"S<color\=#000000>t</color>ats Up"="S<color\=#000000>t</color>ats Up"
+"H<color\=#000000>e</color>at Riser"="H<color\=#000000>e</color>at Riser"
+"A<color\=#000000>T</color>K Up"="A<color\=#000000>T</color>K Up"
+"A<color\=#000000>T</color>K Boost"="A<color\=#000000>T</color>K Boost"
+"A<color\=#000000>T</color>K Up"="A<color\=#000000>T</color>K Up"
+"A<color\=#000000>T</color>K Up, DEF Up"="A<color\=#000000>T</color>K Up, DEF Up"
+"D<color\=#000000>E</color>F Up"="D<color\=#000000>E</color>F Up"
+"D<color\=#000000>E</color>Fense Boost"="D<color\=#000000>E</color>Fense Boost"
+"D<color\=#000000>E</color>F Up"="D<color\=#000000>E</color>F Up"
+"P<color\=#000000>e</color>rmanent DEF Up"="P<color\=#000000>e</color>rmanent DEF Up"
+"S<color\=#000000>P</color>D Up"="S<color\=#000000>P</color>D Up"
+"H<color\=#000000>P</color> Up"="H<color\=#000000>P</color> Up"
+"H<color\=#000000>e</color>alth Boost"="H<color\=#000000>e</color>alth Boost"
+"M<color\=#000000>a</color>x HP Up"="M<color\=#000000>a</color>x HP Up"
+"M<color\=#000000>a</color>x HP Up"="M<color\=#000000>a</color>x HP Up"
+"M<color\=#000000>a</color>x HP Up"="M<color\=#000000>a</color>x HP Up"
+"S<color\=#000000>P</color> Recovery Up"="S<color\=#000000>P</color> Recovery Up"
+"P<color\=#000000>i</color>erce Up"="P<color\=#000000>i</color>erce Up"
+"A<color\=#000000>i</color>lment ACC Up"="A<color\=#000000>i</color>lment ACC Up"
+"D<color\=#000000>a</color>mage Boost"="D<color\=#000000>a</color>mage Boost"
+"D<color\=#000000>M</color>G Bonus Up"="D<color\=#000000>M</color>G Bonus Up"
+"D<color\=#000000>M</color>G Bonus Up"="D<color\=#000000>M</color>G Bonus Up"
+"D<color\=#000000>M</color>G Bonus Up"="D<color\=#000000>M</color>G Bonus Up"
+"D<color\=#000000>M</color>G Dealt Up"="D<color\=#000000>M</color>G Dealt Up"
+"D<color\=#000000>M</color>G Dealt Up"="D<color\=#000000>M</color>G Dealt Up"
+"F<color\=#000000>i</color>nal DMG Up"="F<color\=#000000>i</color>nal DMG Up"
+"F<color\=#000000>i</color>nal DMG Dealt Up"="F<color\=#000000>i</color>nal DMG Dealt Up"
+"T<color\=#000000>o</color>tal DMG Up"="T<color\=#000000>o</color>tal DMG Up"
+"F<color\=#000000>o</color>llow Up Buff"="F<color\=#000000>o</color>llow Up Buff"
+"F<color\=#000000>o</color>llow Up DMG Up"="F<color\=#000000>o</color>llow Up DMG Up"
+"D<color\=#000000>M</color>G RES Up"="D<color\=#000000>M</color>G RES Up"
+"D<color\=#000000>M</color>G RES Up"="D<color\=#000000>M</color>G RES Up"
+"D<color\=#000000>M</color>G Taken Down"="D<color\=#000000>M</color>G Taken Down"
+"F<color\=#000000>i</color>nal DMG Taken Down"="F<color\=#000000>i</color>nal DMG Taken Down"
+"C<color\=#000000>r</color>it Rate Up"="C<color\=#000000>r</color>it Rate Up"
+"C<color\=#000000>r</color>it Rate Up"="C<color\=#000000>r</color>it Rate Up"
+"C<color\=#000000>r</color>it DMG Up"="C<color\=#000000>r</color>it DMG Up"
+"C<color\=#000000>r</color>it DMG Up"="C<color\=#000000>r</color>it DMG Up"
+"A<color\=#000000>i</color>lment RES Up"="A<color\=#000000>i</color>lment RES Up"
+"W<color\=#000000>e</color>ak DMG Taken Down"="W<color\=#000000>e</color>ak DMG Taken Down"
+"H<color\=#000000>e</color>aling Up"="H<color\=#000000>e</color>aling Up"
+"H<color\=#000000>e</color>aling Protection"="H<color\=#000000>e</color>aling Protection"
+"S<color\=#000000>h</color>ield Effect Up"="S<color\=#000000>h</color>ield Effect Up"
+"H<color\=#000000>e</color>aling Received Up"="H<color\=#000000>e</color>aling Received Up"
+"S<color\=#000000>h</color>ield Received Up"="S<color\=#000000>h</color>ield Received Up"
+
+"R<color\=#000000>e</color>generate"="R<color\=#000000>e</color>generate"
+"R<color\=#000000>e</color>generate"="R<color\=#000000>e</color>generate"
+"S<color\=#000000>h</color>ield"="S<color\=#000000>h</color>ield"
+"C<color\=#000000>o</color>ncentrate"="C<color\=#000000>o</color>ncentrate"
+
+"P<color\=#000000>h</color>ys DMG Up"="P<color\=#000000>h</color>ys DMG Up"
+"G<color\=#000000>u</color>n DMG Up"="G<color\=#000000>u</color>n DMG Up"
+"F<color\=#000000>i</color>re DMG Up"="F<color\=#000000>i</color>re DMG Up"
+"I<color\=#000000>c</color>e DMG Up"="I<color\=#000000>c</color>e DMG Up"
+"I<color\=#000000>c</color>e DMG Up"="I<color\=#000000>c</color>e DMG Up"
+"E<color\=#000000>l</color>ec DMG Up"="E<color\=#000000>l</color>ec DMG Up"
+"W<color\=#000000>i</color>nd DMG Up"="W<color\=#000000>i</color>nd DMG Up"
+"P<color\=#000000>s</color>y DMG Up"="P<color\=#000000>s</color>y DMG Up"
+"N<color\=#000000>u</color>ke DMG Up"="N<color\=#000000>u</color>ke DMG Up"
+"B<color\=#000000>l</color>ess DMG Up"="B<color\=#000000>l</color>ess DMG Up"
+"C<color\=#000000>u</color>rse DMG Up"="C<color\=#000000>u</color>rse DMG Up"
+"A<color\=#000000>l</color>mighty DMG Up"="A<color\=#000000>l</color>mighty DMG Up"
+
+"P<color\=#000000>h</color>ys DMG Up"="P<color\=#000000>h</color>ys DMG Up"
+"G<color\=#000000>u</color>n DMG Up"="G<color\=#000000>u</color>n DMG Up"
+"F<color\=#000000>i</color>re DMG Up"="F<color\=#000000>i</color>re DMG Up"
+"I<color\=#000000>c</color>e DMG Up"="I<color\=#000000>c</color>e DMG Up"
+"E<color\=#000000>l</color>ec DMG Up"="E<color\=#000000>l</color>ec DMG Up"
+"W<color\=#000000>i</color>nd DMG Up"="W<color\=#000000>i</color>nd DMG Up"
+"P<color\=#000000>s</color>y DMG Up"="P<color\=#000000>s</color>y DMG Up"
+"N<color\=#000000>u</color>ke DMG Up"="N<color\=#000000>u</color>ke DMG Up"
+"B<color\=#000000>l</color>ess DMG Up"="B<color\=#000000>l</color>ess DMG Up"
+"C<color\=#000000>u</color>rse DMG Up"="C<color\=#000000>u</color>rse DMG Up"
+"A<color\=#000000>l</color>mighty DMG Up"="A<color\=#000000>l</color>mighty DMG Up"
+
+"P<color\=#000000>h</color>ys DMG Up"="P<color\=#000000>h</color>ys DMG Up"
+"G<color\=#000000>u</color>n DMG Up"="G<color\=#000000>u</color>n DMG Up"
+"F<color\=#000000>i</color>re DMG Up"="F<color\=#000000>i</color>re DMG Up"
+"I<color\=#000000>c</color>e DMG Up"="I<color\=#000000>c</color>e DMG Up"
+"E<color\=#000000>l</color>ec DMG Up"="E<color\=#000000>l</color>ec DMG Up"
+"W<color\=#000000>i</color>nd DMG Up"="W<color\=#000000>i</color>nd DMG Up"
+"P<color\=#000000>s</color>y DMG Up"="P<color\=#000000>s</color>y DMG Up"
+"N<color\=#000000>u</color>ke DMG Up"="N<color\=#000000>u</color>ke DMG Up"
+"B<color\=#000000>l</color>ess DMG Up"="B<color\=#000000>l</color>ess DMG Up"
+"C<color\=#000000>u</color>rse DMG Up"="C<color\=#000000>u</color>rse DMG Up"
+"A<color\=#000000>l</color>mighty DMG Up"="A<color\=#000000>l</color>mighty DMG Up"
+
+"P<color\=#000000>h</color>ys Boost"="P<color\=#000000>h</color>ys Boost"
+"G<color\=#000000>u</color>n Boost"="G<color\=#000000>u</color>n Boost"
+"F<color\=#000000>i</color>re Boost"="F<color\=#000000>i</color>re Boost"
+"I<color\=#000000>c</color>e Boost"="I<color\=#000000>c</color>e Boost"
+"E<color\=#000000>l</color>ec Boost"="E<color\=#000000>l</color>ec Boost"
+"W<color\=#000000>i</color>nd Boost"="W<color\=#000000>i</color>nd Boost"
+"P<color\=#000000>s</color>y Boost"="P<color\=#000000>s</color>y Boost"
+"N<color\=#000000>u</color>ke Boost"="N<color\=#000000>u</color>ke Boost"
+"B<color\=#000000>l</color>ess Boost"="B<color\=#000000>l</color>ess Boost"
+"C<color\=#000000>u</color>rse Boost"="C<color\=#000000>u</color>rse Boost"
+"A<color\=#000000>l</color>mighty Boost"="A<color\=#000000>l</color>mighty Boost"
+
+"L<color\=#000000>i</color>felink"="L<color\=#000000>i</color>felink"
+"A<color\=#000000>s</color>sassin Buff"="A<color\=#000000>s</color>sassin Buff"
+"S<color\=#000000>w</color>eeper Buff"="S<color\=#000000>w</color>eeper Buff"
+"H<color\=#000000>L</color> Buff"="H<color\=#000000>L</color> Buff"
+"H<color\=#000000>L</color> Buff"="H<color\=#000000>L</color> Buff"
+
+"W<color\=#000000>a</color>rrior's Resonance"="W<color\=#000000>a</color>rrior's Resonance"
+"K<color\=#000000>i</color>netic Surge"="K<color\=#000000>i</color>netic Surge"
+"T<color\=#000000>e</color>mperament Harmony"="T<color\=#000000>e</color>mperament Harmony"
+
+"N<color\=#000000>u</color>ll Down"="N<color\=#000000>u</color>ll Down"
+"N<color\=#000000>u</color>ll Mental/Control Ailment"="N<color\=#000000>u</color>ll Mental/Control Ailment"
+
+----------
+Combat Pop-ups for debuffs
+----------
+"S<color\=#000000>t</color>ats Down"="S<color\=#000000>t</color>ats Down"
+"S<color\=#000000>t</color>ats Down"="S<color\=#000000>t</color>ats Down"
+"D<color\=#000000>e</color>bilitate"="D<color\=#000000>e</color>bilitate"
+"R<color\=#000000>a</color>kunda"="R<color\=#000000>a</color>kunda"
+"A<color\=#000000>T</color>K Down"="A<color\=#000000>T</color>K Down"
+"A<color\=#000000>T</color>K Down"="A<color\=#000000>T</color>K Down"
+"A<color\=#000000>T</color>K Taken Up"="A<color\=#000000>T</color>K Taken Up"
+"D<color\=#000000>E</color>F Down"="D<color\=#000000>E</color>F Down"
+"D<color\=#000000>E</color>F Down"="D<color\=#000000>E</color>F Down"
+"D<color\=#000000>E</color>Fense Nerf"="D<color\=#000000>E</color>Fense Nerf"
+"C<color\=#000000>r</color>it Taken Rate Up"="C<color\=#000000>r</color>it Taken Rate Up"
+"C<color\=#000000>r</color>it Taken Rate Up"="C<color\=#000000>r</color>it Taken Rate Up"
+"C<color\=#000000>r</color>it DMG Taken Up"="C<color\=#000000>r</color>it DMG Taken Up"
+"C<color\=#000000>r</color>it DMG Taken Up"="C<color\=#000000>r</color>it DMG Taken Up"
+"A<color\=#000000>i</color>lment RES Down"="A<color\=#000000>i</color>lment RES Down"
+"H<color\=#000000>e</color>aling Received Down"="H<color\=#000000>e</color>aling Received Down"
+"D<color\=#000000>M</color>G Taken Up"="D<color\=#000000>M</color>G Taken Up"
+"D<color\=#000000>M</color>G Taken Up"="D<color\=#000000>M</color>G Taken Up"
+"D<color\=#000000>M</color>G Taken Up"="D<color\=#000000>M</color>G Taken Up"
+"F<color\=#000000>o</color>llow Up DMG Taken Up"="F<color\=#000000>o</color>llow Up DMG Taken Up"
+"D<color\=#000000>O</color>T Effect Taken Up"="D<color\=#000000>O</color>T Effect Taken Up"
+"D<color\=#000000>o</color>wned DMG Taken Up"="D<color\=#000000>o</color>wned DMG Taken Up"
+"F<color\=#000000>i</color>nal DMG Taken Up"="F<color\=#000000>i</color>nal DMG Taken Up"
+"F<color\=#000000>i</color>nal DMG Taken Up"="F<color\=#000000>i</color>nal DMG Taken Up"
+"F<color\=#000000>i</color>nal DMG Taken Up"="F<color\=#000000>i</color>nal DMG Taken Up"
+"T<color\=#000000>o</color>tal DMG Taken Up"="T<color\=#000000>o</color>tal DMG Taken Up"
+"D<color\=#000000>M</color>G Down"="D<color\=#000000>M</color>G Down"
+"D<color\=#000000>M</color>G Nerf"="D<color\=#000000>M</color>G Nerf"
+"P<color\=#000000>h</color>ys DMG Taken Up"="P<color\=#000000>h</color>ys DMG Taken Up"
+"P<color\=#000000>h</color>ys DMG Taken Up"="P<color\=#000000>h</color>ys DMG Taken Up"
+"P<color\=#000000>h</color>ys DMG Taken Up"="P<color\=#000000>h</color>ys DMG Taken Up"
+"G<color\=#000000>u</color>n DMG Taken Up"="G<color\=#000000>u</color>n DMG Taken Up"
+"G<color\=#000000>u</color>n DMG Taken Up"="G<color\=#000000>u</color>n DMG Taken Up"
+"G<color\=#000000>u</color>n DMG Taken Up"="G<color\=#000000>u</color>n DMG Taken Up"
+"F<color\=#000000>i</color>re DMG Taken Up"="F<color\=#000000>i</color>re DMG Taken Up"
+"F<color\=#000000>i</color>re DMG Taken Up"="F<color\=#000000>i</color>re DMG Taken Up"
+"F<color\=#000000>i</color>re DMG Taken Up"="F<color\=#000000>i</color>re DMG Taken Up"
+"I<color\=#000000>c</color>e DMG Taken Up"="I<color\=#000000>c</color>e DMG Taken Up"
+"I<color\=#000000>c</color>e DMG Taken Up"="I<color\=#000000>c</color>e DMG Taken Up"
+"E<color\=#000000>l</color>ec DMG Taken Up"="E<color\=#000000>l</color>ec DMG Taken Up"
+"E<color\=#000000>l</color>ec DMG Taken Up"="E<color\=#000000>l</color>ec DMG Taken Up"
+"E<color\=#000000>l</color>ec DMG Taken Up"="E<color\=#000000>l</color>ec DMG Taken Up"
+"W<color\=#000000>i</color>nd DMG Taken Up"="W<color\=#000000>i</color>nd DMG Taken Up"
+"W<color\=#000000>i</color>nd DMG Taken Up"="W<color\=#000000>i</color>nd DMG Taken Up"
+"P<color\=#000000>s</color>y DMG Taken Up"="P<color\=#000000>s</color>y DMG Taken Up"
+"P<color\=#000000>s</color>y DMG Taken Up"="P<color\=#000000>s</color>y DMG Taken Up"
+"N<color\=#000000>u</color>ke DMG Taken Up"="N<color\=#000000>u</color>ke DMG Taken Up"
+"N<color\=#000000>u</color>ke DMG Taken Up"="N<color\=#000000>u</color>ke DMG Taken Up"
+"N<color\=#000000>u</color>ke DMG Taken Up"="N<color\=#000000>u</color>ke DMG Taken Up"
+"B<color\=#000000>l</color>ess DMG Taken Up"="B<color\=#000000>l</color>ess DMG Taken Up"
+"B<color\=#000000>l</color>ess DMG Taken Up"="B<color\=#000000>l</color>ess DMG Taken Up"
+"C<color\=#000000>u</color>rse DMG Taken Up"="C<color\=#000000>u</color>rse DMG Taken Up"
+"C<color\=#000000>u</color>rse DMG Taken Up"="C<color\=#000000>u</color>rse DMG Taken Up"
+"A<color\=#000000>l</color>mighty DMG Taken Up"="A<color\=#000000>l</color>mighty DMG Taken Up"
+"W<color\=#000000>e</color>ak DMG Taken Up"="W<color\=#000000>e</color>ak DMG Taken Up"
+"W<color\=#000000>e</color>akness Exposed"="W<color\=#000000>e</color>akness Exposed"
+
+"M<color\=#000000>a</color>rked"="M<color\=#000000>a</color>rked"
+"C<color\=#000000>h</color>anged Affinities"="C<color\=#000000>h</color>anged Affinities"
+"P<color\=#000000>h</color>ys Weakness"="P<color\=#000000>h</color>ys Weakness"
+"G<color\=#000000>u</color>n Weakness"="G<color\=#000000>u</color>n Weakness"
+"F<color\=#000000>i</color>re Weakness"="F<color\=#000000>i</color>re Weakness"
+"I<color\=#000000>c</color>e Weakness"="I<color\=#000000>c</color>e Weakness"
+"E<color\=#000000>l</color>ec Weakness"="E<color\=#000000>l</color>ec Weakness"
+"W<color\=#000000>i</color>nd Weakness"="W<color\=#000000>i</color>nd Weakness"
+"P<color\=#000000>s</color>y Weakness"="P<color\=#000000>s</color>y Weakness"
+"N<color\=#000000>u</color>ke Weakness"="N<color\=#000000>u</color>ke Weakness"
+"B<color\=#000000>l</color>ess Weakness"="B<color\=#000000>l</color>ess Weakness"
+"C<color\=#000000>u</color>rse Weakness"="C<color\=#000000>u</color>rse Weakness"
+
+"R<color\=#000000>e</color>sist Phys"="R<color\=#000000>e</color>sist Phys"
+"R<color\=#000000>e</color>sist Gun"="R<color\=#000000>e</color>sist Gun"
+"R<color\=#000000>e</color>sist Fire"="R<color\=#000000>e</color>sist Fire"
+"R<color\=#000000>e</color>sist Ice"="R<color\=#000000>e</color>sist Ice"
+"R<color\=#000000>e</color>sist Elec"="R<color\=#000000>e</color>sist Elec"
+"R<color\=#000000>e</color>sist Wind"="R<color\=#000000>e</color>sist Wind"
+"R<color\=#000000>e</color>sist Psy"="R<color\=#000000>e</color>sist Psy"
+"R<color\=#000000>e</color>sist Nuke"="R<color\=#000000>e</color>sist Nuke"
+"R<color\=#000000>e</color>sist Bless"="R<color\=#000000>e</color>sist Bless"
+"R<color\=#000000>e</color>sist Curse"="R<color\=#000000>e</color>sist Curse"
+
+"N<color\=#000000>u</color>ll Phys"="N<color\=#000000>u</color>ll Phys"
+"N<color\=#000000>u</color>ll Gun"="N<color\=#000000>u</color>ll Gun"
+"N<color\=#000000>u</color>ll Fire"="N<color\=#000000>u</color>ll Fire"
+"N<color\=#000000>u</color>ll Ice"="N<color\=#000000>u</color>ll Ice"
+"N<color\=#000000>u</color>ll Elec"="N<color\=#000000>u</color>ll Elec"
+"N<color\=#000000>u</color>ll Wind"="N<color\=#000000>u</color>ll Wind"
+"N<color\=#000000>u</color>ll Psy"="N<color\=#000000>u</color>ll Psy"
+"N<color\=#000000>u</color>ll Nuke"="N<color\=#000000>u</color>ll Nuke"
+"N<color\=#000000>u</color>ll Bless"="N<color\=#000000>u</color>ll Bless"
+"N<color\=#000000>u</color>ll Curse"="N<color\=#000000>u</color>ll Curse"
+
+"R<color\=#000000>e</color>pel Phys"="R<color\=#000000>e</color>pel Phys"
+"R<color\=#000000>e</color>pel Gun"="R<color\=#000000>e</color>pel Gun"
+"R<color\=#000000>e</color>pel Fire"="R<color\=#000000>e</color>pel Fire"
+"R<color\=#000000>e</color>pel Ice"="R<color\=#000000>e</color>pel Ice"
+"R<color\=#000000>e</color>pel Elec"="R<color\=#000000>e</color>pel Elec"
+"R<color\=#000000>e</color>pel Wind"="R<color\=#000000>e</color>pel Wind"
+"R<color\=#000000>e</color>pel Psy"="R<color\=#000000>e</color>pel Psy"
+"R<color\=#000000>e</color>pel Nuke"="R<color\=#000000>e</color>pel Nuke"
+"R<color\=#000000>e</color>pel Bless"="R<color\=#000000>e</color>pel Bless"
+"R<color\=#000000>e</color>pel Curse"="R<color\=#000000>e</color>pel Curse"
+
+"D<color\=#000000>r</color>ain Phys"="D<color\=#000000>r</color>ain Phys"
+"D<color\=#000000>r</color>ain Gun"="D<color\=#000000>r</color>ain Gun"
+"D<color\=#000000>r</color>ain Fire"="D<color\=#000000>r</color>ain Fire"
+"D<color\=#000000>r</color>ain Ice"="D<color\=#000000>r</color>ain Ice"
+"D<color\=#000000>r</color>ain Elec"="D<color\=#000000>r</color>ain Elec"
+"D<color\=#000000>r</color>ain Wind"="D<color\=#000000>r</color>ain Wind"
+"D<color\=#000000>r</color>ain Psy"="D<color\=#000000>r</color>ain Psy"
+"D<color\=#000000>r</color>ain Nuke"="D<color\=#000000>r</color>ain Nuke"
+"D<color\=#000000>r</color>ain Bless"="D<color\=#000000>r</color>ain Bless"
+"D<color\=#000000>r</color>ain Curse"="D<color\=#000000>r</color>ain Curse"
+
+----------
+Inspect Details - TITLES
+----------
+Stats Nerf=Stats Nerf
+Stats Nerf=Stats Nerf
+Increase HP=Increase HP
+Increase ATK=Increase ATK
+Increase ATK=Increase ATK
+Decrease ATK=Decrease ATK
+Increase DEF=Increase DEF
+Increase DEF=Increase DEF
+Permanently increase DEF=Permanently increase DEF
+Decrease DEF=Decrease DEF
+Decrease DEF=Decrease DEF
+DEF Nerf=DEF Nerf
+Increase Speed=Increase Speed
+Increase Damage=Increase Damage
+Increase DMG Bonus=Increase DMG Bonus
+^From Throne
+Damage Nerf=Damage Nerf
+Increase Crit Rate=Increase Crit Rate
+Increase Crit Rate=Increase Crit Rate
+Increase Crit Taken Rate=Increase Crit Taken Rate
+Increase Crit DMG=Increase Crit DMG
+Increase Crit DMG=Increase Crit DMG
+Increase Pierce=Increase Pierce
+Increase Ailment ACC=Increase Ailment ACC
+Increase Ailment ACC=Increase Ailment ACC
+Increase Ailment RES=Increase Ailment RES
+Damage Boost=Damage Boost
+Increase DMG Dealt=Increase DMG Dealt
+Increase HIGHLIGHT DMG=Increase HIGHLIGHT DMG
+Increase DMG Dealt=Increase DMG Dealt
+Increase DMG Dealt=Increase DMG Dealt
+Increase Final DMG=Increase Final DMG
+Increase Final DMG=Increase Final DMG
+Increase Final DMG Dealt=Increase Final DMG Dealt
+Increase DMG RES=Increase DMG RES
+Increase DMG Taken=Increase DMG Taken
+Increase DMG Taken=Increase DMG Taken
+Increase DMG Taken=Increase DMG Taken
+Increase DMG Taken=Increase DMG Taken
+Increase Crit DMG Taken=Increase Crit DMG Taken
+Increase {{A}} DMG Taken=Increase {{A}} DMG Taken
+Increase HIGHLIGHT DMG Taken=Increase HIGHLIGHT DMG Taken
+Increase Follow Up DMG Taken=Increase Follow Up DMG Taken
+Increase DOT Effect Taken=Increase DOT Effect Taken
+<size\=23>Decrease Percentage DMG Taken</size>=<size\=23>Decrease Percentage DMG Taken</size>
+Decrease Percentage DMG Taken=Decrease Percentage DMG Taken
+Decrease Percentage DMG Taken=Decrease Percentage DMG Taken
+Heavily decrease Percentage DMG Taken=Heavily decrease Percentage DMG Taken
+Severely decrease Percentage DMG Taken=Severely decrease Percentage DMG Taken
+Severely decrease Percentage DMG Taken=Severely decrease Percentage DMG Taken
+Increase Final DMG Taken=Increase Final DMG Taken
+Increase Final DMG Taken=Increase Final DMG Taken
+Dcrease Final DMG Taken=Dcrease Final DMG Taken
+Decrease Final DMG Taken=Decrease Final DMG Taken
+Increase Total DMG Taken=Increase Total DMG Taken
+Increase Final DMG RES=Increase Final DMG RES
+Increase Fire DMG=Increase Fire DMG
+Increase Fire DMG=Increase Fire DMG
+Increase Ice DMG=Increase Ice DMG
+Increase Ice DMG=Increase Ice DMG
+Increase Ice DMG=Increase Ice DMG
+Increase Ice DMG=Increase Ice DMG
+Increase Fire, Ice DMG=Increase Fire, Ice DMG
+Increase Elec DMG=Increase Elec DMG
+Increase Elec DMG=Increase Elec DMG
+Increase Wind DMG=Increase Wind DMG
+Increase Wind DMG=Increase Wind DMG
+Increase Elec, Wind DMG=Increase Elec, Wind DMG
+Increase Psy DMG=Increase Psy DMG
+Increase Psy DMG=Increase Psy DMG
+Increase Nuke DMG=Increase Nuke DMG
+Increase Nuke DMG=Increase Nuke DMG
+Increase Psy, Nuke DMG=Increase Psy, Nuke DMG
+Increase Bless DMG=Increase Bless DMG
+Increase Bless DMG=Increase Bless DMG
+Increase Curse DMG=Increase Curse DMG
+Increase Curse DMG=Increase Curse DMG
+Increase Bless, Curse DMG=Increase Bless, Curse DMG
+Increase Almighty DMG=Increase Almighty DMG
+Increase Almighty DMG=Increase Almighty DMG
+Increase Weak DMG=Increase Weak DMG
+Increase RES Pierce=Increase RES Pierce
+
+<size\=26>Increase Healing Effect</size>=<size\=26>Increase Healing Effect</size>
+Increase Shield Effect=Increase Shield Effect
+Decrease Healing Received=Decrease Healing Received
+Decrease Healing Received=Decrease Healing Received
+
+Increase Weak DMG Taken=Increase Weak DMG Taken
+Decrease Weak DMG Taken=Decrease Weak DMG Taken
+Increase Phys DMG Taken=Increase Phys DMG Taken
+Increase Phys DMG Taken=Increase Phys DMG Taken
+Increase Gun DMG Taken=Increase Gun DMG Taken
+Increase Gun DMG Taken=Increase Gun DMG Taken
+Increase Fire DMG Taken=Increase Fire DMG Taken
+Increase Fire DMG Taken=Increase Fire DMG Taken
+Increase Fire DMG Taken=Increase Fire DMG Taken
+Increase Ice DMG Taken=Increase Ice DMG Taken
+Increase Ice DMG Taken=Increase Ice DMG Taken
+Increase Elec DMG Taken=Increase Elec DMG Taken
+Increase Elec DMG Taken=Increase Elec DMG Taken
+Increase Wind DMG Taken=Increase Wind DMG Taken
+Increase Wind DMG Taken=Increase Wind DMG Taken
+Increase Psy DMG Taken=Increase Psy DMG Taken
+Increase Psy DMG Taken=Increase Psy DMG Taken
+Increase Psy DMG Taken=Increase Psy DMG Taken
+Increase Psy DMG Taken=Increase Psy DMG Taken
+Increase Nuke DMG Taken=Increase Nuke DMG Taken
+Increase Nuke DMG Taken=Increase Nuke DMG Taken
+Increase Nuke DMG Taken=Increase Nuke DMG Taken
+Increase Nuke DMG Taken=Increase Nuke DMG Taken
+Increase Bless DMG Taken=Increase Bless DMG Taken
+Increase Bless DMG Taken=Increase Bless DMG Taken
+Increase Bless DMG Taken=Increase Bless DMG Taken
+Increase Bless DMG Taken=Increase Bless DMG Taken
+Increase Curse DMG Taken=Increase Curse DMG Taken
+Increase Curse DMG Taken=Increase Curse DMG Taken
+Increase Curse DMG Taken=Increase Curse DMG Taken
+Increase Curse DMG Taken=Increase Curse DMG Taken
+Increase Almighty DMG Taken=Increase Almighty DMG Taken
+Increase Almighty DMG Taken=Increase Almighty DMG Taken
+
+Resist Phys=Resist Phys
+Resist Gun=Resist Gun
+Resist Fire=Resist Fire
+Resist Ice=Resist Ice
+Resist Elec=Resist Elec
+Resist Wind=Resist Wind
+Resist Psy=Resist Psy
+Resist Nuke=Resist Nuke
+Resist Bless=Resist Bless
+Resist Curse=Resist Curse
+
+Null Phys=Null Phys
+Null Gun=Null Gun
+Null Fire=Null Fire
+Null Ice=Null Ice
+Null Elec=Null Elec
+Null Wind=Null Wind
+Null Psy=Null Psy
+Null Nuke=Null Nuke
+Null Bless=Null Bless
+Null Curse=Null Curse
+
+Repel Phys=Repel Phys
+Repel Gun=Repel Gun
+Repel Fire=Repel Fire
+Repel Ice=Repel Ice
+Repel Elec=Repel Elec
+Repel Wind=Repel Wind
+Repel Psy=Repel Psy
+Repel Nuke=Repel Nuke
+Repel Bless=Repel Bless
+Repel Curse=Repel Curse
+
+Drain Phys=Drain Phys
+Drain Gun=Drain Gun
+Drain Fire=Drain Fire
+Drain Ice=Drain Ice
+Drain Elec=Drain Elec
+Drain Wind=Drain Wind
+Drain Psy=Drain Psy
+Drain Nuke=Drain Nuke
+Drain Bless=Drain Bless
+Drain Curse=Drain Curse
+
+Negate Phys resistance=Negate Phys resistance
+Negate Gun resistance=Negate Gun resistance
+Negate Fire resistance=Negate Fire resistance
+Negate Ice resistance=Negate Ice resistance
+Negate Elec resistance=Negate Elec resistance
+Negate Wind resistance=Negate Wind resistance
+Negate Psy resistance=Negate Psy resistance
+Negate Nuke resistance=Negate Nuke resistance
+Negate Bless resistance=Negate Bless resistance
+Negate Curse resistance=Negate Curse resistance
+
+Marked=Marked
+Auto-Mataru IV=Auto-Mataru IV
+Auto-Mataru III=Auto-Mataru III
+Auto-Mataru III=Auto-Mataru III
+Auto-Mataru I=Auto-Mataru I
+Auto-Maraku IV=Auto-Maraku IV
+Auto-Maraku III=Auto-Maraku III
+Auto-Maraku II=Auto-Maraku II
+Auto-Maraku I=Auto-Maraku I
+Regenerate=Regenerate
+
+Null Damage=Null Damage
+Null Insta-Kill=Null Insta-Kill
+Null Mental Ailment=Null Mental Ailment
+Null Down=Null Down
+Null Mental/Control Ailment=Null Mental/Control Ailment
+Null Confuse=Null Confuse
+Null Fear=Null Fear
+Null Despair=Null Despair
+Null Fear/Despair=Null Fear/Despair
+
+Untargetable=Untargetable
+Down=Down
+Knocked down!=Knocked down!
+"Knocked down! \nIncrease Downed DMG Taken by $1"="Knocked down! \nIncrease Downed DMG Taken by $1"
+
+----------
+Inspect Details - BUFF
+----------
+Many stats up=Many stats up
+"Increase {{A}} by $1"="Increase {{A}} by $1"
+"Increase all characters' {{A}} by $1"="Increase all characters' {{A}} by $1"
+"Shield: $1"="Shield: $1"
+"Total Shield: $1"="Total Shield: $1"
+"Bonus Shield: $1"="Bonus Shield: $1"
+"Total Shield: $1"="Total Shield: $1"
+Shield from {{A}}'s Power,\ncan negate some damage=Shield from {{A}}'s Power,\ncan negate some damage
+"Increase HP by $1"="Increase HP by $1"
+"Increase Max HP by $1"="Increase Max HP by $1"
+"Increase Max HP by $1"="Increase Max HP by $1"
+"Increase all characters' Total HP by $1"="Increase all characters' Total HP by $1"
+"Increase all foes' Final HP by $1"="Increase all foes' Final HP by $1"
+"Increase ATK by $1"="Increase ATK by $1"
+"Increase ATK by $1"="Increase ATK by $1"
+"Increase ATK by $1"="Increase ATK by $1"
+"Increase ATK by $1 + $2"="Increase ATK by $1 + $2"
+"Increase ATK by $1"="Increase ATK by $1"
+"Permanently increase ATK by $1"="Permanently increase ATK by $1"
+"Increase ATK by $1 per stack"="Increase ATK by $1 per stack"
+"Increase Final ATK by $1"="Increase Final ATK by $1"
+"Increase ATK by $1 and DEF by $2"="Increase ATK by $1 and DEF by $2"
+"Increase ATK and DEF"="Increase ATK and DEF"
+"Increase ATK and DEF by $1"="Increase ATK and DEF by $1"
+"<size\=27>Increase ATK by $1 and DMG Dealt by $2</size>"="<size\=27>Increase ATK by $1 and DMG Dealt by $2</size>"
+"When using a Phys skill, increase ATK by $1"="When using a Phys skill, increase ATK by $1"
+"When activating a TECHNICAL, increase ATK by $1"="When activating a TECHNICAL, increase ATK by $1"
+"When activating a TECHNICAL, \nincrease ATK by $1 and Crit DMG by $2"="When activating a TECHNICAL, \nincrease ATK by $1 and Crit DMG by $2"
+"Increase DEF by $1"="Increase DEF by $1"
+"Increase DEF by $1"="Increase DEF by $1"
+"Permanently increase DEF by $1"="Permanently increase DEF by $1"
+"Increase Final DEF by $1"="Increase Final DEF by $1"
+"Increase all characters' Total DEF by $1"="Increase all characters' Total DEF by $1"
+"Increase DEF by $1 when Shielded"="Increase DEF by $1 when Shielded"
+"Decrease SP cost by $1"="Decrease SP cost by $1"
+"Increase Speed by $1"="Increase Speed by $1"
+"Increase Crit Rate by $1"="Increase Crit Rate by $1"
+"Increase Crit Rate by $1 and Crit DMG by $2"="Increase Crit Rate by $1 and Crit DMG by $2"
+"During this effect,\nincrease all allies' Crit Rate by $1"="During this effect,\nincrease all allies' Crit Rate by $1"
+"On Extra Actions, increase Crit Rate by $1 and Crit DMG by $2"="On Extra Actions, increase Crit Rate by $1 and Crit DMG by $2"
+"Increase Crit DMG by $1"="Increase Crit DMG by $1"
+"Increase Crit DMG by $1"="Increase Crit DMG by $1"
+"When dealing Elec damage,\nincrease Crit DMG by $1"="When dealing Elec damage,\nincrease Crit DMG by $1"
+"Increase Crit DMG by $1 more"="Increase Crit DMG by $1 more"
+"Decrease Crit DMG Taken by $1"="Decrease Crit DMG Taken by $1"
+"Increase SP Recovery by $1"="Increase SP Recovery by $1"
+"Increase TECHNICAL Mastery by $1"="Increase TECHNICAL Mastery by $1"
+"Increase TECHNICAL Mastery by $1"="Increase TECHNICAL Mastery by $1"
+"Increase Pierce by $1"="Increase Pierce by $1"
+"Increase Pierce by $1.\nStacks up to $2 times"="Increase Pierce by $1.\nStacks up to $2 times"
+"Increase Ailment ACC by $1"="Increase Ailment ACC by $1"
+"Increase Ailment ACC by $1 when inflicting Elemental Ailments/Mental Ailments"="Increase Ailment ACC by $1 when inflicting Elemental Ailments/Mental Ailments"
+"Increase RES Pierce by $1"="Increase RES Pierce by $1"
+"Increase Final DMG based on Ailment ACC.\nCurrent increase: $1"="Increase Final DMG based on Ailment ACC.\nCurrent increase: $1"
+"Increase Ailment RES by $1"="Increase Ailment RES by $1"
+"Increase Final DMG by $1"="Increase Final DMG by $1"
+"Increase Final DMG by $1"="Increase Final DMG by $1"
+"Increase Final DMG by $1 per stack"="Increase Final DMG by $1 per stack"
+"Increase Final DMG Amp by $1"="Increase Final DMG Amp by $1"
+"Increase all characters' Final DMG by $1"="Increase all characters' Final DMG by $1"
+"Increase Final DMG by $1"="Increase Final DMG by $1"
+"Increase Final DMG by $1;\nIncrease Final DMG Taken by $2"="Increase Final DMG by $1;\nIncrease Final DMG Taken by $2"
+"Decrease Final DMG by $1;\nDecrease Final DMG Taken by $2"="Decrease Final DMG by $1;\nDecrease Final DMG Taken by $2"
+"Increase Final DMG by $1.\nStacks up to $2 times"="Increase Final DMG by $1.\nStacks up to $2 times"
+"Increase Final DMG by $1.\nStacks up to $2 times"="Increase Final DMG by $1.\nStacks up to $2 times"
+"<size\=26>Increase Final DMG by $1 during Extra Action</size>"="<size\=26>Increase Final DMG by $1 during Extra Action</size>"
+"Increase Final DMG Dealt by $1, if you are in Extra Action, increase Final DMG Dealt by $2 more"="Increase Final DMG Dealt by $1, if you are in Extra Action, increase Final DMG Dealt by $2 more"
+"Increase DMG Dealt by $1 when dealing Damage Over Time"="Increase DMG Dealt by $1 when dealing Damage Over Time"
+"Increase Final DMG by $1 when dealing Damage Over Time"="Increase Final DMG by $1 when dealing Damage Over Time"
+Increase Total DMG Amp=Increase Total DMG Amp
+"Increase Total DMG Amp by $1"="Increase Total DMG Amp by $1"
+"Increase Total DMG Amp by $1"="Increase Total DMG Amp by $1"
+"Increase Total DMG Amp by $1"="Increase Total DMG Amp by $1"
+"Increase DMG Bonus by $1"="Increase DMG Bonus by $1"
+"Increase DMG Bonus by $1"="Increase DMG Bonus by $1"
+"Increase DMG Bonus by $1"="Increase DMG Bonus by $1"
+"Increase DMG Dealt by $1"="Increase DMG Dealt by $1"
+"Increase DMG Dealt by $1"="Increase DMG Dealt by $1"
+"Increase DMG Dealt by $1"="Increase DMG Dealt by $1"
+"Increase DMG Dealt by $1.\nStacks up to $2 times"="Increase DMG Dealt by $1.\nStacks up to $2 times"
+"Increase DMG Dealt by $1"="Increase DMG Dealt by $1"
+"Increase DMG Dealt by $1.\nStacks up to $2 times"="Increase DMG Dealt by $1.\nStacks up to $2 times"
+"Increase DMG Dealt by $1; \nIncrease DMG Taken by $2"="Increase DMG Dealt by $1; \nIncrease DMG Taken by $2"
+"Increase Final DMG Dealt by $1"="Increase Final DMG Dealt by $1"
+"Increase Final DMG Dealt by $1"="Increase Final DMG Dealt by $1"
+"Increase Final DMG Dealt by $1"="Increase Final DMG Dealt by $1"
+"Increase Final DMG Dealt by $1 more"="Increase Final DMG Dealt by $1 more"
+"Increase Skill DMG by $1"="Increase Skill DMG by $1"
+"Increase your next Skill DMG by $1"="Increase your next Skill DMG by $1"
+"Increase the DMG Dealt of your next skill"="Increase the DMG Dealt of your next skill"
+"Increase next Phys damage"="Increase next Phys damage"
+"Increase next Magic damage"="Increase next Magic damage"
+"Increase DMG RES by $1"="Increase DMG RES by $1"
+"Increase {{A}} DMG by $1"="Increase {{A}} DMG by $1"
+"Increase {{A}} DMG by $1"="Increase {{A}} DMG by $1"
+"Increase {{A}}'s DMG Dealt by $1"="Increase {{A}}'s DMG Dealt by $1"
+"<size\=26>Increase Melee Attack/Gun Attack DMG by $1</size>"="<size\=26>Increase Melee Attack/Gun Attack DMG by $1</size>"
+Gun Attack has Guaranteed Critical=Gun Attack has Guaranteed Critical
+"Increase Gun Attack DMG Dealt by $1"="Increase Gun Attack DMG Dealt by $1"
+"Increase Follow Up DMG Dealt by $1"="Increase Follow Up DMG Dealt by $1"
+"Increase Follow Up Crit DMG by $1 and ATK by $2"="Increase Follow Up Crit DMG by $1 and ATK by $2"
+"Increase Follow Up DMG by $1"="Increase Follow Up DMG by $1"
+"Increase Follow Up Final DMG by $1"="Increase Follow Up Final DMG by $1"
+"Increase Follow Up Final DMG by $1"="Increase Follow Up Final DMG by $1"
+"Increase Follow Up Final DMG by $1"="Increase Follow Up Final DMG by $1"
+"Increase HIGHLIGHT DMG Dealt by $1"="Increase HIGHLIGHT DMG Dealt by $1"
+"Increase HIGHLIGHT DMG Dealt by $1"="Increase HIGHLIGHT DMG Dealt by $1"
+"Increase HIGHLIGHT Final DMG by $1"="Increase HIGHLIGHT Final DMG by $1"
+"Increase HIGHLIGHT/{{A}} Final DMG Dealt by $1"="Increase HIGHLIGHT/{{A}} Final DMG Dealt by $1"
+"Increase HIGHLIGHT/{{A}} Final DMG Dealt by $1"="Increase HIGHLIGHT/{{A}} Final DMG Dealt by $1"
+"Increase Damage Over Time Effect by $1"="Increase Damage Over Time Effect by $1"
+"Increase Damage Over Time Effect by $1"="Increase Damage Over Time Effect by $1"
+"Increase DMG RES by $1"="Increase DMG RES by $1"
+"Decrease DMG Taken by $1"="Decrease DMG Taken by $1"
+"Decrease DMG Taken by $1"="Decrease DMG Taken by $1"
+"Heavily decrease DMG Taken%"="Heavily decrease DMG Taken%"
+"Severely decrease DMG Taken%"="Severely decrease DMG Taken%"
+"Severely decrease DMG Taken%"="Severely decrease DMG Taken%"
+"Decrease Final DMG Taken by $1, lose $2 stack after taking Follow Up damage"="Decrease Final DMG Taken by $1, lose $2 stack after taking Follow Up damage"
+"Decrease Final DMG Taken by $1"="Decrease Final DMG Taken by $1"
+"Decrease Final DMG Taken by $1"="Decrease Final DMG Taken by $1"
+"Decrease Final DMG Taken by $1"="Decrease Final DMG Taken by $1"
+"Decrease Final DMG Taken by $1"="Decrease Final DMG Taken by $1"
+"Decrease all characters' Final DMG Taken by $1"="Decrease all characters' Final DMG Taken by $1"
+"Heavily decrease Final DMG Taken"="Heavily decrease Final DMG Taken"
+"<size\=24>Decrease damage when taking the next hit by $1</size>"="<size\=24>Decrease damage when taking the next hit by $1</size>"
+"Decrease DMG Taken by $1"="Decrease DMG Taken by $1"
+"Increase Weak DMG by $1"="Increase Weak DMG by $1"
+"Increase Weak DMG Taken by $1"="Increase Weak DMG Taken by $1"
+"Decrease Weak DMG Taken by $1"="Decrease Weak DMG Taken by $1"
+"Increase Phys DMG Taken by $1"="Increase Phys DMG Taken by $1"
+"Increase Phys DMG by $1"="Increase Phys DMG by $1"
+"Increase Phys DMG by $1"="Increase Phys DMG by $1"
+"<size\=24>Increase damage by $1 when using Phys skills</size>"="<size\=24>Increase damage by $1 when using Phys skills</size>"
+"Increase damage, ATK, and Crit DMG \nwhen using Phys skills"="Increase damage, ATK, and Crit DMG \nwhen using Phys skills"
+Gun {{A}} skill has Guaranteed Critical=Gun {{A}} skill has Guaranteed Critical
+"Increase Gun DMG by $1"="Increase Gun DMG by $1"
+"Increase Gun DMG by $1"="Increase Gun DMG by $1"
+"Increase Gun Final DMG Dealt by $1"="Increase Gun Final DMG Dealt by $1"
+"When dealing Gun damage, \nincrease Crit DMG by $1"="When dealing Gun damage, \nincrease Crit DMG by $1"
+"Increase Fire DMG by $1"="Increase Fire DMG by $1"
+"Increase Fire DMG by $1"="Increase Fire DMG by $1"
+"Increase Fire DMG by $1"="Increase Fire DMG by $1"
+"Increase Fire Final DMG Dealt by $1"="Increase Fire Final DMG Dealt by $1"
+"Increase Fire DMG by $1"="Increase Fire DMG by $1"
+"Increase Fire DMG by $1"="Increase Fire DMG by $1"
+"Increase Ice DMG by $1"="Increase Ice DMG by $1"
+"Increase Ice DMG by $1"="Increase Ice DMG by $1"
+"Increase Ice DMG Dealt by $1"="Increase Ice DMG Dealt by $1"
+"Increase Ice Final DMG Dealt by $1"="Increase Ice Final DMG Dealt by $1"
+"Increase Ice DMG by $1"="Increase Ice DMG by $1"
+"Increase Ice DMG by $1"="Increase Ice DMG by $1"
+"Increase Ice DMG by $1 per stack"="Increase Ice DMG by $1 per stack"
+"Increase Fire, Ice DMG by $1"="Increase Fire, Ice DMG by $1"
+"Increase Elec DMG by $1"="Increase Elec DMG by $1"
+"Increase Elec DMG by $1"="Increase Elec DMG by $1"
+"Increase Elec DMG by $1"="Increase Elec DMG by $1"
+"Increase Elec DMG by $1 per stack"="Increase Elec DMG by $1 per stack"
+"Increase Elec DMG Dealt by $1"="Increase Elec DMG Dealt by $1"
+"Increase Elec Final DMG Dealt by $1"="Increase Elec Final DMG Dealt by $1"
+"Increase Wind DMG by $1"="Increase Wind DMG by $1"
+"Increase Wind DMG by $1"="Increase Wind DMG by $1"
+"Increase Wind Final DMG Dealt by $1"="Increase Wind Final DMG Dealt by $1"
+"Increase Elec, Wind DMG by $1"="Increase Elec, Wind DMG by $1"
+"Increase Psy DMG by $1"="Increase Psy DMG by $1"
+"Increase Psy DMG by $1"="Increase Psy DMG by $1"
+"Increase Psy DMG by $1"="Increase Psy DMG by $1"
+"Increase Psy Final DMG Dealt by $1"="Increase Psy Final DMG Dealt by $1"
+"Increase Nuke DMG by $1"="Increase Nuke DMG by $1"
+"Increase Nuke DMG by $1"="Increase Nuke DMG by $1"
+"Increase Nuke DMG by $1"="Increase Nuke DMG by $1"
+"Increase Nuke Final DMG Dealt by $1"="Increase Nuke Final DMG Dealt by $1"
+"Increase Nuke DMG by $1 per stack"="Increase Nuke DMG by $1 per stack"
+"Increase Psy, Nuke DMG by $1"="Increase Psy, Nuke DMG by $1"
+"Increase Bless DMG by $1"="Increase Bless DMG by $1"
+"Increase Bless DMG by $1"="Increase Bless DMG by $1"
+"Increase Bless Final DMG Dealt by $1"="Increase Bless Final DMG Dealt by $1"
+"Increase Curse DMG by $1"="Increase Curse DMG by $1"
+"Increase Curse DMG by $1"="Increase Curse DMG by $1"
+"Increase Curse DMG by $1"="Increase Curse DMG by $1"
+"Increase Bless, Curse DMG by $1"="Increase Bless, Curse DMG by $1"
+"Increase Almighty DMG by $1"="Increase Almighty DMG by $1"
+"Increase Almighty DMG by $1"="Increase Almighty DMG by $1"
+"Increase Almighty DMG by $1"="Increase Almighty DMG by $1"
+"Increase Healing Effect by $1"="Increase Healing Effect by $1"
+"Increase Healing Received by $1"="Increase Healing Received by $1"
+"Increase Shield Effect by $1"="Increase Shield Effect by $1"
+"Increase Shield Received by $1"="Increase Shield Received by $1"
+"Shield: $1"="Shield: $1"
+Restore HP at the end of each turn=Restore HP at the end of each turn
+"Increase HIGHLIGHT Energy recovery rate by $1"="Increase HIGHLIGHT Energy recovery rate by $1"
+
+"Changed $1 affinity to Resist"="Changed $1 affinity to Resist"
+Affinities have changed=Affinities have changed
+
+Nullify all damage=Nullify all damage
+Nullify next damage=Nullify next damage
+Nullify next damage=Nullify next damage
+<size\=26>Damage will be shared by all units with Lifelink</size>=<size\=26>Damage will be shared by all units with Lifelink</size>
+Nullify Insta-Kill=Nullify Insta-Kill
+Nullify Mental Ailments=Nullify Mental Ailments
+Nullify Confuse=Nullify Confuse
+Nullify Fear=Nullify Fear
+Nullify Despair=Nullify Despair
+Nullify Fear, Despair effects=Nullify Fear, Despair effects
+Nullify Dizzy, Forget, Sleep, Confuse=Nullify Dizzy, Forget, Sleep, Confuse
+Nullify Down Point damage=Nullify Down Point damage
+Nullify Mental and Control Ailments=Nullify Mental and Control Ailments
+Cannot be targeted by Thieves=Cannot be targeted by Thieves
+Cannot be targeted by Thieves, \nnullify damage=Cannot be targeted by Thieves, \nnullify damage
+Can negate some damage=Can negate some damage
+
+----------
+Inspect Details - DEBUFF
+----------
+"Decrease {{A}} by $1"="Decrease {{A}} by $1"
+"Decrease ATK, DEF, Ailment ACC, \nand Ailment RES by $1"="Decrease ATK, DEF, Ailment ACC, \nand Ailment RES by $1"
+"Decrease Max HP by $1"="Decrease Max HP by $1"
+"Decrease Max HP by $1"="Decrease Max HP by $1"
+"Decrease Final HP by $1"="Decrease Final HP by $1"
+"Increase SP cost by $1"="Increase SP cost by $1"
+"Decrease ATK by $1"="Decrease ATK by $1"
+"Decrease ATK by $1"="Decrease ATK by $1"
+"Decrease DEF by $1"="Decrease DEF by $1"
+"Decrease DEF by $1"="Decrease DEF by $1"
+"Decrease Total DEF by $1"="Decrease Total DEF by $1"
+"Decrease DEF by $1.\nStacks up to $2 times"="Decrease DEF by $1.\nStacks up to $2 times"
+"Decrease all Thieves' DEF by $1"="Decrease all Thieves' DEF by $1"
+"When attacked by a Sweeper, \nincrease Crit Taken Rate by $1"="When attacked by a Sweeper, \nincrease Crit Taken Rate by $1"
+"Increase Crit DMG Taken by $1"="Increase Crit DMG Taken by $1"
+"When inflicted with Shock,\nincrease Crit DMG Taken by $1"="When inflicted with Shock,\nincrease Crit DMG Taken by $1"
+"Decrease Ailment RES by $1"="Decrease Ailment RES by $1"
+"Decrease Healing Received by $1"="Decrease Healing Received by $1"
+"Decrease DMG Bonus by $1"="Decrease DMG Bonus by $1"
+Increase DMG Taken=Increase DMG Taken
+"Increase DMG Taken by $1"="Increase DMG Taken by $1"
+"Increase DMG Taken by $1"="Increase DMG Taken by $1"
+"Increase DMG Taken by $1"="Increase DMG Taken by $1"
+"Increase DMG Taken by $1, \ncannot be dispelled"="Increase DMG Taken by $1, \ncannot be dispelled"
+"Increase DMG Taken by $1"="Increase DMG Taken by $1"
+"Increase DMG Taken by $1"="Increase DMG Taken by $1"
+"Increase Final DMG RES by $1"="Increase Final DMG RES by $1"
+"Increase Downed DMG Taken by $1"="Increase Downed DMG Taken by $1"
+"Increase {{A}} DMG Taken by $1"="Increase {{A}} DMG Taken by $1"
+Increase TECHNICAL DMG Taken=Increase TECHNICAL DMG Taken
+
+"Reached $1 stacks of Curse Reversal; \nIncrease HIGHLIGHT DMG Taken by $2"="Reached $1 stacks of Curse Reversal; \nIncrease HIGHLIGHT DMG Taken by $2"
+"Increase Follow Up DMG Taken by $1"="Increase Follow Up DMG Taken by $1"
+"Increase Follow Up DMG Taken by $1"="Increase Follow Up DMG Taken by $1"
+"<size\=27>Increase Follow Up DMG Taken Amp by $1</size>"="<size\=27>Increase Follow Up DMG Taken Amp by $1</size>"
+"Increase Damage Over Time Taken by $1"="Increase Damage Over Time Taken by $1"
+"Increase DOT Effect Taken by $1"="Increase DOT Effect Taken by $1"
+"Increase Final DMG Taken by $1; \nDecrease Final DMG by $2"="Increase Final DMG Taken by $1; \nDecrease Final DMG by $2"
+"Increase Final DMG Taken by $1"="Increase Final DMG Taken by $1"
+"Increase Final DMG Taken by $1"="Increase Final DMG Taken by $1"
+"Increase Final DMG Taken by $1"="Increase Final DMG Taken by $1"
+"Increase Final DMG Taken by $1"="Increase Final DMG Taken by $1"
+"Increase Final DMG Taken by $1"="Increase Final DMG Taken by $1"
+"Increase Final DMG Taken by $1.\nStacks up to $2 times"="Increase Final DMG Taken by $1.\nStacks up to $2 times"
+"Decrease DMG Dealt by $1"="Decrease DMG Dealt by $1"
+"Decrease DMG Dealt by $1"="Decrease DMG Dealt by $1"
+Heavily decrease DMG Dealt=Heavily decrease DMG Dealt
+"Decrease Final DMG by $1"="Decrease Final DMG by $1"
+"Decrease Final DMG Dealt by $1"="Decrease Final DMG Dealt by $1"
+Increase next HIGHLIGHT DMG Taken=Increase next HIGHLIGHT DMG Taken
+"Increase HIGHLIGHT DMG Taken by $1"="Increase HIGHLIGHT DMG Taken by $1"
+"Increase Total DMG Taken Amp by $1"="Increase Total DMG Taken Amp by $1"
+
+"Increase Phys DMG Taken by $1"="Increase Phys DMG Taken by $1"
+"Increase Phys DMG Taken by $1"="Increase Phys DMG Taken by $1"
+"Increase Phys DMG Taken by $1"="Increase Phys DMG Taken by $1"
+"Increase Phys DMG Taken by $1"="Increase Phys DMG Taken by $1"
+"Increase Gun DMG Taken by $1"="Increase Gun DMG Taken by $1"
+"Increase Gun DMG Taken by $1"="Increase Gun DMG Taken by $1"
+"Increase Gun DMG Taken by $1"="Increase Gun DMG Taken by $1"
+"Increase Gun DMG Taken by $1"="Increase Gun DMG Taken by $1"
+"Increase Gun DMG Taken by $1"="Increase Gun DMG Taken by $1"
+"Increase Fire DMG Taken by $1"="Increase Fire DMG Taken by $1"
+"Increase Fire DMG Taken by $1"="Increase Fire DMG Taken by $1"
+"Increase Fire DMG Taken by $1"="Increase Fire DMG Taken by $1"
+"Increase Fire DMG Taken by $1"="Increase Fire DMG Taken by $1"
+"Increase Fire DMG Taken by $1"="Increase Fire DMG Taken by $1"
+"Increase Fire/Ice DMG Taken by $1"="Increase Fire/Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Ice DMG Taken by $1"="Increase Ice DMG Taken by $1"
+"Increase Elec DMG Taken by $1"="Increase Elec DMG Taken by $1"
+"Increase Elec DMG Taken by $1"="Increase Elec DMG Taken by $1"
+"Increase Elec DMG Taken by $1"="Increase Elec DMG Taken by $1"
+"Increase Elec DMG Taken by $1"="Increase Elec DMG Taken by $1"
+"Increase Elec DMG Taken by $1"="Increase Elec DMG Taken by $1"
+"Increase Elec Crit DMG Taken by $1"="Increase Elec Crit DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Wind DMG Taken by $1"="Increase Wind DMG Taken by $1"
+"Increase Psy DMG Taken by $1"="Increase Psy DMG Taken by $1"
+"Increase Psy DMG Taken by $1"="Increase Psy DMG Taken by $1"
+"Increase Psy DMG Taken by $1"="Increase Psy DMG Taken by $1"
+"Increase Psy DMG Taken by $1"="Increase Psy DMG Taken by $1"
+"Increase Psy DMG Taken by $1"="Increase Psy DMG Taken by $1"
+"Increase Psy DMG Crit Taken Rate by $1"="Increase Psy DMG Crit Taken Rate by $1"
+"Increase Nuke DMG Taken by $1"="Increase Nuke DMG Taken by $1"
+"Increase Nuke DMG Taken by $1"="Increase Nuke DMG Taken by $1"
+"Increase Nuke DMG Taken by $1"="Increase Nuke DMG Taken by $1"
+"Increase Nuke DMG Taken by $1"="Increase Nuke DMG Taken by $1"
+"Increase Bless DMG Taken by $1"="Increase Bless DMG Taken by $1"
+"Increase Bless DMG Taken by $1"="Increase Bless DMG Taken by $1"
+"Increase Bless DMG Taken by $1"="Increase Bless DMG Taken by $1"
+"Increase Bless DMG Taken by $1"="Increase Bless DMG Taken by $1"
+"When taking Bless damage, \ndecrease DEF by $1"="When taking Bless damage, \ndecrease DEF by $1"
+"Increase Bless DMG Taken by $1"="Increase Bless DMG Taken by $1"
+"Increase Curse DMG Taken by $1"="Increase Curse DMG Taken by $1"
+"Increase Curse DMG Taken by $1"="Increase Curse DMG Taken by $1"
+"Increase Curse DMG Taken by $1"="Increase Curse DMG Taken by $1"
+"Increase Curse DMG Taken by $1"="Increase Curse DMG Taken by $1"
+"Increase Curse DMG Taken by $1"="Increase Curse DMG Taken by $1"
+"Increase Almighty DMG Taken by $1"="Increase Almighty DMG Taken by $1"
+"Increase Almighty DMG Taken by $1"="Increase Almighty DMG Taken by $1"
+"Increase Almighty DMG Taken by $1"="Increase Almighty DMG Taken by $1"
+"Increase Almighty DMG Taken by $1"="Increase Almighty DMG Taken by $1"
+"Increase Almighty Final DMG Taken by $1"="Increase Almighty Final DMG Taken by $1"
+
+Phys Weakness=Phys Weakness
+Changed Phys affinity to Weak=Changed Phys affinity to Weak
+Gun Weakness=Gun Weakness
+Changed Gun affinity to Weak=Changed Gun affinity to Weak
+Fire Weakness=Fire Weakness
+Changed Fire affinity to Weak=Changed Fire affinity to Weak
+Ice Weakness=Ice Weakness
+Changed Ice affinity to Weak=Changed Ice affinity to Weak
+Changed Ice affinity to Weak=Changed Ice affinity to Weak
+Elec Weakness=Elec Weakness
+Changed Elec affinity to Weak=Changed Elec affinity to Weak
+Wind Weakness=Wind Weakness
+Changed Wind affinity to Weak=Changed Wind affinity to Weak
+Psy Weakness=Psy Weakness
+Changed Psy affinity to Weak=Changed Psy affinity to Weak
+Nuke Weakness=Nuke Weakness
+Changed Nuke affinity to Weak=Changed Nuke affinity to Weak
+Bless Weakness=Bless Weakness
+Changed Bless affinity to Weak=Changed Bless affinity to Weak
+Changed Bless affinity to Weak=Changed Bless affinity to Weak
+Curse Weakness=Curse Weakness
+Changed Curse affinity to Weak=Changed Curse affinity to Weak
+Changed all affinities to Weak=Changed all affinities to Weak
+Inflict Weakness=Inflict Weakness
+Changed Fire Ice Elec Wind affinities to Weak=Changed Fire Ice Elec Wind affinities to Weak
+Changed Phys Gun affinities to Weak=Changed Phys Gun affinities to Weak
+Changed Psy Nuke Bless Curse affinities to Weak=Changed Psy Nuke Bless Curse affinities to Weak
+
+"Decrease Healing Received by $1"="Decrease Healing Received by $1"
+
+Unable to act, decrease DEF=Unable to act, decrease DEF
+"Unable to act, \nincrease Final DMG Taken by $1"="Unable to act, \nincrease Final DMG Taken by $1"
+
+"<size\=24>Lose a certain amount of HP at the end of the turn; \nIncrease Final DMG Taken by $1. Stacks up to $2 times</size>"="<size\=24>Lose a certain amount of HP at the end of the turn; \nIncrease Final DMG Taken by $1. Stacks up to $2 times</size>"
+"<size\=24>Lose a certain amount of HP at the end of the turn; \nIncrease DMG Dealt by $1. Stacks up to $2 times; \nCannot be dispelled</size>"="<size\=24>Lose a certain amount of HP at the end of the turn; \nIncrease DMG Dealt by $1. Stacks up to $2 times; \nCannot be dispelled</size>"
+"<size\=24>Lose a certain amount of HP at the end of the turn; \nIncrease ATK by $1. Stacks up to $2 times</size>"="<size\=24>Lose a certain amount of HP at the end of the turn; \nIncrease ATK by $1. Stacks up to $2 times</size>"

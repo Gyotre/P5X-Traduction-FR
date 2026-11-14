@@ -1,0 +1,5 @@
+// Règles de post-traitement pour empêcher la corruption des balises Unity
+teinte\==tint=
+couleur\==color=
+teinte=1=tint=1
+teinte=0=tint=0

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Archives générées / téléchargées (re-téléchargeables, trop lourdes pour git)
+06_Releases/
+05_Paquet_BepInEx_Preconfigure/*.zip
+
+# Réglages personnels du launcher (chemin du jeu, nom du héros)
+04_Launcher_P5X_FR/launcher_config.json
+
+# Sauvegardes automatiques des scripts d'extraction (git fait déjà l'historique)
+BACKUP_TRADUCTION_FACILE_*/

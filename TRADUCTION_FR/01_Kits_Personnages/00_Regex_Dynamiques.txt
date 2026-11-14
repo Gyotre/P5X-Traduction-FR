@@ -1,0 +1,47 @@
+
+// ==========================================================================================
+// 00_Regex_Dynamiques.txt - RÈGLES DE TRADUCTION DYNAMIQUE (CARTES, KITS, PROTAGONISTE)
+// ==========================================================================================
+
+// --- EFFETS DE CARTES (FORMAT DIRECT ET REGEX SANS GUILLEMETS) ---
+r:^2 Set Effect[：:]\s*Increase Fire damage dealt by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\.?$=Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.
+r:^4 Set Effect[：:]\s*Increase Attack by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\.\s*If target is weak to Fire,\s*increase Attack by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\s*more\.?$=Effet 4 pièces : Augmente l'Attaque de $1%. Si la cible est faible au Feu, augmente l'Attaque de $2% de plus.
+
+// --- EFFETS DE SET CARTES DE REVELATION (FEU / STRIFE - MULTI-LIGNES COMBINÉ) ---
+r:"(?s)2 Set Effect[：:].*?Increase Fire damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?4 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?weak to Fire.*?increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?\s*more.*?"=Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.\n\nEffet 4 pièces : Augmente l'Attaque de $2%. Si la cible est faible au Feu, augmente l'Attaque de $3% de plus.
+
+// --- EFFETS DE SET CARTES DE REVELATION (LIGNES INDIVIDUELLES) ---
+r:"(?s)2 Set Effect[：:].*?Increase Fire damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.
+r:"(?s)4 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?weak to Fire.*?increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?\s*more.*?"=Effet 4 pièces : Augmente l'Attaque de $1%. Si la cible est faible au Feu, augmente l'Attaque de $2% de plus.
+r:"(?s)2 Set Effect[：:].*?Increase (Ice|Electric|Wind|Psy|Psychokinesis|Nuclear|Bless|Curse|Physical) damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente les dégâts élémentaires de $2%.
+r:"(?s)2 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente l'Attaque de $1%.
+r:"(?s)2 Set Effect[：:].*?Increase Defense by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la Défense de $1%.
+r:"(?s)2 Set Effect[：:].*?Increase max HP by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente les PV max de $1%.
+r:"(?s)2 Set Effect[：:].*?Increase SP recovery by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la récupération de PC de $1%.
+r:"(?s)2 Set Effect[：:].*?Increase critical rate by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente le taux critique de $1%.
+r:"(?s)2 Set Effect[：:].*?Increase Speed by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la Vitesse de $1.
+r:"(?s)2 Set Effect[：:].*?Increase ailment accuracy by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la précision des altérations de $1%.
+
+// --- FORMAT ANCIEN AVEC BALISES <size=23> ---
+r:^<size=23>2 Set Effect: Increase Fire DMG by <color=#2899ff>(.*?)</color>\.</size>$=<size=23>Effet 2 pièce : Augmente les DGT de Feu de <color=#2899ff>$1</color>.</size>
+r:^<size=23>4 Set Effect: Increase ATK by <color=#2899ff>(.*?)</color>\. Additionally increase ATK by <color=#2899ff>(.*?)</color> if the foe is weak to Fire\.?$=<size=23>Effet 4 pièces : Augmente l'ATQ de <color=#2899ff>$1</color>. Augmente aussi l'ATQ de <color=#2899ff>$2</color> si l'ennemi est faible au Feu.</size>
+
+// --- NOMS D'ARCANES (CONSERVÉS EN ANGLAIS / NOM D'ORIGINE SELON LE SOUHAIT DU JOUEUR) ---
+r:^\s*\[Strif[e]?\]\s*=[Strife]
+r:^\s*Strife[:·\s]+(Sky|Cielo)\s*=Strife : Ciel
+r:^\s*Strife[:·\s]+(Sun|Sol)\s*=Strife : Soleil
+r:^\s*Strife[:·\s]+(Moon|Luna)\s*=Strife : Lune
+r:^\s*Strife[:·\s]+(Star|Estrella)\s*=Strife : Étoile
+r:^\s*Strife[:·\s]+(Planet|Planeta)\s*=Strife : Monde
+
+// --- STATISTIQUES D'EQUIPEMENT ---
+r:^\s*SP Recovery\s*=Récupération SP
+r:^\s*Pierce Rate\s*=Pénétration
+r:^\s*Ailment Acc\.\s*=Précision Altération
+r:^\s*Crit Rate\s*=Taux Crit.
+r:^\s*Compare\s*=Comparer
+r:^\s*Damage Mult\.\s*\+\s*=Dégâts Mult. +
+r:^\s*Crit Mult\.\s*=Critique Mult.
+r:^\s*Mark:\s*=Symbole :
+r:^\s*Speed\s*=Vitesse
+r:^\s*Defense\s*=Défense

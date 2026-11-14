@@ -1,0 +1,111 @@
+
+fps=fps
+©Perfect World Adapted from {{A}}5 ©ATLUS. ©SEGA.\nSpecial Thanks: Fontworks Inc. and SHOWASHOTAI Co., Ltd.\nClient Version: 4.10.0 Game Version: 4.13.0 Resource No.: R051412.E2130.C7747.L7181=©Perfect World Adapté de {{A}}5 ©ATLUS. ©SEGA. Remerciements spéciaux : Fontworks Inc. et SHOWASHOTAI Co., Ltd. Version client : 4.10.0 Version du jeu : 4.13.0 Numéro de ressource : R051412.E2130.C7747.L7181
+Logging in=Connexion
+ID:60077423222=ID:60077423222
+<sprite\=1 tint\=1><sprite\=3 tint\=1><sprite\=8 tint\=1><sprite\=9 tint\=1>=<sprite\=1 tint\=1><sprite\=3 tint\=1><sprite\=8 tint\=1><sprite\=9 tint\=1>
+<sprite\=1 tint\=1><sprite\=0 tint\=1><sprite\=0 tint\=1>=<sprite\=1 tint\=1><sprite\=0 tint\=1><sprite\=0 tint\=1>
+<sprite\=1 tint\=1><sprite\=2 tint\=1><sprite\=4 tint\=1><sprite\=3 tint\=1>=<sprite\=1 tint\=1><sprite\=2 tint\=1><sprite\=4 tint\=1><sprite\=3 tint\=1>
+<sprite\=0 tint\=1><sprite\=7 tint\=1>=<sprite\=0 tint\=1><sprite\=7 tint\=1>
+<sprite\=7 tint\=1><sprite\=8 tint\=1>=<sprite\=7 tint\=1><sprite\=8 tint\=1>
+<sprite\=1 tint\=1><sprite\=0 tint\=1><sprite\=9 tint\=1><sprite\=7 tint\=1>=<sprite\=1 tint\=1><sprite\=0 tint\=1><sprite\=9 tint\=1><sprite\=7 tint\=1>
+<sprite\=8 tint\=1><sprite\=0 tint\=1>=<sprite\=8 tint\=1><sprite\=0 tint\=1>
+<sprite\=2 tint\=1><sprite\=7 tint\=1><sprite\=2 tint\=1><sprite\=0 tint\=1>=<sprite\=2 tint\=1><sprite\=7 tint\=1><sprite\=2 tint\=1><sprite\=0 tint\=1>
+<sprite\=8 tint\=1><sprite\=9 tint\=1>=<sprite\=8 tint\=1><sprite\=9 tint\=1>
+Heaven(ATOLS Remix)=Ciel (ATOLS Remix)
+When defeated, greatly increase foes' dmg.=Une fois vaincu, augmente considérablement les dégâts des ennemis.
+Perm.=Permanente.
+{{A}} I={{A}} I
+Decrease Def by 16.3%.=Diminuer la déf de 16,3 %.
+Mark=Marque
+Lose HP after acting.=Perdez des HP après avoir agi.
+Decrease HP recovery taken by 30%.=Diminuez la récupération de HP de 30%.
+1 Turns=1 tours
+Recovery Down=Récupération en baisse
+No ranking information available.=Aucune information de classement disponible.
+<sprite\=0 tint\=0 color\=#4d4d4d><sprite\=8 tint\=1><sprite\=6 tint\=1>=<sprite\=0 tint\=0 color\=#4d4d4d><sprite\=8 tint\=1><sprite\=6 tint\=1>
+<sprite\=1 tint\=1><sprite\=4 tint\=1><sprite\=1 tint\=1>=<sprite\=1 tint\=1><sprite\=4 tint\=1><sprite\=1 tint\=1>
+Knocked down! Increase dmg taken by 10%.=Renversé ! Augmente les dégâts subis de 10%.
+Increase stats and gain Starfire II when effect ends.=Augmentez les statistiques et gagnez Starfire II à la fin de l'effet.
+Increase dmg by 10%.=Augmente les dégâts de 10%.
+Supporting Role=Rôle de soutien
+Continuously restore HP.=Restaurez HP en permanence.
+Increase dmg by 5.2%.=Augmente les dégâts de 5,2%.
+Followspot=Suivi
+Increase party's Attack by 0.57% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>16.0%</color>). Lasts 3 turns. Also grant effects to party based on the current song playing.\nHeaven: If Miku does not have Break <link\="s|301"><u>Track</u></link>, increase party's pierce rate by 0.2% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>5.8%</color>). Lasts 3 turns. Also, gain Break Track.\nSpring Storm: If Miku does not have Critical Track, increase party's damage by 0.34% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>9.6%</color>). Lasts 3 turns. Also, gain Critical Track.\nPlay-With-Fire: If Miku does not have Expert Track, increase party's critical damage by 0.41% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>11.5%</color>). Lasts 3 turns. Also, gain Expert Track.\nCooldown Time: 4 ally actions=Augmente l'attaque du groupe de 0,57 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>16.0%</color>). Dure 3 tours. Accordez également des effets à la fête en fonction de la chanson en cours de lecture. Paradis : Si Miku n'a pas de Break <link\="s|301"><u>Track</u></link>, augmentez le taux de perçage du groupe de 0,2 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>5.8%</color>). Dure 3 tours. Obtenez également Break Track. Tempête printanière : si Miku n'a pas de piste critique, augmentez les dégâts du groupe de 0,34 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>9.6%</color>). Dure 3 tours. Obtenez également la piste critique. Jouer avec le feu : si Miku n'a pas de piste Expert, augmentez les dégâts critiques du groupe de 0,41 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>11.5%</color>). Dure 3 tours. Obtenez également la piste Expert. Temps de recharge : 4 actions alliées
+Increase party's damage by 0.34% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>9.6%</color>). Lasts for 3 turns. Also grant effects to party based on the current song playing.\nHeaven: If Miku does not have Break <link\="s|301"><u>Track</u></link>, restore HP to party based on 30% of their max HP. Also, gain Break Track.\nSpring Storm: If Miku does not have Critical Track, increase party's weakness damage by 0.11% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>3.1%</color>). Lasts 3 turns. Also, gain Critical Track.\nPlay-With-Fire: If Miku does not have Expert Track, increase party's critical rate by 0.2% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>5.8%</color>). Lasts 3 turns. Also, gain Expert Track.\nCooldown Time: 4 ally actions=Augmente les dégâts du groupe de 0,34 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>9.6%</color>). Dure 3 tours. Accordez également des effets à la fête en fonction de la chanson en cours de lecture. Paradis : Si Miku n'a pas de Break <link\="s|301"><u>Track</u></link>, restaurez les HP du groupe en fonction de 30 % de leurs HP maximum. Obtenez également Break Track. Tempête printanière : si Miku n'a pas de piste critique, augmentez les dégâts de faiblesse du groupe de 0,11 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>3.1%</color>). Dure 3 tours. Obtenez également la piste critique. Jouer avec le feu : si Miku n'a pas de piste Expert, augmentez le taux de critique du groupe de 0,2 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>5.8%</color>). Dure 3 tours. Obtenez également la piste Expert. Temps de recharge : 4 actions alliées
+During battle, Miku can change the battle scenery and song playing during her allies' turns, and her skill effects are enhanced based on the current song playing. When Miku's skills become available, the current song will automatically switch.\nWhen using Feel the Beat or Clear Sound on songs where Miku has already gained the corresponding <link\="s|301"><u>Track</u></link>, reapply the same additional effect.=Pendant la bataille, Miku peut changer le décor de la bataille et la chanson jouée pendant les tours de ses alliés, et les effets de ses compétences sont améliorés en fonction de la chanson en cours de lecture. Lorsque les compétences de Miku seront disponibles, la chanson actuelle changera automatiquement. Lorsque vous utilisez Feel the Beat ou Clear Sound sur des chansons pour lesquelles Miku a déjà obtenu le <link\="s|301"><u>Track</u></link> correspondante, réapplique le même effet supplémentaire.
+No skill information to display.=Aucune information de compétence à afficher.
+Increase Attack by <color\=#2899FF>11.3%</color>.=Augmente l'attaque de <color\=#2899FF>11.3%</color>.
+Increase party's stats by 20% of {{A}}'s stats.=Augmentez les statistiques du groupe de 20 % par rapport aux statistiques de {{A}}.
+Requires 3 different types of <link\="s|301"><u>Track</u></link>.\nSpend all Tracks to activate Virtual Concert, and change the current song playing to Ghost Rule. At this time, stop foes' turn, and grant allies extra turns for 2 turns (these turns are not counted as extra actions and do not count towards the total number of actions taken, but reduce the countdowns of buffs, debuffs, and continuous damage effects).\nWhen Virtual Concert is activated, all buff effects on allies granted by Miku's skills, weapon or Talents are extended by 2 turns. Effects granted when Tracks were gained are reactivated and last for 2 turns. Increase party's critical damage by 0.34% for every 100 points of Miku's Attack (counts up to <color\=#FFFC40>2816</color> of Miku's Attack, up to a maximum of <color\=#FFFC40>9.6%</color>). Lasts for 2 turns. Also, restore 35 SP to all allies.\nDuring Virtual Concert, support skills cannot be used, and their cooldown time does not decrease.\nAt the end of allies' extra turns, Virtual Concert is removed.\nCooldown Time: 6 Wonder actions (does not count extra actions)=Nécessite 3 types différents de <link\="s|301"><u>Track</u></link>. Dépensez toutes les pistes pour activer le concert virtuel et changez la chanson en cours de lecture en Ghost Rule. À ce moment-là, arrêtez le tour des ennemis et accordez aux alliés des tours supplémentaires pendant 2 tours (ces tours ne sont pas comptés comme des actions supplémentaires et ne comptent pas dans le nombre total d'actions entreprises, mais réduisent le compte à rebours des buffs, des debuffs et des effets de dégâts continus). Lorsque le Concert Virtuel est activé, tous les effets de buff sur les alliés accordés par les compétences, armes ou talents de Miku sont prolongés de 2 tours. Les effets accordés lors de l'obtention des Pistes sont réactivés et durent 2 tours. Augmente les dégâts critiques du groupe de 0,34 % tous les 100 points d'attaque de Miku (compte jusqu'à <color\=#FFFC40>2816</color> de l'attaque de Miku, jusqu'à un maximum de <color\=#FFFC40>9.6%</color>). Dure 2 tours. Restaurez également 35 SP à tous les alliés. Durant le Concert Virtuel, les compétences de support ne peuvent pas être utilisées et leur temps de recharge ne diminue pas. À la fin des tours supplémentaires des alliés, le concert virtuel est supprimé. Temps de recharge : 6 actions Wonder (ne compte pas les actions supplémentaires)
+Medicine Effect=Effet du médicament
+HP Recovery Taken=Récupération HP effectuée
+HP Recovery=Récupération HP
+Strong Attack Down=Forte attaque vers le bas
+Resistance Pierce=Perçage de la Résistance
+Weak Attack Down=Faible attaque vers le bas
+Weakness Mult. +=Faiblesse Mult. +
+Damage Down=Dégâts réduits
+<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=7 tint\=1><sprite\=12 tint\=1>=<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=7 tint\=1><sprite\=12 tint\=1>
+Damage Mult. +=Dégâts multiples. +
+Ailment Resist.=Résistance aux maladies.
+<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=1 tint\=1><sprite\=12 tint\=1>=<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=1 tint\=1><sprite\=12 tint\=1>
+Ailment Acc.=Maladie Acc.
+Pierce Rate=Taux de perçage
+Technical Precision=Précision technique
+Crit Mult.=Critique Mult.
+<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=5 tint\=1><sprite\=12 tint\=1>=<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=5 tint\=1><sprite\=12 tint\=1>
+<sprite\=4 tint\=1><sprite\=4 tint\=1><sprite\=7 tint\=1>=<sprite\=4 tint\=1><sprite\=4 tint\=1><sprite\=7 tint\=1>
+Collab=Collaboration
+Rounds: =Tours : 
+Ranged Attack=Attaque à distance
+Crit Rate: =Taux de critique : 
+Basic Abilities=Capacités de base
+Medicine Effect Received=Effet du médicament reçu
+Physical Mult. +=Multi physique. +
+<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=2 tint\=1><sprite\=12 tint\=1>=<sprite\=0 tint\=1><sprite\=21 tint\=1><sprite\=2 tint\=1><sprite\=12 tint\=1>
+Gun Mult. +=Pistolet Mult. +
+Fire Mult. +=Feu Mult. +
+Ice Mult. +=Glace Mult. +
+Electric Mult. +=Multi électrique. +
+Wind Mult. +=Vent Mult. +
+Psy Mult. +=Psy Mult. +
+Nuclear Mult. +=Mult nucléaire. +
+Bless Mult. +=Bénis Mult. +
+Curse Mult. +=Malédiction Mult. +
+Almighty Mult. +=Tout-Puissant Mult. +
+When a foe is defeated, the party's damage is increased by 25%, up to 50%.=Lorsqu'un ennemi est vaincu, les dégâts du groupe sont augmentés de 25 %, jusqu'à 50 %.
+Special Effect=Effet spécial
+Painting Effect Active=Effet de peinture actif
+Painting Effect=Effet de peinture
+Statue Effect Active=Effet de statue actif
+Statue Effect=Effet statue
+When party uses ranged attacks, damage increases by 10%.=Lorsque le groupe utilise des attaques à distance, les dégâts augmentent de 10 %.
+Make Ready!=Préparez-vous !
+Win within 80 actions.=Gagnez en 80 actions.
+Audio=Audio
+Graphics=Graphiques
+Battle Settings=Paramètres de bataille
+Battle Intel=Intel de combat
+Increase rate of taking crit hits by 10%.=Augmente le taux de coups critiques de 10%.
+2 Turns=2 tours
+<sprite\=5 tint\=1><sprite\=4 tint\=1><sprite\=1 tint\=1>=<sprite\=5 tint\=1><sprite\=4 tint\=1><sprite\=1 tint\=1>
+<sprite\=1 tint\=1><sprite\=0 tint\=1><sprite\=2 tint\=1><sprite\=2 tint\=1>=<sprite\=1 tint\=1><sprite\=0 tint\=1><sprite\=2 tint\=1><sprite\=2 tint\=1>
+{{A}}ie Kokiwa={{A}}ie Kokiwa
+<sprite\=0 tint\=0 color\=#4d4d4d><sprite\=9 tint\=1><sprite\=5 tint\=1>=<sprite\=0 tint\=0 color\=#4d4d4d><sprite\=9 tint\=1><sprite\=5 tint\=1>
+<sprite\=3 tint\=1><sprite\=7 tint\=1><sprite\=1 tint\=1>=<sprite\=3 tint\=1><sprite\=7 tint\=1><sprite\=1 tint\=1>
+<sprite\=6 tint\=1><sprite\=7 tint\=1><sprite\=5 tint\=1>=<sprite\=6 tint\=1><sprite\=7 tint\=1><sprite\=5 tint\=1>
+Deal Electric damage to all foes equal to <color\=#fffc40>54.2%</color> of Attack. <color\=#fffc40>30.1%</color> chance to inflict <link\="s|104"><u>Shock</u></link> for 2 turns.=Inflige des dégâts électriques à tous les ennemis égaux à <color\=#fffc40>54.2%</color> d'Attaque. <color\=#fffc40>30.1%</color> chance d'infliger <link\="s|104"><u>Shock</u></link> for 2 turns.
+Deal Electric damage to 1 foe equal to <color\=#fffc40>108.3%</color> of Attack. <color\=#fffc40>60.1%</color> chance to inflict <link\="s|104"><u>Shock</u></link> for 2 turns.=Inflige des dégâts électriques à 1 ennemi égaux à <color\=#fffc40>108.3%</color> d'Attaque. <color\=#fffc40>60.1%</color> chance d'infliger <link\="s|104"><u>Shock</u></link> for 2 turns.
+Falling Sun=Soleil tombant
+Trifire=Trifeu
+Crimson Rose=Rose Pourpre
+Requirements Not Met=Exigences non satisfaites
+<sprite\=67 tint\=1><sprite\=54 tint\=1>=<sprite\=67 tint\=1><sprite\=54 tint\=1>
+Fire dmg to all foes (69.9% Atk), increase Ann's Atk 20% (2 turns).\nWhen Ann has La Vie en Rose, decrease foes' Atk by 8% of Ann's Atk and increase Ann's Atk by same amount (2 turns).=Dégâts de feu sur tous les ennemis (69,9 % de l'Atk), augmentez l'Atk d'Ann de 20 % (2 tours). Quand Ann a La Vie en Rose, diminuez l'Atk des ennemis de 8% de l'Atk d'Ann et augmentez l'Atk d'Ann du même montant (2 tours).
+5 Turns=5 tours
+Increase party's Atk 0.57% per 100 of {{A}}'s Atk (up to 2816 of {{A}}'s Atk, max 16.0%, 3 turns). Also grant effects to party based on current song.\nHeaven: If {{A}} doesn't have Break Track, increase party's pierce rate 0.2% per 100 of {{A}}'s Atk (up to 2816 of {{A}}'s Atk, max 5.8%, 3 turns). Also, gain Break Track.\nSpring Storm: If {{A}} doesn't have Critical Track, increase party's dmg 0.34% per 100 of {{A}}'s Atk (up to 2816 of {{A}}'s Atk, max 9.6%, 3 turns). Also, gain Critical Track.\nPlay-With-Fire:  If {{A}} doesn't have Expert Track, increase party's crit dmg 0.41% per 100 of {{A}}'s Atk (up to 2816 of {{A}}'s Atk, max 11.5%, 3 turns). Also, gain Expert Track.=Augmentez l'Atk du groupe de 0,57 % pour 100 de l'Atk de {{A}} (jusqu'à 2 816 de l'Atk de {{A}}, max 16,0 %, 3 tours). Accordez également des effets à la fête en fonction de la chanson actuelle. Paradis : si {{A}} n'a pas Break Track, augmentez le taux de perçage du groupe de 0,2 % pour 100 de l'Atk de {{A}} (jusqu'à 2 816 de l'Atk de {{A}}, max 5,8 %, 3 tours). Obtenez également Break Track. Tempête printanière : si {{A}} n'a pas de piste critique, augmentez les dégâts du groupe de 0,34 % pour 100 de l'Atk de {{A}} (jusqu'à 2 816 de l'Atk de {{A}}, max 9,6 %, 3 tours). Obtenez également la piste critique. Jouer avec le feu : si {{A}} n'a pas de piste Expert, augmentez les dégâts critiques du groupe de 0,41 % pour 100 de l'Atk de {{A}} (jusqu'à 2 816 de l'Atk de {{A}}, max 11,5 %, 3 tours). Obtenez également la piste Expert.
+<sprite\=8 tint\=1><sprite\=4 tint\=1>=<sprite\=8 tint\=1><sprite\=4 tint\=1>
+<sprite\=7 tint\=1><sprite\=4 tint\=1>=<sprite\=7 tint\=1><sprite\=4 tint\=1>
+This skill is unlocked at level 10.=Cette compétence est débloquée au niveau 10.
