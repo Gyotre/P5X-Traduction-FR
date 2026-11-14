@@ -5,7 +5,7 @@ echo.
 echo ========================================================
 echo   ENVOI DU PROJET SUR VOTRE REPO GITHUB
 echo ========================================================
-echo   Depot : https://github.com/Gyotre/P5X-Traduction-Fran-aise-Test
+echo   Depot : https://github.com/Gyotre/P5X-Traduction-Francaise
 echo.
 echo Envoi des modifications sur la branche 'main'...
 echo (Si une fenetre de connexion GitHub s'affiche, validez la connexion)
