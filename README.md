@@ -92,6 +92,7 @@ Le projet intègre un pipeline de publication 100 % automatisé pour alimenter l
 ## 🛡️ Rappel Important sur les Risques de Ban
 P5X étant un jeu-service en ligne géré par Perfect World / SEGA :
 - **BepInEx injecte du code en mémoire (`winhttp.dll`).** L'anti-cheat du jeu peut théoriquement détecter ce comportement.
+- Si vous postez des images en ligne avec le mod, n'oubliez pas de **cacher** votre ID pour éviter de vous faire bannir.
 - Bien que le patch anglais soit très largement utilisé par la communauté sans bans massifs pour le moment, **le risque zéro n'existe pas**.
 - Ne dépense pas d'argent réel sur un compte où tu utilises des mods et désactive toujours les mods via le launcher avant une mise à jour majeure du jeu.
 - Dans AUCUN CAS, nous ne serons responsables de votre bannissement.
