@@ -106,10 +106,11 @@ def format_line(k, v):
         return s.replace("\r\n", "\\n").replace("\r", "\\n").replace("\n", "\\n")
 
     if is_regex_key(k):
-        # Nettoyer les guillemets superflus autour de la valeur si présents
+        # Valeur toujours entre guillemets (convention P5XTES) : XUnity retire les guillemets
+        # extérieurs, ce qui protège ceux de la traduction (<link="s|301">...)
         if v.startswith('"') and v.endswith('"') and len(v) > 1:
             v = v[1:-1]
-        return f"{one_line(k)}={one_line(v)}\n"
+        return f'{one_line(k)}="{one_line(v)}"\n'
 
     # Clé normale : échapper les = non déjà échappés
     k_escaped = re.sub(r'(?<!\\)=', r'\\=', one_line(k))
