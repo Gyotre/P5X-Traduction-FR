@@ -1,7 +1,11 @@
 # Projet de Traduction Française — Persona 5: The Phantom X (P5X)
 
-Bienvenue dans l'environnement complet de traduction française pour **Persona 5: The Phantom X**.
-Ce dossier contient l'ensemble des fichiers de textes, les outils de développement, le package BepInEx préconfiguré et un **Launcher dédié** permettant de basculer en un clic entre le jeu d'origine (Vanilla) et le jeu moddé en français.
+Bienvenue dans l'environnement complet de fan-traduction française pour **Persona 5: The Phantom X** sur PC.
+Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier de traduction interactif**, les outils d'ingénierie et le modpack BepInEx préconfiguré.
+
+> 📢 **Note sur le Launcher :**  
+> Le launcher officiel et recommandé pour jouer au jeu et gérer les mises à jour automatiques est **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)** développé par **Garloulou**.  
+> Le script `launcher_p5x.py` présent dans le dossier `04_Launcher_P5X_FR/` n'était qu'un **prototype de test interne** utilisé pour valider les injections. Pour jouer au quotidien, utilisez exclusivement le launcher de Garloulou !
 
 ---
 
@@ -31,18 +35,18 @@ _Traduction-P5X/
 │   ├── 🐍 generer_pack_release.py     (ZIP prêt à partager dans 06_Releases/)
 │   └── 🐍 extraire_tout_le_jeu.py / adapter_p5xtes_en_json.py (régénèrent les JSON, sources requises)
 │
-├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction + Launcher (Python/Tkinter)
+├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction (+ prototype test)
 │   ├── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
-│   └── 🐍 launcher_p5x.py             (Gestionnaire Mods ON/OFF et lancement du jeu)
+│   └── 🐍 launcher_p5x.py             (Prototype de test interne - préférez P5XfrLauncher de Garloulou)
 │
 ├── 📂 05_Paquet_BepInEx_Preconfigure/ <- Modpack BepInEx + XUnity prêt à l'emploi (A_COPIER_DANS_LE_JEU/)
 │
 ├── 📂 _Sauvegardes/                  <- Archives et sauvegardes de sécurité (ex: BACKUP_TRADUCTIONS_MIKU)
 │
-├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet de traduction
-├── 🚀 Lancer_Launcher.bat           <- Le launcher (Gestion mods ON/OFF et démarrage)
+├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet pour traduire
 ├── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu en 1 clic
-└── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
+├── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
+└── 🚀 Lancer_Launcher.bat           <- Ancien launcher de test (utilisez P5XfrLauncher de Garloulou)
 ```
 
 > La synchronisation écrit uniquement dans `BepInEx/Translation/fr/Text/` et `BepInEx/config/AutoTranslatorConfig.ini`.
@@ -52,18 +56,13 @@ _Traduction-P5X/
 
 ## ⚡ Démarrage Rapide
 
-### 1. Lancer le Launcher P5X FR
-Double-clique sur **`Lancer_Launcher.bat`** :
-1. Clique sur **"Parcourir..."** et indique l'emplacement de ton jeu (`P5X.exe`, situé généralement dans `P5X/client/pc`).
-2. Clique sur **"SYNCHRONISER LA TRADUCTION FR"** pour copier automatiquement tes fichiers de traduction dans le jeu.
-3. Clique sur **"LANCER LE JEU"**.
+### 1. Pour Jouer au Jeu en Français
+Téléchargez et utilisez le launcher moderne officiel développé par Garloulou :  
+👉 **[P5XfrLauncher de Garloulou sur GitHub](https://github.com/Garloulou/P5XfrLauncher)**  
+*Ce launcher installe BepInEx en 1 clic, gère la bascule Vanilla/Moddé et télécharge automatiquement les nouvelles versions de cette traduction depuis GitHub.*
 
-### 2. Basculer entre Mode Moddé et Mode Officiel (Vanilla)
-- Le bouton **"BASCULER MODS ON / OFF"** dans le launcher permet d'activer ou désactiver instantanément BepInEx (`winhttp.dll` <-> `winhttp.dll.disabled`).
-- Quand les mods sont désactivés, le jeu est 100 % officiel sans aucune injection mémoire, ce qui est parfait avant une mise à jour du jeu.
-
-### 3. Traduire avec l'Atelier de traduction
-Double-clique sur **`Atelier_Traduction.bat`** (ou bouton **"ATELIER DE TRADUCTION"** du launcher) :
+### 2. Pour Contribuer à la Traduction (Atelier P5X)
+Double-cliquez sur **`Atelier_Traduction.bat`** :
 1. À gauche, choisis une section : **Personnages** (un fichier par personnage), **Arcanes & Cartes de Révélation**, Armes, Personas, Interface, Combat, Histoire…
 2. Pour chaque texte : l'anglais en bleu, ta traduction dans la case en dessous. `Tab` passe à la case suivante, **= EN** recopie l'anglais (pour garder un nom tel quel).
 3. **Chercher partout** trouve un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
