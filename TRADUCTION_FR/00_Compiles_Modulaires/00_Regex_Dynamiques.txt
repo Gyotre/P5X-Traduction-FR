@@ -1,42 +1,48 @@
-r:^2 Set Effect[：:]\s*Increase Fire damage dealt by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\.?$=Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.
-r:^4 Set Effect[：:]\s*Increase Attack by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\.\s*If target is weak to Fire,\s*increase Attack by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\s*more\.?$=Effet 4 pièces : Augmente l'Attaque de $1%. Si la cible est faible au Feu, augmente l'Attaque de $2% de plus.
-r:"(?s)2 Set Effect[：:].*?Increase Fire damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?4 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?weak to Fire.*?increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?\s*more.*?"=Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.\n\nEffet 4 pièces : Augmente l'Attaque de $2%. Si la cible est faible au Feu, augmente l'Attaque de $3% de plus.
-r:"(?s)2 Set Effect[：:].*?Increase Fire damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.
-r:"(?s)4 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?weak to Fire.*?increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?\s*more.*?"=Effet 4 pièces : Augmente l'Attaque de $1%. Si la cible est faible au Feu, augmente l'Attaque de $2% de plus.
-r:"(?s)2 Set Effect[：:].*?Increase (Ice|Electric|Wind|Psy|Psychokinesis|Nuclear|Bless|Curse|Physical) damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente les dégâts élémentaires de $2%.
-r:"(?s)2 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente l'Attaque de $1%.
-r:"(?s)2 Set Effect[：:].*?Increase Defense by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la Défense de $1%.
-r:"(?s)2 Set Effect[：:].*?Increase max HP by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente les PV max de $1%.
-r:"(?s)2 Set Effect[：:].*?Increase SP recovery by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la récupération de PC de $1%.
-r:"(?s)2 Set Effect[：:].*?Increase critical rate by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente le taux critique de $1%.
-r:"(?s)2 Set Effect[：:].*?Increase Speed by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la Vitesse de $1.
-r:"(?s)2 Set Effect[：:].*?Increase ailment accuracy by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"=Effet 2 pièces : Augmente la précision des altérations de $1%.
-r:^<size=23>2 Set Effect: Increase Fire DMG by <color=#2899ff>(.*?)</color>\.</size>$=<size=23>Effet 2 pièce : Augmente les DGT de Feu de <color=#2899ff>$1</color>.</size>
-r:^\s*\[Strif[e]?\]\s*=[Strife]
-r:^\s*Strife[:·\s]+(Sky|Cielo)\s*=Strife : Ciel
-r:^\s*Strife[:·\s]+(Sun|Sol)\s*=Strife : Soleil
-r:^\s*Strife[:·\s]+(Moon|Luna)\s*=Strife : Lune
-r:^\s*Strife[:·\s]+(Star|Estrella)\s*=Strife : Étoile
-r:^\s*Strife[:·\s]+(Planet|Planeta)\s*=Strife : Monde
-r:^\s*SP Recovery\s*=Récupération PC
-r:^\s*Pierce Rate\s*=Pénétration
-r:^\s*Ailment Acc\.\s*=Préc. Altération
-r:^\s*Crit Rate\s*=Taux Crit.
-r:^\s*Compare\s*=Comparer
-r:^\s*Damage Mult\.\s*\+\s*=Dégâts Bonus
-r:^\s*Gun Mult\.\s*\+\s*=Dégâts Tir +
-r:^\s*Shield\s*=Bouclier
-r:^\s*ATTRIBUTES\s*=Attributs
-r:^\s*Attributes\s*=Attributs
-r:^\s*Info\s*=Infos
-r:^\s*INFO\s*=INFOS
-r:^\s*Crit Mult\.\s*=Dégâts Crit.
-r:^\s*Mark:\s*=Symbole :
-r:^\s*Speed\s*=Vitesse
-r:^\s*Defense\s*=Défense
-r:^\s*Set Effect\s*=<size=18>Effet d'Arcane</size>
-r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$=<size=13>$1 & $2</size>
-r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$=<size=13>$1 & {{A}}</size>
+r:^2 Set Effect[：:]\s*Increase Fire damage dealt by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\.?$="Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%."
+r:^4 Set Effect[：:]\s*Increase Attack by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\.\s*If target is weak to Fire,\s*increase Attack by\s*(?:<color.*?>)?(\d+\.?\d*)%?(?:</color>)?\s*more\.?$="Effet 4 pièces : Augmente l'Attaque de $1%. Si la cible est faible au Feu, augmente l'Attaque de $2% de plus."
+r:"(?s)2 Set Effect[：:].*?Increase Fire damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?4 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?weak to Fire.*?increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?\s*more.*?"="Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%.\n\nEffet 4 pièces : Augmente l'Attaque de $2%. Si la cible est faible au Feu, augmente l'Attaque de $3% de plus."
+r:"(?s)2 Set Effect[：:].*?Increase Fire damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente les dégâts de Feu infligés de $1%."
+r:"(?s)4 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?weak to Fire.*?increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?\s*more.*?"="Effet 4 pièces : Augmente l'Attaque de $1%. Si la cible est faible au Feu, augmente l'Attaque de $2% de plus."
+r:"(?s)2 Set Effect[：:].*?Increase (Ice|Electric|Wind|Psy|Psychokinesis|Nuclear|Bless|Curse|Physical) damage dealt by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente les dégâts élémentaires de $2%."
+r:"(?s)2 Set Effect[：:].*?Increase Attack by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente l'Attaque de $1%."
+r:"(?s)2 Set Effect[：:].*?Increase Defense by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente la Défense de $1%."
+r:"(?s)2 Set Effect[：:].*?Increase max HP by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente les PV max de $1%."
+r:"(?s)2 Set Effect[：:].*?Increase SP recovery by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente la récupération de PC de $1%."
+r:"(?s)2 Set Effect[：:].*?Increase critical rate by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente le taux critique de $1%."
+r:"(?s)2 Set Effect[：:].*?Increase Speed by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente la Vitesse de $1."
+r:"(?s)2 Set Effect[：:].*?Increase ailment accuracy by.*?(?:<color[^>]*>)?(\d+\.?\d*)%(?:</color>)?.*?"="Effet 2 pièces : Augmente la précision des altérations de $1%."
+r:^<size\=23>2 Set Effect: Increase Fire DMG by <color\=#2899ff>(.*?)</color>\.</size>$="<size\=23>Effet 2 pièce : Augmente les DGT de Feu de <color\=#2899ff>$1</color>.</size>"
+r:^<size\=23>4 Set Effect: Increase ATK by <color\=#2899ff>(.*?)</color>\. Additionally increase ATK by <color\=#2899ff>(.*?)</color> if the foe is weak to Fire\.?$="<size\=23>Effet 4 pièces : Augmente l'ATQ de <color\=#2899ff>$1</color>. Augmente aussi l'ATQ de <color\=#2899ff>$2</color> si l'ennemi est faible au Feu.</size>"
+r:^\s*\[Strif[e]?\]\s*$="[Strife]"
+r:^\s*Strife[:·\s]+(Sky|Cielo)\s*$="Strife : Ciel"
+r:^\s*Strife[:·\s]+(Sun|Sol)\s*$="Strife : Soleil"
+r:^\s*Strife[:·\s]+(Moon|Luna)\s*$="Strife : Lune"
+r:^\s*Strife[:·\s]+(Star|Estrella)\s*$="Strife : Étoile"
+r:^\s*Strife[:·\s]+(Planet|Planeta)\s*$="Strife : Monde"
+r:^\s*SP Recovery\s*$="Récupération PC"
+r:^\s*Pierce Rate\s*$="Pénétration"
+r:^\s*Ailment Acc\.\s*$="Préc. Altération"
+r:^\s*Crit Rate\s*$="Taux Crit."
+r:^\s*Compare\s*$="Comparer"
+r:^\s*Damage Mult\.\s*\+\s*$="Dégâts Bonus"
+r:^\s*Gun Mult\.\s*\+\s*$="Dégâts Tir +"
+r:^\s*Shield\s*$="Bouclier"
+r:^\s*ATTRIBUTES\s*$="Attributs"
+r:^\s*Attributes\s*$="Attributs"
+r:^\s*Info\s*$="Infos"
+r:^\s*INFO\s*$="INFOS"
+r:^\s*Crit Mult\.\s*$="Dégâts Crit."
+r:^\s*Mark:\s*$="Symbole :"
+r:^\s*Speed\s*$="Vitesse"
+r:^\s*Defense\s*$="Défense"
+r:^\s*Set Effect\s*$="<size\=18>Effet d'Arcane</size>"
+r:"^(?\=.{16,17}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size\=87%>$1</size>"
+r:"^(?\=.{18,19}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size\=79%>$1</size>"
+r:"^(?\=.{20,21}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size\=70%>$1</size>"
+r:"^(?\=.{22,23}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size\=64%>$1</size>"
+r:"^(?\=.{24,25}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size\=59%>$1</size>"
+r:"^(?\=.{26,40}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size\=55%>$1</size>"
+r:^<size\=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$="<size\=16>[$1] & [$2]</size>"
 r:"(?s)^When this skill's effect is activated, gain a Track corresponding to the song playing. When .* has .* different types of Track, she can activate Virtual Concert using this skill.$"="Lorsque l'effet de cette compétence est activé, obtient une Piste correspondant à la chanson en cours de lecture. Lorsque Teto possède 3 types différents de Piste, elle peut activer Concert virtuel à l'aide de cette compétence."
 r:"(?s)^Increase party's Attack by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also grant effects to party based on the current song playing..Heaven: If .* does not have Break .*Track.*, increase party's pierce rate by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also, gain Break Track..Spring Storm: If .* does not have Critical Track, increase party's damage by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also, gain Critical Track..Play-With-Fire: If .* does not have Expert Track, increase party's critical damage by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also, gain Expert Track..Cooldown Time: (.*) ally actions..*Let the powerful beat resound to inspire allies, increasing the entire team's Attack..*$"="Augmente l'ATQ de l'équipe de $1 tous les $2 points d'ATQ de Teto (prend en compte jusqu'à $3 points d'ATQ de Teto, jusqu'à un maximum de $4). Dure $5 tours. Confère également des effets à l'équipe selon la chanson en cours de lecture.\nHeaven : Si Teto ne possède pas Piste <link\="s|301"><u>Brèche</u></link>, augmente le taux de pénétration de l'équipe de $6 tous les $7 points d'ATQ de Teto (prend en compte jusqu'à $8 points d'ATQ de Teto, jusqu'à un maximum de $9). Dure $10 tours. Obtient également Piste Brèche.\nSpring Storm : Si Teto ne possède pas Piste Critique, augmente les dégâts de l'équipe de $11 tous les $12 points d'ATQ de Teto (prend en compte jusqu'à $13 points d'ATQ de Teto, jusqu'à un maximum de $14). Dure $15 tours. Obtient également Piste Critique.\nPlay-With-Fire : Si Teto ne possède pas Piste Experte, augmente les dégâts critiques de l'équipe de $16 tous les $17 points d'ATQ de Teto (prend en compte jusqu'à $18 points d'ATQ de Teto, jusqu'à un maximum de $19). Dure $20 tours. Obtient également Piste Experte.\nTemps de recharge : $21 actions alliées\n<b><size\=28><color\=#850101>Faites résonner un rythme puissant pour inspirer vos alliés, augmentant l'Attaque de toute l'équipe.</color></size></b>"
 r:"(?s)^Increase party's Attack by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also grant effects to party based on the current song playing..Heaven: If .* does not have Break .*Track.*, increase party's pierce rate by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also, gain Break Track..Spring Storm: If .* does not have Critical Track, increase party's damage by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also, gain Critical Track..Play-With-Fire: If .* does not have Expert Track, increase party's critical damage by (.*) for every (.*) points of .*'s Attack .counts up to (.*) of .*'s Attack, up to a maximum of (.*).. Lasts (.*) turns. Also, gain Expert Track..Cooldown Time: (.*) ally actions$"="Augmente l'ATQ de l'équipe de $1 tous les $2 points d'ATQ de Teto (prend en compte jusqu'à $3 points d'ATQ de Teto, jusqu'à un maximum de $4). Dure $5 tours. Confère également des effets à l'équipe selon la chanson en cours de lecture.\nHeaven : Si Teto ne possède pas Piste <link\="s|301"><u>Brèche</u></link>, augmente le taux de pénétration de l'équipe de $6 tous les $7 points d'ATQ de Teto (prend en compte jusqu'à $8 points d'ATQ de Teto, jusqu'à un maximum de $9). Dure $10 tours. Obtient également Piste Brèche.\nSpring Storm : Si Teto ne possède pas Piste Critique, augmente les dégâts de l'équipe de $11 tous les $12 points d'ATQ de Teto (prend en compte jusqu'à $13 points d'ATQ de Teto, jusqu'à un maximum de $14). Dure $15 tours. Obtient également Piste Critique.\nPlay-With-Fire : Si Teto ne possède pas Piste Experte, augmente les dégâts critiques de l'équipe de $16 tous les $17 points d'ATQ de Teto (prend en compte jusqu'à $18 points d'ATQ de Teto, jusqu'à un maximum de $19). Dure $20 tours. Obtient également Piste Experte.\nTemps de recharge : $21 actions alliées"

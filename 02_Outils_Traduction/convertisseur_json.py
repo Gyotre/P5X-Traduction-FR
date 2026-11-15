@@ -106,24 +106,36 @@ def format_line(k, v):
         return s.replace("\r\n", "\\n").replace("\r", "\\n").replace("\n", "\\n")
 
     def escape_eq(s):
-        # XUnity rejette toute ligne contenant plus d'un = non échappé hors balises.
-        # Ne pas échapper les = situés à l'intérieur des balises rich text <tag=val> (ex: <size=70%>, <color=#fff>).
-        def repl(m):
-            before = m.string[:m.start()]
-            if before.count('<') > before.count('>'):
-                return '='
-            return r'\='
-        return re.sub(r'(?<!\\)=', repl, s)
+        # XUnity coupe la ligne au premier = non échappé et REJETTE toute ligne qui en contient un second,
+        # y compris à l'intérieur des balises (<size=13>, <color=#fff>). Il décode ensuite \= en =,
+        # donc échapper tous les = est sans risque (cf. TextHelper.ReadTranslationLineAndDecode).
+        return re.sub(r'(?<!\\)=', r'\\=', s)
 
     if is_regex_key(k):
         # Valeur toujours entre guillemets (convention P5XTES) : XUnity retire les guillemets
         # extérieurs, ce qui protège ceux de la traduction (<link="s|301">...)
         if v.startswith('"') and v.endswith('"') and len(v) > 1:
             v = v[1:-1]
-        return f'{one_line(k)}="{escape_eq(one_line(v))}"\n'
+        return f'{escape_eq(one_line(k))}="{escape_eq(one_line(v))}"\n'
 
     # Clé normale : échapper les = non déjà échappés
     return f"{escape_eq(one_line(k))}={escape_eq(one_line(v))}\n"
+
+def split_base_line(s):
+    """Sépare une ligne écrite à la main 'clé=valeur' du fichier de regex de base.
+    r:"..."=... : séparateur "= ; sinon premier = non échappé situé hors d'une balise <...>."""
+    if s.startswith('r:"') or s.startswith('sr:"'):
+        i = s.find('"=', 3)
+        return (s[:i + 1], s[i + 2:]) if i > 0 else None
+    depth = 0
+    for i, c in enumerate(s):
+        if c == '<':
+            depth += 1
+        elif c == '>':
+            depth = max(0, depth - 1)
+        elif c == '=' and depth == 0 and (i == 0 or s[i - 1] != '\\'):
+            return s[:i], s[i + 1:]
+    return None
 
 def target_module(k, file, rel_dir):
     """Détermine le fichier compilé de destination d'une entrée."""
@@ -186,10 +198,15 @@ def build_modules(prota_prenom="", prota_nom="", masquer_uid=False, verbose=True
             for line in f:
                 s = line.strip()
                 if s and not s.startswith('//'):
-                    k = re.split(r'(?<!\\)=', s, maxsplit=1)[0]
+                    kv = split_base_line(s)
+                    if kv is None:
+                        continue
+                    k, v = kv
                     if k not in seen:
-                        seen[k] = (s, os.path.basename(BASE_REGEX_FILE))
-                        modules["00_Regex_Dynamiques.txt"].append(s + "\n")
+                        seen[k] = (v, os.path.basename(BASE_REGEX_FILE))
+                        formatted = format_line(k, v)
+                        if formatted:
+                            modules["00_Regex_Dynamiques.txt"].append(formatted)
 
     # 4. Tous les JSON de TRADUCTION_FACILE
     for path, file, rel_dir in iter_json_files():

@@ -27,33 +27,39 @@ r:^<size=23>2 Set Effect: Increase Fire DMG by <color=#2899ff>(.*?)</color>\.</s
 r:^<size=23>4 Set Effect: Increase ATK by <color=#2899ff>(.*?)</color>\. Additionally increase ATK by <color=#2899ff>(.*?)</color> if the foe is weak to Fire\.?$=<size=23>Effet 4 pièces : Augmente l'ATQ de <color=#2899ff>$1</color>. Augmente aussi l'ATQ de <color=#2899ff>$2</color> si l'ennemi est faible au Feu.</size>
 
 // --- NOMS D'ARCANES (CONSERVÉS EN ANGLAIS / NOM D'ORIGINE SELON LE SOUHAIT DU JOUEUR) ---
-r:^\s*\[Strif[e]?\]\s*=[Strife]
-r:^\s*Strife[:·\s]+(Sky|Cielo)\s*=Strife : Ciel
-r:^\s*Strife[:·\s]+(Sun|Sol)\s*=Strife : Soleil
-r:^\s*Strife[:·\s]+(Moon|Luna)\s*=Strife : Lune
-r:^\s*Strife[:·\s]+(Star|Estrella)\s*=Strife : Étoile
-r:^\s*Strife[:·\s]+(Planet|Planeta)\s*=Strife : Monde
+r:^\s*\[Strif[e]?\]\s*$=[Strife]
+r:^\s*Strife[:·\s]+(Sky|Cielo)\s*$=Strife : Ciel
+r:^\s*Strife[:·\s]+(Sun|Sol)\s*$=Strife : Soleil
+r:^\s*Strife[:·\s]+(Moon|Luna)\s*$=Strife : Lune
+r:^\s*Strife[:·\s]+(Star|Estrella)\s*$=Strife : Étoile
+r:^\s*Strife[:·\s]+(Planet|Planeta)\s*$=Strife : Monde
 
 // --- STATISTIQUES D'EQUIPEMENT ET INTERFACE ---
-r:^\s*SP Recovery\s*=Récupération PC
-r:^\s*Pierce Rate\s*=Pénétration
-r:^\s*Ailment Acc\.\s*=Préc. Altération
-r:^\s*Crit Rate\s*=Taux Crit.
-r:^\s*Compare\s*=Comparer
-r:^\s*Damage Mult\.\s*\+\s*=Dégâts Bonus
-r:^\s*Gun Mult\.\s*\+\s*=Dégâts Tir +
-r:^\s*Shield\s*=Bouclier
-r:^\s*ATTRIBUTES\s*=Attributs
-r:^\s*Attributes\s*=Attributs
-r:^\s*Info\s*=Infos
-r:^\s*INFO\s*=INFOS
-r:^\s*Crit Mult\.\s*=Dégâts Crit.
-r:^\s*Mark:\s*=Symbole :
-r:^\s*Speed\s*=Vitesse
-r:^\s*Defense\s*=Défense
-r:^\s*Set Effect\s*=<size=18>Effet d'Arcane</size>
+r:^\s*SP Recovery\s*$=Récupération PC
+r:^\s*Pierce Rate\s*$=Pénétration
+r:^\s*Ailment Acc\.\s*$=Préc. Altération
+r:^\s*Crit Rate\s*$=Taux Crit.
+r:^\s*Compare\s*$=Comparer
+r:^\s*Damage Mult\.\s*\+\s*$=Dégâts Bonus
+r:^\s*Gun Mult\.\s*\+\s*$=Dégâts Tir +
+r:^\s*Shield\s*$=Bouclier
+r:^\s*ATTRIBUTES\s*$=Attributs
+r:^\s*Attributes\s*$=Attributs
+r:^\s*Info\s*$=Infos
+r:^\s*INFO\s*$=INFOS
+r:^\s*Crit Mult\.\s*$=Dégâts Crit.
+r:^\s*Mark:\s*$=Symbole :
+r:^\s*Speed\s*$=Vitesse
+r:^\s*Defense\s*$=Défense
+r:^\s*Set Effect\s*$=<size=18>Effet d'Arcane</size>
 
 // --- TITRES DE SETS DE CARTES DE REVELATION (ANTI-CHEVAUCHEMENT UI) ---
-r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$=<size=13>$1 & $2</size>
-r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$=<size=13>$1 & {{A}}</size>
+// Réduits seulement s'ils dépassent ~17 caractères (le cadre du titre), en taille relative.
+// Filet de sécurité : les titres exacts ont leur propre entrée dans les JSON (prioritaire).
+r:"^(?=.{16,17}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size=87%>$1</size>"
+r:"^(?=.{18,19}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size=79%>$1</size>"
+r:"^(?=.{20,21}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size=70%>$1</size>"
+r:"^(?=.{22,23}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size=64%>$1</size>"
+r:"^(?=.{24,25}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size=59%>$1</size>"
+r:"^(?=.{26,40}$)((?:Awareness|Departure|Growth|Meditation|Faith|Trust|Harmony|Acceptance|Integrity|Wisdom|Resolve|Creation|Freedom|Hope|Perseverance|Acuity|Nativity|Purity|Self|Determination|Embrace|Strength) & .+)$"="<size=55%>$1</size>"
 r:^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$=<size=16>[$1] & [$2]</size>

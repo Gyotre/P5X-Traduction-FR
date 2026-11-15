@@ -1,6 +1,6 @@
 Boy's Voice=Voix d'Homme sexy
 Girl's Voice=Voix de Femme sexy
-<size=20>{{A}} Area $1</size>=<size=20>{{A}} Zone $1</size>
+<size\=20>{{A}} Area $1</size>=<size\=20>{{A}} Zone $1</size>
 Area $1=Zone $1
 Area:=Zone:
 Go to Area $1=Va a la Zone $1

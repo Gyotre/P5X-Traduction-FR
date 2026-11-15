@@ -34,6 +34,32 @@ REVELATION_CARD_NAMES = {
 CARD_ABILITY_OVERRIDES = {}
 
 
+# Largeur relative des lettres (police des titres, en em). Calibrée sur 17 titres observés en jeu :
+# tout titre plus large que 9,24 se coupe sur 2 lignes (ex. « Harmony & Victory »), en dessous il tient.
+LARGEUR_LETTRES = {}
+for _lettres, _l in (("iljI|.,:;'!", 0.30), ("ftr()[] ", 0.38), ("sczJ", 0.52),
+                     ("abdeghknopquvxyLFSTZPE&", 0.60), ("BCRKXYV", 0.68), ("ADGHNOQU", 0.75), ("mwMW", 0.90)):
+    for _c in _lettres:
+        LARGEUR_LETTRES[_c] = _l
+TITRE_LARGEUR_MAX = 8.3   # limite observée 9,24, moins ~10 % de marge
+
+
+def largeur_titre(titre):
+    titre = re.sub(r"\{\{.\}\}|\$\d+", "Caroline", titre)   # nom inconnu : le plus long des noms substitués
+    return sum(LARGEUR_LETTRES.get(c, 0.6) for c in titre)
+
+
+def taille_titre(titre):
+    """Valeur anti-chevauchement d'un titre de combinaison : inchangé s'il tient sur une ligne,
+    sinon réduit juste assez (taille relative en %) pour tenir sur une ligne."""
+    titre = titre.strip()
+    largeur = largeur_titre(titre)
+    if largeur <= TITRE_LARGEUR_MAX:
+        return titre
+    pct = max(55, int(TITRE_LARGEUR_MAX * 100 / largeur))
+    return f"<size={pct}%>{titre}</size>"
+
+
 def normalize_key(s):
     return s.replace('：', ':').replace(r'\=', '=').replace(r'\\=', '=').strip()
 
@@ -91,9 +117,9 @@ def synchroniser(easy_dir=EASY_DIR):
                     file_mods += 1
                 continue
 
-            # 2. Titres de combinaisons de cartes (ex: Departure & Control) -> <size=13> anti-chevauchement
+            # 2. Titres de combinaisons de cartes (ex: Departure & Control) -> réduits seulement s'ils sont trop longs
             if is_combo_key(k):
-                target_val = f"<size=13>{k.strip()}</size>"
+                target_val = taille_titre(k)
                 if data[k] != target_val:
                     data[k] = target_val
                     file_mods += 1
