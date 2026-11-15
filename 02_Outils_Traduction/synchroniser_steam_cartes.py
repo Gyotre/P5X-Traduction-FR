@@ -63,9 +63,9 @@ CARD_ABILITY_OVERRIDES = {
         "Augmente l'ATQ de 9% pour chaque coup infligés sur un ennemie avec un malus pendant 1 tours, jusqu'à 3 cumuls.",
 
     "Increase party's Fire damage by <color\\=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color\\=#2899ff>6%</color> more for 2 turns.":
-        "Augmente chez les alliée les dégats de Feu de <color\\=#2899ff>6%</color>; Augmente chez les alliée les dégats de Feu de<color\\=#2899ff>6%</color> pour 2 tours qu'on on inflige Brûlure.",
+        "Augmente chez les alliée les dégats de Feu de <color\\=#2899ff>6%</color>; Augmente chez les alliée les dégats de Feu de <color\\=#2899ff>6%</color> pour 2 tours qu'on on inflige Brûlure.",
     "Increase party's Fire damage by <color=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color=#2899ff>6%</color> more for 2 turns.":
-        "Augmente chez les alliée les dégats de Feu de <color=#2899ff>6%</color>; Augmente chez les alliée les dégats de Feu de<color=#2899ff>6%</color> pour 2 tours qu'on on inflige Brûlure.",
+        "Augmente chez les alliée les dégats de Feu de <color=#2899ff>6%</color>; Augmente chez les alliée les dégats de Feu de <color=#2899ff>6%</color> pour 2 tours qu'on on inflige Brûlure.",
     "Increase party's Fire damage by 6%. When a foe is Burning, increase party's Fire damage by 6% more for 2 turns.":
         "Augmente chez les alliée les dégats de Feu de 6%; Augmente chez les alliée les dégats de Feu de 6% pour 2 tours qu'on on inflige Brûlure.",
 
