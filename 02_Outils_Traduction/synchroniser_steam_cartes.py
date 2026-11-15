@@ -30,8 +30,52 @@ REVELATION_CARD_NAMES = {
     "Strength"
 }
 
-# Descriptions spécifiques (laissées vides pour respecter les textes originaux du jeu)
-CARD_ABILITY_OVERRIDES = {}
+# Descriptions spécifiques des cartes (traductions officielles des effets Departure et Awareness)
+CARD_ABILITY_OVERRIDES = {
+    # --- DEPARTURE ---
+    "When attacking with a skill, decrease main target's Defense by <color\\=#2899ff>23%</color> for 2 turns.":
+        "Réduit la DEF de l'ennemi principal de <color\\=#2899ff>23%</color> pendant 2 tours après l'avoir attaqué avec une compétence.",
+    "When attacking with a skill, decrease main target's Defense by <color=#2899ff>23%</color> for 2 turns.":
+        "Réduit la DEF de l'ennemi principal de <color=#2899ff>23%</color> pendant 2 tours après l'avoir attaqué avec une compétence.",
+    "When attacking with a skill, decrease main target's Defense by 23% for 2 turns.":
+        "Réduit la DEF de l'ennemi principal de 23% pendant 2 tours après l'avoir attaqué avec une compétence.",
+
+    "After attacking a foe, increase party's damage by <color\\=#2899ff>8%</color> for 1 turn.":
+        "Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color\\=#2899ff>8%</color> pendant 1 tour.",
+    "After attacking a foe, increase party's damage by <color=#2899ff>8%</color> for 1 turn.":
+        "Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color=#2899ff>8%</color> pendant 1 tour.",
+    "After attacking a foe, increase party's damage by 8% for 1 turn.":
+        "Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de 8% pendant 1 tour.",
+
+    "After defeating a foe, increase user's Attack by <color\\=#2899ff>30%</color> for 3 turns.":
+        "Augmente l'ATQ de <color\\=#2899ff>30%</color> pendant 3 tours après avoir vaincu un ennemi.",
+    "After defeating a foe, increase user's Attack by <color=#2899ff>30%</color> for 3 turns.":
+        "Augmente l'ATQ de <color=#2899ff>30%</color> pendant 3 tours après avoir vaincu un ennemi.",
+    "After defeating a foe, increase user's Attack by 30% for 3 turns.":
+        "Augmente l'ATQ de 30% pendant 3 tours après avoir vaincu un ennemi.",
+
+    # --- AWARENESS ---
+    "Whenever dealing damage to a foe with a debuff, increase user's Attack by <color\\=#2899ff>9%</color> for 1 turn. Stacks up to 3 times.":
+        "Augmente l'ATQ de <color\\=#2899ff>9%</color> pour chaque coup infligé sur un ennemi avec un malus (1 tour). Jusqu'à 3 cumuls.",
+    "Whenever dealing damage to a foe with a debuff, increase user's Attack by <color=#2899ff>9%</color> for 1 turn. Stacks up to 3 times.":
+        "Augmente l'ATQ de <color=#2899ff>9%</color> pour chaque coup infligé sur un ennemi avec un malus (1 tour). Jusqu'à 3 cumuls.",
+    "Whenever dealing damage to a foe with a debuff, increase user's Attack by 9% for 1 turn. Stacks up to 3 times.":
+        "Augmente l'ATQ de 9% pour chaque coup infligé sur un ennemi avec un malus (1 tour). Jusqu'à 3 cumuls.",
+
+    "Increase party's Fire damage by <color\\=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color\\=#2899ff>6%</color> more for 2 turns.":
+        "Augmente les dégâts de Feu de l'équipe de <color\\=#2899ff>6%</color>. Quand un ennemi est Brûlé, augmente les dégâts de Feu de <color\\=#2899ff>6%</color> de plus pour 2 tours.",
+    "Increase party's Fire damage by <color=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color=#2899ff>6%</color> more for 2 turns.":
+        "Augmente les dégâts de Feu de l'équipe de <color=#2899ff>6%</color>. Quand un ennemi est Brûlé, augmente les dégâts de Feu de <color=#2899ff>6%</color> de plus pour 2 tours.",
+    "Increase party's Fire damage by 6%. When a foe is Burning, increase party's Fire damage by 6% more for 2 turns.":
+        "Augmente les dégâts de Feu de l'équipe de 6%. Quand un ennemi est Brûlé, augmente les dégâts de Feu de 6% de plus pour 2 tours.",
+
+    "Increase damage dealt to foes with elemental ailments by <color\\=#2899ff>12%</color>. Stacks up to 2 times.":
+        "Augmente les dégâts infligés de <color\\=#2899ff>12%</color> lorsqu'on attaque un ennemi sous altération. Jusqu'à 2 cumuls.",
+    "Increase damage dealt to foes with elemental ailments by <color=#2899ff>12%</color>. Stacks up to 2 times.":
+        "Augmente les dégâts infligés de <color=#2899ff>12%</color> lorsqu'on attaque un ennemi sous altération. Jusqu'à 2 cumuls.",
+    "Increase damage dealt to foes with elemental ailments by 12%. Stacks up to 2 times.":
+        "Augmente les dégâts infligés de 12% lorsqu'on attaque un ennemi sous altération. Jusqu'à 2 cumuls.",
+}
 
 
 # Largeur relative des lettres (police des titres, en em). Calibrée sur 17 titres observés en jeu :
