@@ -24,7 +24,7 @@ Ce document récapitule l'ensemble des travaux, corrections d'ingénierie, créa
   * Système de badges visuels pour repérer instantanément les variables calculées (`[$1]`, `[$2]`, etc.).
   * Synchronisation et propagation automatique des traductions identiques sur l'ensemble des fichiers du projet (évite les conflits entre doublons).
   * Bouton **« ⚡ INJECTER DANS LE JEU »** avec validation syntaxique des balises et compilation à chaud.
-* **Lanceur d'Atelier (`Atelier_Traduction.bat`) :** Raccourci 1-clic à la racine pour ouvrir l'Atelier visuel.
+* **Lanceur d'Atelier (`Application pour traduire - Facultatif.bat`) :** Raccourci 1-clic à la racine pour ouvrir l'application visuelle.
 * **Compilateur Modulaire (`02_Outils_Traduction/convertisseur_json.py`) :**
   * Compilation des 168 JSONs vers les 6 modules texte du jeu en une fraction de seconde.
   * Gestion automatique et vérification de `AutoTranslatorConfig.ini` (`FromLanguage=en`, `Language=fr`).

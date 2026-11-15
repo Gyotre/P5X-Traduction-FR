@@ -41,11 +41,11 @@ _Traduction-P5X/
 │   ├── 🐍 generer_pack_release.py     (ZIP prêt à partager dans 06_Releases/)
 │   └── 🐍 extraire_tout_le_jeu.py / adapter_p5xtes_en_json.py (régénèrent les JSON, sources requises)
 │
-├── 📂 03_Atelier_Traduction/        <- Atelier de Traduction
-│   └── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
+├── 📂 03_Atelier_Traduction/        <- Application de Traduction (code source)
+│   └── 🐍 traducteur_p5x.py           (Interface graphique complète de traduction)
 │
-├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet pour traduire
-└── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
+├── 🎨 Application pour traduire - Facultatif.bat  <- Lanceur 1-clic de l'application visuelle
+└── 📤 Pousser_Sur_GitHub.bat                      <- Envoie automatiquement les changements sur votre repo GitHub
 ```
 
 > La synchronisation écrit uniquement dans `BepInEx/Translation/fr/Text/` et `BepInEx/config/AutoTranslatorConfig.ini`.
@@ -81,7 +81,7 @@ C'est le **seul et unique endroit** où se font les traductions du projet. Il re
 #### 💻 Méthode 2 : Traduire en local avec l'Atelier Visuel P5X
 Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée :
 1. Forkez et clonez le dépôt sur votre PC.
-2. Double-cliquez sur **`Atelier_Traduction.bat`** :
+2. Double-cliquez sur **`Application pour traduire - Facultatif.bat`** :
    * À gauche, choisissez une section : **Personnages**, **Cartes de Révélation**, **Armes**, **Personas**, **Interface**, **Combat**, **Histoire**…
    * Pour chaque texte : l'anglais apparaît en haut, votre traduction dans la case en dessous. `Tab` passe au texte suivant.
    * Le bouton **Chercher partout** permet de retrouver un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.

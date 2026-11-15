@@ -1,5 +1,5 @@
 @echo off
-title Atelier de traduction P5X
+title Application de traduction P5X (Facultatif)
 cd /d "%~dp0"
 python "03_Atelier_Traduction\traducteur_p5x.py"
 if %ERRORLEVEL% NEQ 0 (
