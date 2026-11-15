@@ -1,3 +1,4 @@
+Revelation Card=Carte de Revelation
 Ends in $1d $2h=Fin dans $1j $2h
 Ends in $1d=Fin dans $1j
 Ends in $1h $2m=Fin dans $1h $2m
