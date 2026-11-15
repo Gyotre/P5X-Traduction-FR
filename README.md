@@ -35,6 +35,7 @@ _Traduction-P5X/
 │
 ├── 📂 02_Outils_Traduction/         <- Scripts d'ingénierie et de compilation
 │   ├── 🐍 convertisseur_json.py       (Compile TRADUCTION_FACILE -> jeu + configure XUnity)
+│   ├── 🐍 synchroniser_steam_cartes.py (Synchronise les textes Steam avec 02_Cartes_Revelation_et_Sets.json)
 │   ├── 🐍 valider_traductions.py      (Balises, variables $1/{{A}}, conflits entre fichiers)
 │   ├── 🐍 statistiques_avancement.py  (Avancement par catégorie)
 │   ├── 🐍 chercher_texte.py           (Recherche un mot, en anglais ou en français)
@@ -85,6 +86,7 @@ Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée 
    * À gauche, choisissez une section : **Personnages**, **Cartes de Révélation**, **Armes**, **Personas**, **Interface**, **Combat**, **Histoire**…
    * Pour chaque texte : l'anglais apparaît en haut, votre traduction dans la case en dessous. `Tab` passe au texte suivant.
    * Le bouton **Chercher partout** permet de retrouver un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
+   * Le bouton **🔄 Sync Steam (Cartes)** : met à jour automatiquement tous les fichiers Steam (`11_Textes_Generaux_Steam/`) en fonction de vos traductions dans `02_Cartes_Revelation_et_Sets.json`.
    * Bouton **⚡ INJECTER DANS LE JEU** : valide la syntaxe, compile automatiquement et envoie directement dans votre jeu. Rechargement immédiat en jeu via **Alt + R**.
 3. Poussez vos modifications sur votre branche et ouvrez une **Pull Request**.
 

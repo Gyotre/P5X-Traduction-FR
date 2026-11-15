@@ -323,6 +323,7 @@ class Atelier(tk.Tk):
                        fg=TEXT_MUTED, bg=BG_CARD, selectcolor=BG_INPUT, activebackground=BG_CARD,
                        activeforeground=TEXT_WHITE, font=("Segoe UI", 9)).pack(side="left", padx=12)
         self._button(bar, "Glossaire", self.open_glossary, "#444444").pack(side="right")
+        self._button(bar, "🔄 Sync Steam (Cartes)", self.sync_steam_cards, "#2B5B84").pack(side="right", padx=(0, 8))
 
         info = tk.Frame(right, bg=BG_DARK)
         info.pack(fill="x", pady=(8, 4))
@@ -639,6 +640,46 @@ class Atelier(tk.Tk):
                   if conflicts else "")
                + "\nSi le jeu est ouvert : Alt + R pour recharger.")
         messagebox.showinfo("Injection terminée", msg)
+
+    def sync_steam_cards(self):
+        """Met à jour 11_Textes_Generaux_Steam/ en fonction de 02_Cartes_Revelation_et_Sets.json."""
+        self.flush()
+        if self.projet.dirty:
+            self.projet.save()
+
+        sys.path.insert(0, TOOLS_DIR)
+        try:
+            import synchroniser_steam_cartes
+            importlib.reload(synchroniser_steam_cartes)
+            total_updates, files_updated, details = synchroniser_steam_cartes.synchroniser(self.projet.easy_dir)
+        except Exception as e:
+            messagebox.showerror("Erreur de synchronisation", f"Une erreur est survenue :\n{e}")
+            return
+        finally:
+            sys.path.pop(0)
+
+        self.projet.load()
+        self._fill_tree()
+
+        if self.view_rels:
+            self.show_files(self.view_rels, self.view_title)
+
+        if total_updates > 0:
+            self._status(f"Synchronisé : {total_updates} texte(s) Steam mis à jour d'après les Cartes.", ACCENT_GREEN)
+            det_str = "\n".join(f"• {d}" for d in details)
+            messagebox.showinfo(
+                "Synchronisation terminée",
+                f"Synchronisation réussie !\n\n"
+                f"{total_updates} texte(s) mis à jour dans {files_updated} fichier(s) Steam :\n\n"
+                f"{det_str}\n\n"
+                f"Pensez à cliquer sur '⚡ INJECTER DANS LE JEU' pour appliquer dans P5X."
+            )
+        else:
+            self._status("Steam et Cartes sont déjà parfaitement synchronisés.", ACCENT_GREEN)
+            messagebox.showinfo(
+                "Synchronisation terminée",
+                "Les textes Steam sont déjà parfaitement synchronisés avec vos Cartes de Révélation !\nAucune modification nécessaire."
+            )
 
     def open_glossary(self):
         if os.path.exists(GLOSSAIRE):
