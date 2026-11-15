@@ -706,7 +706,7 @@
   "r:\"^Collected: (\\d+)/(\\d+)$\"": "",
   "r:\"^Reach Synergy Rank (\\d+) with {{A}}\\.$\"": "",
   "Gift 5★ Weapon Case": "",
-  "Revelation Card": "",
+  "Revelation Card": "Carte de Revelation",
   "r:\"^Reach Talent level (\\d+) to level up further\\.$\"": "",
   "Obtain a Thief you already have": "",
   "r:\"^(.+?) has joined the Phantom Thieves$\"": "",
