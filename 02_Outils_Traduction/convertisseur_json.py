@@ -106,8 +106,14 @@ def format_line(k, v):
         return s.replace("\r\n", "\\n").replace("\r", "\\n").replace("\n", "\\n")
 
     def escape_eq(s):
-        # XUnity rejette toute ligne contenant plus d'un = non échappé
-        return re.sub(r'(?<!\\)=', r'\\=', s)
+        # XUnity rejette toute ligne contenant plus d'un = non échappé hors balises.
+        # Ne pas échapper les = situés à l'intérieur des balises rich text <tag=val> (ex: <size=70%>, <color=#fff>).
+        def repl(m):
+            before = m.string[:m.start()]
+            if before.count('<') > before.count('>'):
+                return '='
+            return r'\='
+        return re.sub(r'(?<!\\)=', repl, s)
 
     if is_regex_key(k):
         # Valeur toujours entre guillemets (convention P5XTES) : XUnity retire les guillemets

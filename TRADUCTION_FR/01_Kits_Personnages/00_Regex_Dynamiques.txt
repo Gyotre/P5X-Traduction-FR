@@ -34,19 +34,26 @@ r:^\s*Strife[:·\s]+(Moon|Luna)\s*=Strife : Lune
 r:^\s*Strife[:·\s]+(Star|Estrella)\s*=Strife : Étoile
 r:^\s*Strife[:·\s]+(Planet|Planeta)\s*=Strife : Monde
 
-// --- STATISTIQUES D'EQUIPEMENT ---
-r:^\s*SP Recovery\s*=Récupération SP
+// --- STATISTIQUES D'EQUIPEMENT ET INTERFACE ---
+r:^\s*SP Recovery\s*=Récupération PC
 r:^\s*Pierce Rate\s*=Pénétration
-r:^\s*Ailment Acc\.\s*=Précision Altération
+r:^\s*Ailment Acc\.\s*=Préc. Altération
 r:^\s*Crit Rate\s*=Taux Crit.
 r:^\s*Compare\s*=Comparer
-r:^\s*Damage Mult\.\s*\+\s*=Dégâts Mult. +
-r:^\s*Crit Mult\.\s*=Critique Mult.
+r:^\s*Damage Mult\.\s*\+\s*=Dégâts Bonus
+r:^\s*Gun Mult\.\s*\+\s*=Dégâts Tir +
+r:^\s*Shield\s*=Bouclier
+r:^\s*ATTRIBUTES\s*=Attributs
+r:^\s*Attributes\s*=Attributs
+r:^\s*Info\s*=Infos
+r:^\s*INFO\s*=INFOS
+r:^\s*Crit Mult\.\s*=Dégâts Crit.
 r:^\s*Mark:\s*=Symbole :
 r:^\s*Speed\s*=Vitesse
 r:^\s*Defense\s*=Défense
+r:^\s*Set Effect\s*=<nobr>Effet d'Arcane</nobr>
 
 // --- TITRES DE SETS DE CARTES DE REVELATION (ANTI-CHEVAUCHEMENT UI) ---
-r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$"=<size=80%>$1 & $2</size>
-r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$"=<size=80%>$1 & {{A}}</size>
-r:"^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$"=<size=18>[$1] & [$2]</size>
+r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$"="<nobr><size=70%>$1 & $2</size></nobr>"
+r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$"="<nobr><size=70%>$1 & {{A}}</size></nobr>"
+r:"^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$"="<nobr><size=18>[$1] & [$2]</size></nobr>"
