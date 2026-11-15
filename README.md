@@ -84,8 +84,6 @@ Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée 
 2. Double-cliquez sur **`Application pour traduire - Facultatif.bat`** :
    * À gauche, choisissez une section : **Personnages**, **Cartes de Révélation**, **Armes**, **Personas**, **Interface**, **Combat**, **Histoire**…
    * Pour chaque texte : l'anglais apparaît en haut, votre traduction dans la case en dessous. `Tab` passe au texte suivant.
-   * **Bouton ⚡ Auto :** Traduit instantanément la ligne sélectionnée en respectant automatiquement le Glossaire officiel, en protégeant les balises et en évitant les chevauchements !
-   * **Bouton 🪄 Auto-Traduire la page :** Traduit automatiquement toutes les lignes non traduites de la page en 1 clic.
    * Le bouton **Chercher partout** permet de retrouver un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
    * Bouton **⚡ INJECTER DANS LE JEU** : valide la syntaxe, compile automatiquement et envoie directement dans votre jeu. Rechargement immédiat en jeu via **Alt + R**.
 3. Poussez vos modifications sur votre branche et ouvrez une **Pull Request**.

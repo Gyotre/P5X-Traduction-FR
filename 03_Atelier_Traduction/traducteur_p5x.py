@@ -27,12 +27,6 @@ TOOLS_DIR = os.path.join(BASE_DIR, "02_Outils_Traduction")
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "launcher_config.json")
 GLOSSAIRE = os.path.join(BASE_DIR, "01_Documentation", "Glossaire_Officiel_P5_FR.md")
 
-sys.path.insert(0, os.path.dirname(__file__))
-try:
-    import assistant_traduction as assistant
-except Exception:
-    assistant = None
-
 PAGE_SIZE = 40
 
 # Couleurs Persona 5
@@ -338,7 +332,6 @@ class Atelier(tk.Tk):
         self.lbl_progress.pack(side="left", padx=12)
         nav = tk.Frame(info, bg=BG_DARK)
         nav.pack(side="right")
-        self._button(nav, "🪄 Auto-Traduire la page", self.auto_translate_page, "#5E239D").pack(side="left", padx=8)
         self._button(nav, "◀", lambda: self.goto(self.page - 1), "#383838").pack(side="left")
         self.lbl_page = tk.Label(nav, text="", fg=TEXT_MUTED, bg=BG_DARK, font=("Segoe UI", 9), width=16)
         self.lbl_page.pack(side="left")
@@ -505,7 +498,6 @@ class Atelier(tk.Tk):
         txt.bind("<FocusOut>", lambda e, r=rel, k=key: self._commit(r, k))
         side = tk.Frame(row, bg=BG_CARD)
         side.pack(side="right", padx=(6, 0))
-        self._button(side, "⚡ Auto", lambda t=txt, s=key, r=rel: self._auto_translate_card(t, s, r), "#5E239D").pack(fill="x", pady=(0, 2))
         self._button(side, "= EN", lambda t=txt, s=key: self._copy_en(t, s), "#383838").pack(fill="x")
         status = tk.Label(side, text="✓" if value.strip() else "✎", fg=ACCENT_GREEN if value.strip() else ACCENT_GOLD,
                           bg=BG_CARD, font=("Segoe UI", 12, "bold"))
@@ -517,58 +509,6 @@ class Atelier(tk.Tk):
         if conf:
             tk.Label(card, text=f"⚠ Traduit autrement dans {nice_file_name(conf[0][0])} : « {conf[0][1][:80]} »",
                      fg=ACCENT_GOLD, bg=BG_CARD, font=("Segoe UI", 8), anchor="w").pack(fill="x", pady=(4, 0))
-
-    def _auto_translate_card(self, txt, key, rel):
-        if not assistant:
-            messagebox.showerror("Assistant", "Module assistant_traduction.py introuvable.")
-            return
-        shown, _ = readable_regex(key) if is_regex(key) else (key, 0)
-        self._status("Traduction intelligente en cours...", ACCENT_GOLD)
-        self.update_idletasks()
-        try:
-            trad = assistant.traduire_en_francais(shown)
-            if trad:
-                txt.delete("1.0", "end")
-                txt.insert("1.0", to_display(trad))
-                self._commit(rel, key)
-                txt.status.config(text="✓", fg=ACCENT_GREEN)
-                self._status(f"Traduit avec le Glossaire : « {shown[:35]}… »", ACCENT_GREEN)
-            else:
-                self._status("Impossible de traduire ce texte.", ACCENT_GOLD)
-        except Exception as e:
-            self._status(f"Erreur de traduction : {e}", P5_RED)
-
-    def auto_translate_page(self):
-        if not assistant:
-            messagebox.showerror("Assistant", "Module assistant_traduction.py introuvable.")
-            return
-        to_translate = []
-        for (rel, key), txt in self.widgets.items():
-            val = txt.get("1.0", "end-1c").strip()
-            if not val:
-                to_translate.append((rel, key, txt))
-        if not to_translate:
-            messagebox.showinfo("Auto-Traduction", "Tous les textes de cette page sont déjà traduits !")
-            return
-        if not messagebox.askyesno("Auto-Traduction", f"Traduire automatiquement {len(to_translate)} texte(s) non traduit(s) sur cette page avec le Glossaire officiel ?"):
-            return
-        self._status(f"Traduction de {len(to_translate)} texte(s) en cours...", ACCENT_GOLD)
-        self.update_idletasks()
-        count = 0
-        for rel, key, txt in to_translate:
-            shown, _ = readable_regex(key) if is_regex(key) else (key, 0)
-            try:
-                trad = assistant.traduire_en_francais(shown)
-                if trad:
-                    txt.delete("1.0", "end")
-                    txt.insert("1.0", to_display(trad))
-                    self._commit(rel, key)
-                    txt.status.config(text="✓", fg=ACCENT_GREEN)
-                    count += 1
-            except Exception:
-                pass
-        self._status(f"Succès : {count} texte(s) traduit(s) avec le Glossaire sur la page !", ACCENT_GREEN)
-        self._fill_tree()
 
     def _copy_en(self, txt, key):
         if is_regex(key):
