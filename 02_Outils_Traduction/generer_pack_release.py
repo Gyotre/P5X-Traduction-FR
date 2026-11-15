@@ -43,7 +43,7 @@ def extract_changelog(version, changelog_path):
         return match.group(1).strip()
     return ""
 
-def make_launcher_release(version="1.0.2.5", region="EN"):
+def make_launcher_release(version="1.0.2.6", region="EN"):
     """
     Génère translation.zip avec l'arborescence exacte attendue par P5XfrLauncher :
     translation.zip

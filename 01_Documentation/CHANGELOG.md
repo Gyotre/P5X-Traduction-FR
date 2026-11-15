@@ -1,5 +1,18 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.0.2.6] - 2026-11-15
+
+### 🛠️ Correctifs et Améliorations de la version 1.0.2.6 :
+
+* **Correction des bugs d'affichage liés aux descriptions et titres des Arcanes :**
+  * **Suppression des chevauchements de texte :** Résolution définitive du problème où les titres de combinaisons d'arcanes trop longs (*Integrity & Pleasure*, *Departure & Control*, *Awareness & Hindrance*, etc.) se coupaient sur deux lignes et recouvraient la description des compétences.
+  * **Ajustement typographique dynamique :** Tous les titres sont désormais calibrés en fonction de la largeur réelle des lettres pour tenir strictement sur une seule ligne sans aucun débordement.
+  * **Descriptions des arcanes d'origine :** Les descriptions des effets de cartes sont conservées dans leur texte d'origine avec une taille uniforme et lisible.
+  * **Déblocage complet sous XUnity AutoTranslator :** Échappement universel des caractères `=` assurant que 100 % des balises de taille et de couleur sont bien interprétées par le moteur du jeu.
+* **Compatibilité Launcher :** Pack 100 % compatible avec le système de mise à jour automatique de **[P5XfrLauncher de Garloulou](https://github.com/Garloulou/P5XfrLauncher)**.
+
+---
+
 ## [v1.0.2.5] - 2026-11-15
 
 ### 🛠️ Correctifs et Améliorations de la version 1.0.2.5 :
