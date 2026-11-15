@@ -99,7 +99,7 @@ def format_line(k, v):
     """
     k = k.strip()
     v = v.strip()
-    if not k or not v:
+    if not k or not v or k.startswith('//') or k.startswith('#'):
         return None
 
     def one_line(s):

@@ -88,6 +88,8 @@ def main():
                 if not val:
                     continue
                 key = k.strip()
+                if key.startswith('//') or key.startswith('#'):
+                    continue
                 for msg in check_entry(key, val):
                     file_issues.append((key, msg))
                 if key in seen and seen[key][0] != val:
