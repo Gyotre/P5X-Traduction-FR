@@ -90,10 +90,77 @@ Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée 
    * Bouton **⚡ INJECTER DANS LE JEU** : valide la syntaxe, compile automatiquement et envoie directement dans votre jeu. Rechargement immédiat en jeu via **Alt + R**.
 3. Poussez vos modifications sur votre branche et ouvrez une **Pull Request**.
 
-#### ⚠️ Règles impératives pour les traducteurs :
-1. **Consulter le [Glossaire Officiel](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/01_Documentation/Glossaire_Officiel_P5_FR.md) :** Respectez impérativement le vocabulaire officiel Persona 5 (*Ennemi Principal*, *Attaque de Suivi*, *PV*, *PC*, *Cartes de Révélation*, *Absolue*, etc.).
-2. **Respecter scrupuleusement les balises techniques :** Les balises visuelles (`<color=#FFFC40>`, `<size=...>`, `<b>`) et les variables du moteur de jeu (`$1`, `$2`, `{{A}}`) doivent rester **strictement intactes**. Ne traduisez que le texte autour.
-3. Pour plus de détails sur les conventions, consultez le **[Guide Pratique du Traducteur](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/01_Documentation/GUIDE_DU_TRADUCTEUR.md)**.
+---
+
+## ✍️ Comment Traduire Proprement (Guide et Règles d'Or)
+
+Pour que la traduction française soit immersive, fidèle à l'univers Persona et parfaitement intégrée au moteur du jeu sans bugs visuels ni crashs, voici les règles indispensables à respecter :
+
+### 1. 📖 Respecter le Glossaire Officiel Persona (Cohérence Globale)
+Ne traduisez pas au jugé : utilisez scrupuleusement la terminologie officielle de la version française de **Persona 5 / Persona 5 Royal / Persona 3 Reload** :
+* **Points de vie & concentration :** `HP` $\rightarrow$ **`PV`**, `SP` $\rightarrow$ **`PC`** (*Points de Concentration*, jamais `SP` ni `PE`).
+* **Statistiques d'équipement :**
+  * `Attack` $\rightarrow$ **`Attaque`** (ou `ATQ`)
+  * `Defense` $\rightarrow$ **`Défense`** (ou `DEF`)
+  * `Speed` $\rightarrow$ **`Vitesse`** (ou `VIT`)
+  * `SP Recovery` $\rightarrow$ **`Récupération PC`** (ou `Régénération PC`)
+  * `Gun Mult. +` $\rightarrow$ **`Dégâts Tir +`**
+  * `Shield` $\rightarrow$ **`Bouclier`**
+  * `Crit Mult.` $\rightarrow$ **`Dégâts Crit.`**
+  * `Crit Rate` $\rightarrow$ **`Taux Crit.`**
+  * `Damage Mult. +` $\rightarrow$ **`Dégâts Bonus`**
+  * `Pierce Rate` $\rightarrow$ **`Pénétration`**
+  * `Ailment Acc.` $\rightarrow$ **`Préc. Altération`** *(cette abréviation précise est obligatoire : « Précision d'Altération » ou « Taux d'Altération » dépasse la largeur de colonne et tronque en `Taux d'Altérato...`)*
+* **Termes de combat & cartes :**
+  * `Set Effect` $\rightarrow$ **`Effet d'Arcane`** (sur les Cartes) ou **`Effet de Set`**
+  * `Follow Up` $\rightarrow$ **`Attaque de Suivi`**
+  * `Highlight` $\rightarrow$ **`Absolue`** (ou Highlight selon contexte P5X)
+  * `Debuff` $\rightarrow$ **`Malus`** / `Buff` $\rightarrow$ **`Bonus`**
+  * `Stack` $\rightarrow$ **`Cumul`** (*"Stacks up to 3 times"* $\rightarrow$ *"Cumulable 3 fois"* ou *"Jusqu'à 3 cumuls"*)
+* 🔗 Référez-vous toujours au [Glossaire Officiel P5 FR](01_Documentation/Glossaire_Officiel_P5_FR.md).
+
+---
+
+### 2. 🏷️ Conserver les Balises et Variables Techniques (Crashs & Affichage)
+Le moteur Unity (TextMeshPro) injecte dynamiquement des données dans les textes. Ces éléments techniques doivent **toujours** rester intacts :
+* **Balises de couleur :** `<color=#FFFC40>...</color>` ou `<color\=#2899ff>...</color>`. Ne modifiez jamais le code hexadécimal ni la balise fermante `</color>`.
+* **Variables dynamiques :** `$1`, `$2`, `$3`... représentent des nombres ou des variables calculées en temps réel par le jeu. Conservez-les dans l'ordre logique de votre phrase française.
+* **Substitutions de noms :** `{{A}}`, `{{B}}` représentent le nom du protagoniste ou d'un allié géré par le module de substitution XUnity. Ne les effacez pas.
+* **Sauts de ligne et échappements :** `\n` représente un retour à la ligne obligatoire dans l'interface ou les bulles. Les `\=` dans les clés JSON représentent des signes égal échappés.
+
+---
+
+### 3. 📐 Éviter le Bug de Chevauchement UI (Règle des 2 Lignes)
+Dans P5X, les cartes de révélation et plusieurs fenêtres d'interface ont été conçues pour le texte chinois d'origine (très condensé). Leurs conteneurs ont des **hauteurs fixes** :
+* ⚠️ **Le problème :** Dès qu'une description d'effet fait **3 lignes**, la 3e ligne dépasse du conteneur et chevauche le titre bleu de l'effet suivant !
+* 💡 **La méthode pour traduire proprement :**
+  1. **Privilégier la concision :** Allez droit au but sans phrases à rallonge.
+     - ❌ *Trop long (3 lignes) :* `En combat, quand les Points de Concentration atteignent 100%/150%/200%, augmente les dégâts critiques de 15%/30%/45%.`
+     - ✔️ *Parfait (2 lignes) :* `Quand les PC atteignent 100%/150%/200%, dégâts critiques +15%/30%/45%.`
+  2. **Utiliser la balise de taille `<size=20>` :** Pour les descriptions denses, entourer le texte de `<size=20>...</size>` réduit légèrement la police et garantit que le texte reste sur 2 lignes sans déborder.
+  3. **Titres de sets :** Les titres longs (ex: `Creation & Reconciliation`) sont automatiquement ajustés via `<size=16>` dans les regex pour tenir sur une seule ligne. **Ne jamais utiliser la balise HTML `<nobr>`**, car Unity TextMeshPro ne la reconnaît pas.
+
+---
+
+### 4. 🃏 Cartes de Révélation et Synchronisation Steam
+* Le fichier `TRADUCTION_FACILE/08_Equipements_et_Objets/02_Cartes_Revelation_et_Sets.json` est la **source de vérité absolue** pour toutes les cartes et effets de sets.
+* Les noms de base des cartes (ex: `Awareness`, `Creation`, `Departure`, `Resolve`) restent dans leur nomenclature reconnue par le jeu pour assurer le déclenchement des combos.
+* 🔄 **Synchronisation automatique en 1 clic :** Dès que vous modifiez ou ajoutez des traductions dans `02_Cartes_Revelation_et_Sets.json`, cliquez sur le bouton **`🔄 Sync Steam (Cartes)`** dans l'application visuelle (ou lancez `python 02_Outils_Traduction/synchroniser_steam_cartes.py`). Cela répercute instantanément vos traductions dans les fichiers Steam (`11_Textes_Generaux_Steam/`) et garantit **0 conflit** à la compilation.
+
+---
+
+### 5. 🎭 Ton, Style et Personnalité des Phantom Thieves
+* **Tutoiement entre équipiers :** Les membres du groupe (Joker, Ryuji, Morgana, Ann, Yusuke, Makoto, Futaba, Haru, Shun, etc.) se tutoient.
+* **Vouvoiement de politesse :** Envers les adultes, les professeurs, les clients, Sojiro (au début) ou la police.
+* **Éviter la traduction automatique brute :** Relisez toujours vos textes pour qu'ils sonnent naturels à l'oral en français.
+
+---
+
+### 6. ⚡ Vérifier et Tester en Jeu Avant de Valider
+1. **Compiler et injecter :** Cliquez sur **`⚡ INJECTER DANS LE JEU`** dans l'application (ou lancez `python 02_Outils_Traduction/convertisseur_json.py`).
+2. **Zéro conflit :** Le compilateur ne doit signaler aucun avertissement de conflit.
+3. **Test immédiat en jeu :** En jeu, appuyez sur **`Alt + R`** pour recharger la traduction à chaud et vérifier instantanément le rendu visuel.
+4. Pour plus d'exemples pas à pas, consultez également le **[Guide Pratique du Traducteur](01_Documentation/GUIDE_DU_TRADUCTEUR.md)**.
 
 ---
 
