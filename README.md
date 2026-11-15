@@ -5,7 +5,7 @@ Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier 
 
 > 📢 **Note sur le Launcher :**  
 > Le launcher officiel et recommandé pour jouer au jeu et gérer les mises à jour automatiques est **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)** développé par **Garloulou**.  
-> Le script `launcher_p5x.py` présent dans le dossier `04_Launcher_P5X_FR/` n'était qu'un **prototype de test interne** utilisé pour valider les injections. Pour jouer au quotidien, utilisez exclusivement le launcher de Garloulou !
+> Ce dépôt est dédié à la production, la maintenance et la mise à disposition des fichiers de traduction française. Pour jouer au quotidien, utilisez exclusivement le launcher de Garloulou !
 
 > 🧪 **État d'avancement actuel (Phase de Test) :**  
 > Pour le moment, **seul le kit complet de Hatsune Miku** (compétences en combat et dans les menus, passifs d'Awareness/Conscience 0-2, Piste, Miku's Stage, etc.) a été traduit afin de tester et valider l'ensemble du projet. Le reste du jeu sera traduit progressivement.  
@@ -41,9 +41,8 @@ _Traduction-P5X/
 │   ├── 🐍 generer_pack_release.py     (ZIP prêt à partager dans 06_Releases/)
 │   └── 🐍 extraire_tout_le_jeu.py / adapter_p5xtes_en_json.py (régénèrent les JSON, sources requises)
 │
-├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction (+ prototype test)
-│   ├── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
-│   └── 🐍 launcher_p5x.py             (Prototype de test interne - préférez P5XfrLauncher de Garloulou)
+├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction
+│   └── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
 │
 ├── 📂 05_Paquet_BepInEx_Preconfigure/ <- Modpack BepInEx + XUnity prêt à l'emploi (A_COPIER_DANS_LE_JEU/)
 │
@@ -51,8 +50,7 @@ _Traduction-P5X/
 │
 ├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet pour traduire
 ├── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu en 1 clic
-├── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
-└── 🚀 Lancer_Launcher.bat           <- Ancien launcher de test (utilisez P5XfrLauncher de Garloulou)
+└── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
 ```
 
 > La synchronisation écrit uniquement dans `BepInEx/Translation/fr/Text/` et `BepInEx/config/AutoTranslatorConfig.ini`.
