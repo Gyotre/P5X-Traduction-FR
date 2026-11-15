@@ -1,7 +1,6 @@
 Growth & {{A}}=<size\=91%>Growth & {{A}}</size>
 Trust & {{A}}=Trust & {{A}}
 Departure & {{A}}=<size\=80%>Departure & {{A}}</size>
-Increase party's Fire damage by <color\=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color\=#2899ff>6%</color> more for 2 turns.=<size\=20>Augmente les dégâts Feu de l'équipe de <color\=#2899ff>6%</color> (+<color\=#2899ff>6%</color> si ennemi Brûlé, 2 tours).</size>
 Awareness & {{A}}=<size\=76%>Awareness & {{A}}</size>
 4 Set Effect：Increase Shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color\=#2899ff>18%</color>.
 Departure & Interference=<size\=68%>Departure & Interference</size>
@@ -31,7 +30,6 @@ Departure & Control=<size\=84%>Departure & Control</size>
 Departure & Prosperity=<size\=74%>Departure & Prosperity</size>
 Trust & Prosperity=<size\=94%>Trust & Prosperity</size>
 Meditation & Love=<size\=92%>Meditation & Love</size>
-Increase damage dealt to foes with elemental ailments by <color\=#2899ff>12%</color>. Stacks up to 2 times.=<size\=20>Augmente les dégâts aux ennemis avec altération de <color\=#2899ff>12%</color>. Max 2 cumuls.</size>
 Awareness & Truth=<size\=88%>Awareness & Truth</size>
 Awareness & Hindrance=<size\=70%>Awareness & Hindrance</size>
 Awareness & Control=<size\=80%>Awareness & Control</size>
@@ -53,9 +51,7 @@ Freedom & Triumph=<size\=86%>Freedom & Triumph</size>
 Creation & Worry=<size\=99%>Creation & Worry</size>
 Freedom & Disappointment=<size\=62%>Freedom & Disappointment</size>
 Faith & Futility=Faith & Futility
-At the start of battle, increase damage of the ally with the lowest Speed by <color\=#2899ff>12%</color>. This effect won't activate if stacked.=<size\=20>Au début du combat, augmente les dégâts de l'allié à plus faible Vitesse de <color\=#2899ff>12%</color>. Non cumulable.</size>
 Creation & Reconciliation=<size\=66%>Creation & Reconciliation</size>
-After attacking a foe, increase party's damage by <color\=#2899ff>8%</color> for 1 turn.=<size\=20>Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color\=#2899ff>8%</color> pendant 1 tour.</size>
 INFO=Infos
 Integrity & Ruin=Integrity & Ruin
 Hope & Ruin=Hope & Ruin

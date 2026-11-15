@@ -1,5 +1,25 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.0.2.5] - 2026-11-15
+
+### 🛠️ Correctifs et Améliorations de la version 1.0.2.5 :
+
+* **Correctif critique du compilateur pour XUnity AutoTranslator :**
+  * Échappement universel de tous les `=` en `\=` (y compris à l'intérieur des balises `<size=...>`, `<color=...>`).
+  * Déblocage de **207 lignes de traduction qui étaient silencieusement rejetées** par le parseur de XUnity (*TextHelper*), rétablissant immédiatement l'application de toutes les balises de taille et de couleur.
+* **Titres de combinaisons de cartes calibrés sur la largeur réelle des lettres :**
+  * Intégration du modèle de largeur typographique réelle (largeur par lettre calée sur 17 titres observés en jeu, seuil critique à 8,3 avec 10% de marge de sécurité).
+  * Les titres longs sont ajustés précisément (ex: *Freedom & Disappointment* à 62%, *Creation & Reconciliation* à 66%, *Awareness & Hindrance* à 70%, *Awareness & Control* à 80%, *Harmony & Victory* à 89%, *Freedom & Defeat* à 92%), tandis que les titres courts restent à 100%.
+  * Validation confirmée en jeu : **100% des titres tiennent sur une seule ligne sans aucun chevauchement**.
+* **Descriptions des effets de cartes :**
+  * Descriptions intégralement conservées en version originale anglaise et à taille normale uniforme.
+* **Ancrage des expressions régulières ($) :**
+  * 23 règles de libellés (dont *Defense*) ancrées avec `$` pour éviter de remplacer les phrases débutant par ces mots.
+* **Correction de libellé :**
+  * Correction de la coquille d'interface : `Weekly` (`Semains` → **`Semaine`**).
+
+---
+
 ## [v1.0.2.4] - 2026-11-15
 
 ### 🛠️ Correctifs et Améliorations de la version 1.0.2.4 :

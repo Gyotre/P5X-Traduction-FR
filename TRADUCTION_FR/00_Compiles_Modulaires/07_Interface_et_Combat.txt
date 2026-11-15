@@ -23,7 +23,7 @@ Fuse=Fusion
 ∞=∞
 <size\=15>Monthly</size>=Mois
 <size\=16>Daily</size>=Journée
-<size\=13>Weekly</size>=Semains
+<size\=13>Weekly</size>=Semaine
 Left:=Encore
 Unlocks at Lv. $1=Débloque au Nv $1
 Quantity=Quandtité
