@@ -59,28 +59,28 @@ r:"^Inflige (\d+)% de dégâts pendant (\d+) tours$"="Inflige $1% de dégâts pe
 
 ## 4. Les Outils à ta Disposition
 
-Dans le dossier `03_Outils_Traduction/`, tu disposes de plusieurs scripts pratiques :
+Dans le dossier `02_Outils_Traduction/`, tu disposes de plusieurs scripts pratiques :
 
 ### 📊 1. Voir l'avancement :
 ```powershell
-python 03_Outils_Traduction/statistiques_avancement.py
+python 02_Outils_Traduction/statistiques_avancement.py
 ```
 Affiche le nombre de textes traduits par catégorie (`--fichiers` pour le détail par fichier).
 
 ### 🔍 2. Chercher un mot ou une arme :
 ```powershell
-python 03_Outils_Traduction/chercher_texte.py "Deus Xiphos"
+python 02_Outils_Traduction/chercher_texte.py "Deus Xiphos"
 ```
 Recherche instantanément dans tous les fichiers pour savoir où se trouve un terme.
 
 ### ✅ 3. Vérifier qu'il n'y a pas d'erreur de syntaxe :
 ```powershell
-python 03_Outils_Traduction/valider_traductions.py
+python 02_Outils_Traduction/valider_traductions.py
 ```
 Vérifie les balises, les variables (`$1`, `{{A}}`…) et les conflits entre fichiers avant de tester en jeu (`--tout` pour tout afficher).
 
 ### 📦 4. Créer un pack à distribuer à tes amis :
 ```powershell
-python 03_Outils_Traduction/generer_pack_release.py 1.0.0
+python 02_Outils_Traduction/generer_pack_release.py 1.0.0
 ```
 Génère dans `06_Releases/` un ZIP avec BepInEx, XUnity configuré en français et les traductions compilées, à copier dans le dossier du jeu.

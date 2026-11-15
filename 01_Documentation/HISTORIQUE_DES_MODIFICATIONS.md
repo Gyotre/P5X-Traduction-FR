@@ -19,17 +19,17 @@ Ce document récapitule l'ensemble des travaux, corrections d'ingénierie, créa
 
 ## 2. Création de l'Atelier de Traduction & des Outils
 
-* **Atelier Graphique Tkinter (`04_Launcher_P5X_FR/traducteur_p5x.py`) :**
+* **Atelier Graphique Tkinter (`03_Atelier_Traduction/traducteur_p5x.py`) :**
   * Interface ergonomique sombre/rouge Persona 5, classant les 168 fichiers JSON en 14 sections thématiques.
   * Système de badges visuels pour repérer instantanément les variables calculées (`[$1]`, `[$2]`, etc.).
   * Synchronisation et propagation automatique des traductions identiques sur l'ensemble des fichiers du projet (évite les conflits entre doublons).
   * Bouton **« ⚡ INJECTER DANS LE JEU »** avec validation syntaxique des balises et compilation à chaud.
 * **Lanceur d'Atelier (`Atelier_Traduction.bat`) :** Raccourci 1-clic à la racine pour ouvrir l'Atelier visuel.
-* **Compilateur Modulaire (`03_Outils_Traduction/convertisseur_json.py`) :**
+* **Compilateur Modulaire (`02_Outils_Traduction/convertisseur_json.py`) :**
   * Compilation des 168 JSONs vers les 6 modules texte du jeu en une fraction de seconde.
   * Gestion automatique et vérification de `AutoTranslatorConfig.ini` (`FromLanguage=en`, `Language=fr`).
   * Déploiement direct dans `BepInEx/Translation/fr/Text/` avec rechargement en jeu via `Alt + R`.
-* **Générateur de Release (`03_Outils_Traduction/generer_pack_release.py`) :**
+* **Générateur de Release (`02_Outils_Traduction/generer_pack_release.py`) :**
   * Empaquette automatiquement `translation.zip` selon la structure exacte attendue par l'updater du launcher.
   * Calcule et affiche l'empreinte de sécurité **SHA-256**.
 * **Script de Synchronisation GitHub (`Pousser_Sur_GitHub.bat`) :**
@@ -37,21 +37,19 @@ Ce document récapitule l'ensemble des travaux, corrections d'ingénierie, créa
 
 ---
 
-## 3. Nettoyage et Réorganisation Complète des Dossiers (~70 Mo libérés)
+## 3. Nettoyage et Réorganisation Complète des Dossiers (~145 Mo libérés)
 
 * **Éléments obsolètes supprimés :**
-  * Suppression de 3 archives ZIP brutes redondantes dans `05_Paquet_BepInEx_Preconfigure/` (~69 Mo libérés), le dossier extrait `A_COPIER_DANS_LE_JEU/` étant déjà complet et prêt à l'emploi.
-  * Suppression de l'ancien dossier `03_Outils_Traduction/_obsoletes/` contenant des scripts morts ciblant des répertoires disparus.
-  * Suppression de l'ancien prototype `04_Launcher_P5X_FR/editeur_traduction.py` et des raccourcis doublons.
-  * Élimination des brouillons Word temporaires au profit de la version finale consolidée.
-* **Nouvelle Arborescence Claire :**
-  * **`00_Documentation/`** : Centralisation de tous les guides (`DOCUMENTATION_TECHNIQUE_P5X_TRADUCTION.docx`, `GUIDE_DU_TRADUCTEUR.md`, `Glossaire_Officiel_P5_FR.md`).
+  * Suppression du dossier `05_Paquet_BepInEx_Preconfigure/` (~77 Mo libérés), le launcher de Garloulou configurant BepInEx nativement.
+  * Suppression de l'ancien prototype `launcher_p5x.py` et de `Lancer_Launcher.bat`.
+  * Suppression de l'ancien raccourci redondant `Mettre_A_Jour_Le_Jeu.bat`.
+  * Suppression de l'ancien prototype `editeur_traduction.py` et des raccourcis doublons.
+* **Nouvelle Arborescence Claire & Continue :**
+  * **`01_Documentation/`** : Centralisation de tous les guides (`DOCUMENTATION_TECHNIQUE_P5X_TRADUCTION.docx`, `GUIDE_DU_TRADUCTEUR.md`, `Glossaire_Officiel_P5_FR.md`).
+  * **`02_Outils_Traduction/`** : Les scripts d'ingénierie et de compilation actifs.
+  * **`03_Atelier_Traduction/`** : L'Atelier graphique de traduction.
   * **`TRADUCTION_FACILE/`** : Les 168 fichiers JSON sources organisés par catégorie.
   * **`TRADUCTION_FR/`** : Les textes compilés et glossaires de référence.
-  * **`03_Outils_Traduction/`** : Les scripts d'ingénierie et de compilation actifs.
-  * **`04_Launcher_P5X_FR/`** : L'Atelier graphique de traduction.
-  * **`05_Paquet_BepInEx_Preconfigure/`** : Le pack BepInEx + XUnity prêt à l'emploi.
-  * **`_Sauvegardes/`** : Stockage isolé des anciennes sauvegardes (`BACKUP_TRADUCTIONS_MIKU`).
 
 ---
 

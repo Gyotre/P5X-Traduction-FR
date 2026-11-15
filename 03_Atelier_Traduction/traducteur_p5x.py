@@ -23,9 +23,9 @@ from tkinter import ttk, messagebox, filedialog
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 EASY_DIR = os.path.join(BASE_DIR, "TRADUCTION_FACILE")
-TOOLS_DIR = os.path.join(BASE_DIR, "03_Outils_Traduction")
+TOOLS_DIR = os.path.join(BASE_DIR, "02_Outils_Traduction")
 CONFIG_FILE = os.path.join(os.path.dirname(__file__), "launcher_config.json")
-GLOSSAIRE = os.path.join(BASE_DIR, "TRADUCTION_FR", "Glossaire_Officiel_P5_FR.md")
+GLOSSAIRE = os.path.join(BASE_DIR, "01_Documentation", "Glossaire_Officiel_P5_FR.md")
 
 PAGE_SIZE = 40
 

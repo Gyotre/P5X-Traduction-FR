@@ -26,7 +26,7 @@ DIR_EASY = os.path.join(BASE_DIR, 'TRADUCTION_FACILE')
 DIR_TRAD_FR = os.path.join(BASE_DIR, 'TRADUCTION_FR')
 DIR_COMPILES = os.path.join(DIR_TRAD_FR, '00_Compiles_Modulaires')
 BASE_REGEX_FILE = os.path.join(DIR_TRAD_FR, '01_Kits_Personnages', '00_Regex_Dynamiques.txt')
-CONFIG_FILE = os.path.join(BASE_DIR, '04_Launcher_P5X_FR', 'launcher_config.json')
+CONFIG_FILE = os.path.join(BASE_DIR, '03_Atelier_Traduction', 'launcher_config.json')
 
 DEFAULT_GAME_DIR = r"E:\SteamLibrary\steamapps\common\P5X\client\pc"
 

@@ -20,7 +20,7 @@ Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier 
 ```text
 _Traduction-P5X/
 │
-├── 📂 00_Documentation/              <- Guides et documentation de référence
+├── 📂 01_Documentation/              <- Guides et documentation de référence
 │   ├── 📄 DOCUMENTATION_TECHNIQUE_P5X_TRADUCTION.docx (Documentation A-Z complète)
 │   └── 📄 GUIDE_DU_TRADUCTEUR.md        (Guide pratique pas à pas pour traduire)
 │
@@ -33,7 +33,7 @@ _Traduction-P5X/
 │   ├── 📄 01_Kits_Personnages/00_Regex_Dynamiques.txt (regex écrites à la main, compilées aussi)
 │   └── 📄 Glossaire_Officiel_P5_FR.md (termes officiels Persona)
 │
-├── 📂 03_Outils_Traduction/         <- Scripts d'ingénierie et de compilation
+├── 📂 02_Outils_Traduction/         <- Scripts d'ingénierie et de compilation
 │   ├── 🐍 convertisseur_json.py       (Compile TRADUCTION_FACILE -> jeu + configure XUnity)
 │   ├── 🐍 valider_traductions.py      (Balises, variables $1/{{A}}, conflits entre fichiers)
 │   ├── 🐍 statistiques_avancement.py  (Avancement par catégorie)
@@ -41,7 +41,7 @@ _Traduction-P5X/
 │   ├── 🐍 generer_pack_release.py     (ZIP prêt à partager dans 06_Releases/)
 │   └── 🐍 extraire_tout_le_jeu.py / adapter_p5xtes_en_json.py (régénèrent les JSON, sources requises)
 │
-├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction
+├── 📂 03_Atelier_Traduction/        <- Atelier de Traduction
 │   └── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
 │
 ├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet pour traduire
@@ -89,9 +89,9 @@ Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée 
 3. Poussez vos modifications sur votre branche et ouvrez une **Pull Request**.
 
 #### ⚠️ Règles impératives pour les traducteurs :
-1. **Consulter le [Glossaire Officiel](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/00_Documentation/Glossaire_Officiel_P5_FR.md) :** Respectez impérativement le vocabulaire officiel Persona 5 (*Ennemi Principal*, *Attaque de Suivi*, *PV*, *PC*, *Cartes de Révélation*, *Absolue*, etc.).
+1. **Consulter le [Glossaire Officiel](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/01_Documentation/Glossaire_Officiel_P5_FR.md) :** Respectez impérativement le vocabulaire officiel Persona 5 (*Ennemi Principal*, *Attaque de Suivi*, *PV*, *PC*, *Cartes de Révélation*, *Absolue*, etc.).
 2. **Respecter scrupuleusement les balises techniques :** Les balises visuelles (`<color=#FFFC40>`, `<size=...>`, `<b>`) et les variables du moteur de jeu (`$1`, `$2`, `{{A}}`) doivent rester **strictement intactes**. Ne traduisez que le texte autour.
-3. Pour plus de détails sur les conventions, consultez le **[Guide Pratique du Traducteur](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/00_Documentation/GUIDE_DU_TRADUCTEUR.md)**.
+3. Pour plus de détails sur les conventions, consultez le **[Guide Pratique du Traducteur](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/01_Documentation/GUIDE_DU_TRADUCTEUR.md)**.
 
 ---
 
