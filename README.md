@@ -44,12 +44,7 @@ _Traduction-P5X/
 ├── 📂 04_Launcher_P5X_FR/           <- Atelier de Traduction
 │   └── 🐍 traducteur_p5x.py           (Atelier graphique complet de traduction)
 │
-├── 📂 05_Paquet_BepInEx_Preconfigure/ <- Modpack BepInEx + XUnity prêt à l'emploi (A_COPIER_DANS_LE_JEU/)
-│
-├── 📂 _Sauvegardes/                  <- Archives et sauvegardes de sécurité (ex: BACKUP_TRADUCTIONS_MIKU)
-│
 ├── 🎨 Atelier_Traduction.bat        <- L'atelier visuel complet pour traduire
-├── 🔄 Mettre_A_Jour_Le_Jeu.bat      <- Compile et envoie la traduction dans le jeu en 1 clic
 └── 📤 Pousser_Sur_GitHub.bat        <- Envoie automatiquement les changements sur votre repo GitHub
 ```
 
