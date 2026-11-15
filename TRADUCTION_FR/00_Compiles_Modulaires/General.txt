@@ -1,11 +1,40 @@
-Increase party's Fire damage by <color\=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color\=#2899ff>6%</color> more for 2 turns.=<size=20>Augmente les dégâts Feu de l'équipe de <color\=#2899ff>6%</color> (+<color\=#2899ff>6%</color> si ennemi Brûlé, 2 tours).</size>
-After defeating a foe, increase user's Attack by 30% for 3 turns.=Augmente l'ATQ de 30% pendant 3 tours après avoir tué un ennemi.
+Growth & {{A}}=<size=13>Growth & {{A}}</size>
+Trust & {{A}}=<size=13>Trust & {{A}}</size>
+Departure & {{A}}=<size=13>Departure & {{A}}</size>
+Awareness & {{A}}=<size=13>Awareness & {{A}}</size>
 4 Set Effect：Increase Shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color=#2899ff>18%</color>.
-Increase damage dealt to foes with elemental ailments by <color\=#2899ff>12%</color>. Stacks up to 2 times.=<size=20>Augmente les dégâts aux ennemis avec altération de <color\=#2899ff>12%</color>. Max 2 cumuls.</size>
-Whenever dealing damage to a foe with a debuff, increase user's Attack by <color\=#2899ff>9%</color> for 1 turn. Stacks up to 3 times.=<size=20>Augmente l'ATQ de <color\=#2899ff>9%</color> à chaque coup sur ennemi avec malus (1 tour). Max 3 cumuls.</size>
-When equipped by an Elucidator Phantom Thief: After using a skill to inflict a debuff on a foe, decrease target's Defense by <color\=#2899ff>10%</color> for 2 turns.=<size=20>Voleur Élucidateur : en infligeant un malus, réduit la Défense de la cible de <color\=#2899ff>10%</color> pendant 2 tours.</size>
-During battle, when user's HP reaches 6000/9000/12000, increase damage by <color\=#2899ff>10%/20%/30%</color>.=<size=20>En combat, quand les PV atteignent 6000/9000/12000, augmente les dégâts de <color\=#2899ff>10%/20%/30%</color>.</size>
-During battle, when SP reaches 100%/150%/200%, increase critical damage by <color\=#2899ff>15%/30%/45%</color>.=<size=20>En combat, quand les PC atteignent 100%/150%/200%, dégâts critiques +<color\=#2899ff>15%/30%/45%</color>.</size>
-At the start of battle, increase damage of the ally with the lowest Speed by <color\=#2899ff>12%</color>. This effect won't activate if stacked.=<size=20>Au début du combat, augmente les dégâts de l'allié à plus faible Vitesse de <color\=#2899ff>12%</color>. Non cumulable.</size>
-After attacking a foe, increase party's damage by <color\=#2899ff>8%</color> for 1 turn.=<size=20>Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color\=#2899ff>8%</color> pendant 1 tour.</size>
+Departure & Interference=<size=13>Departure & Interference</size>
+Trust & Abundance=<size=13>Trust & Abundance</size>
+Trust & Completion=<size=13>Trust & Completion</size>
+Acceptance & Strife=<size=13>Acceptance & Strife</size>
+Meditation & Valor=<size=13>Meditation & Valor</size>
+Harmony & Victory=<size=13>Harmony & Victory</size>
+Acceptance & Peace=<size=13>Acceptance & Peace</size>
+Faith & Peace=<size=13>Faith & Peace</size>
+Acceptance & Love=<size=13>Acceptance & Love</size>
+Meditation & Luxury=<size=13>Meditation & Luxury</size>
+Growth & Completion=<size=13>Growth & Completion</size>
+Growth & Luxury=<size=13>Growth & Luxury</size>
+Acceptance & Valor=<size=13>Acceptance & Valor</size>
+Growth & Renewal=<size=13>Growth & Renewal</size>
+Growth & Opulence=<size=13>Growth & Opulence</size>
+Departure & Ruin=<size=13>Departure & Ruin</size>
+Trust & Renewal=<size=13>Trust & Renewal</size>
+Growth & Power=<size=13>Growth & Power</size>
+Harmony & Truth=<size=13>Harmony & Truth</size>
+Faith & Love=<size=13>Faith & Love</size>
+Harmony & {{A}}=<size=13>Harmony & {{A}}</size>
+Trust & Prosperity=<size=13>Trust & Prosperity</size>
+Determination & Duty=<size=13>Determination & Duty</size>
+Determination & Virtue=<size=13>Determination & Virtue</size>
+Nativity & {{A}}=<size=13>Nativity & {{A}}</size>
+Nativity & Strife=<size=13>Nativity & Strife</size>
+Freedom & Defeat=<size=13>Freedom & Defeat</size>
+Freedom & Triumph=<size=13>Freedom & Triumph</size>
+Freedom & Disappointment=<size=13>Freedom & Disappointment</size>
+Faith & Futility=<size=13>Faith & Futility</size>
 INFO=Infos
+Hope & Ruin=<size=13>Hope & Ruin</size>
+Hope & Labor=<size=13>Hope & Labor</size>
+Perseverance & Sorrow=<size=13>Perseverance & Sorrow</size>
+Perseverance & Change=<size=13>Perseverance & Change</size>

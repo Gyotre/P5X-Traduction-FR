@@ -88,20 +88,20 @@ Filter up to 4 Substats=Filtrer jusqu'à quatre Substats
 <size=10> </size>Upgrade $1 Substats=Améliorer $1 Substats
 <size=30>Selected <color=#FFC000>upgraded</color>, <color=#FFC000>high quality</color> materials.\nUse the selected materials for upgrade?</size>=<size=30>Selected <color=#FFC000>upgraded</color>, <color=#FFC000>high quality</color> materials.\nUse the selected materials for upgrade?</size>
 Révélation maxed!=Révélation
-Can select up to $1 materials.=Sélectionner jusqu'à 1$ matériaux
-Current Preset=Préconfiguration Actuel
-Preset $1=Préconfiguration %1
+Can select up to $1 materials.=Sélectionner jusqu'à $1 matériaux
+Current Preset=Préconfiguration Actuelle
+Preset $1=Préconfiguration $1
 Add New ($1/$2)=Ajoute de Nouvelle ($1/$2)
-Switch to this preset?=¨Changer de préconfiguration?
-Already in use.=Déja utiliser sur
-Leave without saving?=Quitter sans sauvegarder?
-Name already exists.=Nom déja exsistant
-Equip success.=Équiper avec succès.
-Unequip success.=Déséquiper avec succès
-Locked Révélation.=Révélation
-Some cards are being used by other characters, continue?=Certains carte sont sur un autre personnage, continuer?
-Automatically unequip all used cards on other characters=Déséquiper automatiquement les carte utiliser sur l'autre personnage
-Delete this preset?=Suprimmer cette préconfiguration?
+Switch to this preset?=Changer de préconfiguration ?
+Already in use.=Déjà utilisé
+Leave without saving?=Quitter sans sauvegarder ?
+Name already exists.=Nom déjà existant
+Equip success.=Équipé avec succès.
+Unequip success.=Déséquipé avec succès.
+Locked Révélation.=Révélation verrouillée
+Some cards are being used by other characters, continue?=Certaines cartes sont sur un autre personnage, continuer ?
+Automatically unequip all used cards on other characters=Déséquiper automatiquement les cartes utilisées sur les autres personnages
+Delete this preset?=Supprimer cette préconfiguration ?
 <size=22>Stats Assist Tool</size>=<size=22>Assistance de Stats</size>
 Wrong main=Mauvaise Stats Principal
 Useful subs=Substats Utiles
@@ -130,9 +130,9 @@ Total useful substats=Total de Substats util
 [DMG Bonus] substats amount=Quantité de Substats [Dégats Bonus]
 Mark: Space\nRecommended substats: <color=#FFDE00>$2</color>.=Symbole: Espace\nSubstats Recommender: <color=#FFDE00>$2</color>
 Mark: Sun\nRecommended substats: <color=#FFDE00>$2</color>.=Symbole: Soleil\nSubstats Recommender: <color=#FFDE00>$2</color>
-Mark: Moon\nRecommended main stat: <color=#FFDE00>$2</color>.\nRecommended substats: <color=#FFDE00>$3</color>.=Symbole: Lune\nStats Pirncipal Recommender: <color=#FFDE00>$2</color>.\nSubstats Recommender: <color=#FFDE00>$2</color>
-Mark: Star\nRecommended main stat: <color=#FFDE00>$2</color>.\nRecommended substats: <color=#FFDE00>$3</color>.=Symbole: Étoile\nStats Pirncipal Recommender: <color=#FFDE00>$2</color>.\nSubstats Recommender: <color=#FFDE00>$2</color>
-Mark: Sky\nRecommended main stat: <color=#FFDE00>$2</color>.\nRecommended substats: <color=#FFDE00>$3</color>.=Symbole: Monde\nStats Pirncipal Recommender: <color=#FFDE00>$2</color>.\nSubstats Recommender: <color=#FFDE00>$2</color>
+Mark: Moon\nRecommended main stat: <color=#FFDE00>$2</color>.\nRecommended substats: <color=#FFDE00>$3</color>.=Symbole : Lune\nStat principale recommandée : <color=#FFDE00>$2</color>.\nStats secondaires recommandées : <color=#FFDE00>$3</color>.
+Mark: Star\nRecommended main stat: <color=#FFDE00>$2</color>.\nRecommended substats: <color=#FFDE00>$3</color>.=Symbole : Étoile\nStat principale recommandée : <color=#FFDE00>$2</color>.\nStats secondaires recommandées : <color=#FFDE00>$3</color>.
+Mark: Sky\nRecommended main stat: <color=#FFDE00>$2</color>.\nRecommended substats: <color=#FFDE00>$3</color>.=Symbole : Monde\nStat principale recommandée : <color=#FFDE00>$2</color>.\nStats secondaires recommandées : <color=#FFDE00>$3</color>.
 HP%/DEF%=PV%/DEF%
 HP%/SPD/HP=PV%/VIT/PV
 HP%/SPD/SP Recovery=PV%/VIT/Régénération PC
@@ -207,25 +207,25 @@ Last {{A}} skill damage: Bless=Derniére {{A}} attaque infliger: Béni
 Last {{A}} skill damage: Curse=Derniére {{A}} attaque infliger: Maudit
 Last {{A}} skill damage: Almighty=Derniére {{A}} attaque infliger: Absolue
 Increase Follow Up DMG Dealt by $1=Augmente les dégat infligés des Attaque de Suivi de $1
-Awareness & $1=Awareness & $1
-Departure & $1=Departure & $1
-Growth & $1=Growth & $1
-Meditation & $1=Meditation & $1
-Faith & $1=Faith & $1
-Trust & $1=Trust & $1
-Harmony & $1=Harmony & $1
-Acceptance & $1=Acceptance & $1
-Integrity & $1=Integrity & $1
-Wisdom & $1=Wisdom & $1
-Resolve & $1=Resolve & $1
-Creation & $1=Creation & $1
-Freedom & $1=Freedom & $1
-Hope & $1=Hope & $1
-Perseverance & $1=Perseverance & $1
-Acuity & $1=Acuity & $1
-Nativity & $1=Nativity & $1
-Purity & $1=Purity & $1
-Self & $1=Self & $1
+Awareness & $1=<size=13>Awareness & $1</size>
+Departure & $1=<size=13>Departure & $1</size>
+Growth & $1=<size=13>Growth & $1</size>
+Meditation & $1=<size=13>Meditation & $1</size>
+Faith & $1=<size=13>Faith & $1</size>
+Trust & $1=<size=13>Trust & $1</size>
+Harmony & $1=<size=13>Harmony & $1</size>
+Acceptance & $1=<size=13>Acceptance & $1</size>
+Integrity & $1=<size=13>Integrity & $1</size>
+Wisdom & $1=<size=13>Wisdom & $1</size>
+Resolve & $1=<size=13>Resolve & $1</size>
+Creation & $1=<size=13>Creation & $1</size>
+Freedom & $1=<size=13>Freedom & $1</size>
+Hope & $1=<size=13>Hope & $1</size>
+Perseverance & $1=<size=13>Perseverance & $1</size>
+Acuity & $1=<size=13>Acuity & $1</size>
+Nativity & $1=<size=13>Nativity & $1</size>
+Purity & $1=<size=13>Purity & $1</size>
+Self & $1=<size=13>Self & $1</size>
 Activated bonus damage from [Control]=Bonus activé de [Control]
 Activated bonus damage from [Truth]=Bonus activé de [Truth]
 Activated bonus damage from [Victory]=Bonus activé de [Victory]
@@ -375,3 +375,91 @@ Strife: Planet=Strife : Monde
 Strife·Sky=Strife · Ciel
 [Strif]=[Strife]
 Strif=Strife
+After activating a Theurgy, increase party's damage by <color\=#2899ff>10%</color> for 3 turns.=<size=20>Après avoir activé une Théurgie, augmente les dégâts de l'équipe de <color\=#2899ff>10%</color> pendant 3 tours.</size>
+After activating a Theurgy, increase party's damage by <color=#2899ff>10%</color> for 3 turns.=<size=20>Après avoir activé une Théurgie, augmente les dégâts de l'équipe de <color=#2899ff>10%</color> pendant 3 tours.</size>
+After activating a Theurgy, increase party's damage by 10% for 3 turns.=<size=20>Après avoir activé une Théurgie, augmente les dégâts de l'équipe de 10% pendant 3 tours.</size>
+After using a Theurgy, increase party's damage by 10% for 3 turns.=<size=20>Après avoir utilisé une Théurgie, augmente les dégâts de l'équipe de 10% pendant 3 tours.</size>
+After activating a Theurgy, increase Atk.=<size=20>Après avoir activé une Théurgie, augmente l'Attaque.</size>
+During battle, increase damage by 80% of user's healing effect (max <color\=#2899ff>30%</color> increase).=<size=20>En combat, augmente les dégâts de 80% des soins de l'utilisateur (max <color\=#2899ff>30%</color>).</size>
+During battle, increase damage by 80% of user's healing effect (max <color=#2899ff>30%</color> increase).=<size=20>En combat, augmente les dégâts de 80% des soins de l'utilisateur (max <color=#2899ff>30%</color>).</size>
+During battle, increase damage by 80% of user's healing effect (max 30% increase).=<size=20>En combat, augmente les dégâts de 80% des soins de l'utilisateur (max 30%).</size>
+When equipped by an Elucidator Phantom Thief: At the start of battle, for each ally with a matching main attribute, increase party's max HP, Attack, and Defense by <color\=#2899ff>2%</color> more.=<size=20>Voleur Élucidateur : au début du combat, +<color\=#2899ff>2%</color> PV max, ATQ et DEF par allié du même attribut.</size>
+When equipped by an Elucidator Phantom Thief: At the start of battle, for each ally with a matching main attribute, increase party's max HP, Attack, and Defense by <color=#2899ff>2%</color> more.=<size=20>Voleur Élucidateur : au début du combat, +<color=#2899ff>2%</color> PV max, ATQ et DEF par allié du même attribut.</size>
+When equipped by an Elucidator Phantom Thief: At the start of battle, for each ally with a matching main attribute, increase party's max HP, Attack, and Defense by 2% more.=<size=20>Voleur Élucidateur : au début du combat, +2% PV max, ATQ et DEF par allié du même attribut.</size>
+When equipped by an Elucidator Phantom Thief: After using a skill to inflict a debuff on a foe, decrease target's Defense by <color\=#2899ff>10%</color> for 2 turns.=<size=20>Voleur Élucidateur : en infligeant un malus, réduit la Défense de la cible de <color\=#2899ff>10%</color> pendant 2 tours.</size>
+When equipped by an Elucidator Phantom Thief: After using a skill to inflict a debuff on a foe, decrease target's Defense by <color=#2899ff>10%</color> for 2 turns.=<size=20>Voleur Élucidateur : en infligeant un malus, réduit la Défense de la cible de <color=#2899ff>10%</color> pendant 2 tours.</size>
+When equipped by an Elucidator Phantom Thief: After using a skill to inflict a debuff on a foe, decrease target's Defense by 10% for 2 turns.=<size=20>Voleur Élucidateur : en infligeant un malus, réduit la Défense de la cible de 10% pendant 2 tours.</size>
+During battle, when user's HP reaches 6000/9000/12000, increase damage by <color\=#2899ff>10%/20%/30%</color>.=<size=20>En combat, quand les PV atteignent 6000/9000/12000, augmente les dégâts de <color\=#2899ff>10%/20%/30%</color>.</size>
+During battle, when user's HP reaches 6000/9000/12000, increase damage by <color=#2899ff>10%/20%/30%</color>.=<size=20>En combat, quand les PV atteignent 6000/9000/12000, augmente les dégâts de <color=#2899ff>10%/20%/30%</color>.</size>
+During battle, when user's HP reaches 6000/9000/12000, increase damage by 10%/20%/30%.=<size=20>En combat, quand les PV atteignent 6000/9000/12000, augmente les dégâts de 10%/20%/30%.</size>
+At the start of battle, if the user is the 3rd/4th ally in the turn order, increase Attack by <color\=#2899ff>24%/30%</color>.=<size=20>Au début du combat, si 3e/4e dans l'ordre du tour, augmente l'Attaque de <color\=#2899ff>24%/30%</color>.</size>
+At the start of battle, if the user is the 3rd/4th ally in the turn order, increase Attack by <color=#2899ff>24%/30%</color>.=<size=20>Au début du combat, si 3e/4e dans l'ordre du tour, augmente l'Attaque de <color=#2899ff>24%/30%</color>.</size>
+At the start of battle, if the user is the 3rd/4th ally in the turn order, increase Attack by 24%/30%.=<size=20>Au début du combat, si 3e/4e dans l'ordre du tour, augmente l'Attaque de 24%/30%.</size>
+Increase Physical and Electric damage by <color\=#2899ff>12%</color>. If there is only 1 foe on the field, increase by <color\=#2899ff>24%</color> more.=<size=20>Dégâts Physiques et Électriques +<color\=#2899ff>12%</color> (+<color\=#2899ff>24%</color> si 1 seul ennemi).</size>
+Increase Physical and Electric damage by <color=#2899ff>12%</color>. If there is only 1 foe on the field, increase by <color=#2899ff>24%</color> more.=<size=20>Dégâts Physiques et Électriques +<color=#2899ff>12%</color> (+<color=#2899ff>24%</color> si 1 seul ennemi).</size>
+Increase Physical and Electric damage by 12%. If there is only 1 foe on the field, increase by 24% more.=<size=20>Dégâts Physiques et Électriques +12% (+24% si 1 seul ennemi).</size>
+When activating a Resonance, increase critical damage by <color\=#2899ff>50%</color>.=<size=20>En activant une Résonance, augmente les dégâts critiques de <color\=#2899ff>50%</color>.</size>
+When activating a Resonance, increase critical damage by <color=#2899ff>50%</color>.=<size=20>En activant une Résonance, augmente les dégâts critiques de <color=#2899ff>50%</color>.</size>
+When activating a Resonance, increase critical damage by 50%.=<size=20>En activant une Résonance, augmente les dégâts critiques de 50%.</size>
+After dealing a critical hit, increase user's healing effect by <color\=#2899ff>28%</color> for 2 turns.=<size=20>Après un coup critique, augmente les soins de l'utilisateur de <color\=#2899ff>28%</color> pendant 2 tours.</size>
+After dealing a critical hit, increase user's healing effect by <color=#2899ff>28%</color> for 2 turns.=<size=20>Après un coup critique, augmente les soins de l'utilisateur de <color=#2899ff>28%</color> pendant 2 tours.</size>
+After dealing a critical hit, increase user's healing effect by 28% for 2 turns.=<size=20>Après un coup critique, augmente les soins de l'utilisateur de 28% pendant 2 tours.</size>
+After using a Highlight, increase Attack by <color\=#2899ff>30%</color> and damage by <color\=#2899ff>25%</color>.=<size=20>Après une Absolue, augmente l'Attaque de <color\=#2899ff>30%</color> et les dégâts de <color\=#2899ff>25%</color>.</size>
+After using a Highlight, increase Attack by <color=#2899ff>30%</color> and damage by <color=#2899ff>25%</color>.=<size=20>Après une Absolue, augmente l'Attaque de <color=#2899ff>30%</color> et les dégâts de <color=#2899ff>25%</color>.</size>
+After using a Highlight, increase Attack by 30% and damage by 25%.=<size=20>Après une Absolue, augmente l'Attaque de 30% et les dégâts de 25%.</size>
+During battle, increase damage by 50% of user's ailment accuracy (max <color\=#2899ff>30%</color> increase).=<size=20>En combat, augmente les dégâts de 50% de la précision d'altération (max <color\=#2899ff>30%</color>).</size>
+During battle, increase damage by 50% of user's ailment accuracy (max <color=#2899ff>30%</color> increase).=<size=20>En combat, augmente les dégâts de 50% de la précision d'altération (max <color=#2899ff>30%</color>).</size>
+During battle, increase damage by 50% of user's ailment accuracy (max 30% increase).=<size=20>En combat, augmente les dégâts de 50% de la précision d'altération (max 30%).</size>
+When Malice reaches 5 or more stacks, increase Physical damage and ailment accuracy by <color\=#2899ff>20%</color>.=<size=20>À 5 cumuls de Malice ou plus : dégâts Physiques et précision d'altération +<color\=#2899ff>20%</color>.</size>
+When Malice reaches 5 or more stacks, increase Physical damage and ailment accuracy by <color=#2899ff>20%</color>.=<size=20>À 5 cumuls de Malice ou plus : dégâts Physiques et précision d'altération +<color=#2899ff>20%</color>.</size>
+When Malice reaches 5 or more stacks, increase Physical damage and ailment accuracy by 20%.=<size=20>À 5 cumuls de Malice ou plus : dégâts Physiques et précision d'altération +20%.</size>
+When attacking with a skill, decrease main target's Defense by <color\=#2899ff>23%</color> for 2 turns.=<size=20>En attaquant avec une compétence, réduit la Défense de la cible de <color\=#2899ff>23%</color> pendant 2 tours.</size>
+When attacking with a skill, decrease main target's Defense by <color=#2899ff>23%</color> for 2 turns.=<size=20>En attaquant avec une compétence, réduit la Défense de la cible de <color=#2899ff>23%</color> pendant 2 tours.</size>
+When attacking with a skill, decrease main target's Defense by 23% for 2 turns.=<size=20>En attaquant avec une compétence, réduit la Défense de la cible de 23% pendant 2 tours.</size>
+After attacking a foe, increase party's damage by <color\=#2899ff>8%</color> for 1 turn.=<size=20>Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color\=#2899ff>8%</color> pendant 1 tour.</size>
+After attacking a foe, increase party's damage by <color=#2899ff>8%</color> for 1 turn.=<size=20>Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color=#2899ff>8%</color> pendant 1 tour.</size>
+After attacking a foe, increase party's damage by 8% for 1 turn.=<size=20>Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de 8% pendant 1 tour.</size>
+After defeating a foe, increase user's Attack by <color\=#2899ff>30%</color> for 3 turns.=<size=20>Après avoir vaincu un ennemi, augmente l'Attaque de <color\=#2899ff>30%</color> pendant 3 tours.</size>
+After defeating a foe, increase user's Attack by <color=#2899ff>30%</color> for 3 turns.=<size=20>Après avoir vaincu un ennemi, augmente l'Attaque de <color=#2899ff>30%</color> pendant 3 tours.</size>
+After defeating a foe, increase user's Attack by 30% for 3 turns.=<size=20>Après avoir vaincu un ennemi, augmente l'Attaque de 30% pendant 3 tours.</size>
+Whenever dealing damage to a foe with a debuff, increase user's Attack by <color\=#2899ff>9%</color> for 1 turn. Stacks up to 3 times.=<size=20>Augmente l'ATQ de <color\=#2899ff>9%</color> à chaque coup sur ennemi avec malus (1 tour). Max 3 cumuls.</size>
+Whenever dealing damage to a foe with a debuff, increase user's Attack by <color=#2899ff>9%</color> for 1 turn. Stacks up to 3 times.=<size=20>Augmente l'ATQ de <color=#2899ff>9%</color> à chaque coup sur ennemi avec malus (1 tour). Max 3 cumuls.</size>
+Whenever dealing damage to a foe with a debuff, increase user's Attack by 9% for 1 turn. Stacks up to 3 times.=<size=20>Augmente l'ATQ de 9% à chaque coup sur ennemi avec malus (1 tour). Max 3 cumuls.</size>
+Increase party's Fire damage by <color\=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color\=#2899ff>6%</color> more for 2 turns.=<size=20>Augmente les dégâts Feu de l'équipe de <color\=#2899ff>6%</color> (+<color\=#2899ff>6%</color> si ennemi Brûlé, 2 tours).</size>
+Increase party's Fire damage by <color=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color=#2899ff>6%</color> more for 2 turns.=<size=20>Augmente les dégâts Feu de l'équipe de <color=#2899ff>6%</color> (+<color=#2899ff>6%</color> si ennemi Brûlé, 2 tours).</size>
+Increase party's Fire damage by 6%. When a foe is Burning, increase party's Fire damage by 6% more for 2 tours.=<size=20>Augmente les dégâts Feu de l'équipe de 6% (+6% si ennemi Brûlé, 2 tours).</size>
+Increase damage dealt to foes with elemental ailments by <color\=#2899ff>12%</color>. Stacks up to 2 times.=<size=20>Augmente les dégâts aux ennemis avec altération de <color\=#2899ff>12%</color>. Max 2 cumuls.</size>
+Increase damage dealt to foes with elemental ailments by <color=#2899ff>12%</color>. Stacks up to 2 times.=<size=20>Augmente les dégâts aux ennemis avec altération de <color=#2899ff>12%</color>. Max 2 cumuls.</size>
+Increase damage dealt to foes with elemental ailments by 12%. Stacks up to 2 times.=<size=20>Augmente les dégâts aux ennemis avec altération de 12%. Max 2 cumuls.</size>
+During battle, when SP reaches 100%/150%/200%, increase critical damage by <color\=#2899ff>15%/30%/45%</color>.=<size=20>En combat, quand les PC atteignent 100%/150%/200%, dégâts critiques +<color\=#2899ff>15%/30%/45%</color>.</size>
+During battle, when SP reaches 100%/150%/200%, increase critical damage by <color=#2899ff>15%/30%/45%</color>.=<size=20>En combat, quand les PC atteignent 100%/150%/200%, dégâts critiques +<color=#2899ff>15%/30%/45%</color>.</size>
+During battle, when SP reaches 100%/150%/200%, increase critical damage by 15%/30%/45%.=<size=20>En combat, quand les PC atteignent 100%/150%/200%, dégâts critiques +15%/30%/45%.</size>
+At the start of battle, increase damage of the ally with the lowest Speed by <color\=#2899ff>12%</color>. This effect won't activate if stacked.=<size=20>Au début du combat, augmente les dégâts de l'allié à plus faible Vitesse de <color\=#2899ff>12%</color>. Non cumulable.</size>
+At the start of battle, increase damage of the ally with the lowest Speed by <color=#2899ff>12%</color>. This effect won't activate if stacked.=<size=20>Au début du combat, augmente les dégâts de l'allié à plus faible Vitesse de <color=#2899ff>12%</color>. Non cumulable.</size>
+At the start of battle, increase damage of the ally with the lowest Speed by 12%. This effect won't activate if stacked.=<size=20>Au début du combat, augmente les dégâts de l'allié à plus faible Vitesse de 12%. Non cumulable.</size>
+How to Get=Obtention
+How to Get:=Obtention :
+Take on Nightmare Catcher=Affronter le Chasseur de Cauchemars
+Determination & $1=<size=13>Determination & $1</size>
+Embrace & $1=<size=13>Embrace & $1</size>
+Strength & $1=<size=13>Strength & $1</size>
+Integrity & Ruin=<size=13>Integrity & Ruin</size>
+Integrity & Pleasure=<size=13>Integrity & Pleasure</size>
+Integrity & Labor=<size=13>Integrity & Labor</size>
+Resolve & Labor=<size=13>Resolve & Labor</size>
+Resolve & Virtue=<size=13>Resolve & Virtue</size>
+Resolve & Prudence=<size=13>Resolve & Prudence</size>
+Meditation & Courage=<size=13>Meditation & Courage</size>
+Meditation & Opulence=<size=13>Meditation & Opulence</size>
+Meditation & Love=<size=13>Meditation & Love</size>
+Wisdom & Virtue=<size=13>Wisdom & Virtue</size>
+Wisdom & Pleasure=<size=13>Wisdom & Pleasure</size>
+Wisdom & Oppression=<size=13>Wisdom & Oppression</size>
+Departure & Control=<size=13>Departure & Control</size>
+Departure & Prosperity=<size=13>Departure & Prosperity</size>
+Departure & Hindrance=<size=13>Departure & Hindrance</size>
+Awareness & Hindrance=<size=13>Awareness & Hindrance</size>
+Awareness & Control=<size=13>Awareness & Control</size>
+Awareness & Truth=<size=13>Awareness & Truth</size>
+Creation & Worry=<size=13>Creation & Worry</size>
+Creation & Reconciliation=<size=13>Creation & Reconciliation</size>

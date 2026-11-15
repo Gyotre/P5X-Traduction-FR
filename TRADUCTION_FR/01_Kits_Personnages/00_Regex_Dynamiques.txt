@@ -54,6 +54,6 @@ r:^\s*Defense\s*=Défense
 r:^\s*Set Effect\s*=<size=18>Effet d'Arcane</size>
 
 // --- TITRES DE SETS DE CARTES DE REVELATION (ANTI-CHEVAUCHEMENT UI) ---
-r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$=<size=16>$1 & $2</size>
-r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$=<size=16>$1 & {{A}}</size>
+r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$=<size=13>$1 & $2</size>
+r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$=<size=13>$1 & {{A}}</size>
 r:^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$=<size=16>[$1] & [$2]</size>

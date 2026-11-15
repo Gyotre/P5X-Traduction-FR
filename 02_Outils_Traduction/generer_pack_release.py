@@ -37,13 +37,13 @@ def extract_changelog(version, changelog_path):
         content = f.read()
 
     # Chercher la section ## [vX.Y.Z] ou ## [X.Y.Z]
-    pattern = rf"##\s*\[v?{re.escape(v_clean)}\][^\n]*\n(.*?)(?=\n##\s*\[|\Z)"
+    pattern = rf"##\s*\[v?{re.escape(v_clean)}\][^\n]*\n(.*?)(?=\n---\s*\n|\n##\s*\[|\Z)"
     match = re.search(pattern, content, re.DOTALL)
     if match:
         return match.group(1).strip()
     return ""
 
-def make_launcher_release(version="1.0.2.2", region="EN"):
+def make_launcher_release(version="1.0.2.3", region="EN"):
     """
     Génère translation.zip avec l'arborescence exacte attendue par P5XfrLauncher :
     translation.zip
@@ -125,6 +125,6 @@ translation.zip: {sha256}
     return zip_path, sha256
 
 if __name__ == '__main__':
-    ver = sys.argv[1] if len(sys.argv) > 1 else "1.0.2.2"
+    ver = sys.argv[1] if len(sys.argv) > 1 else "1.0.2.3"
     reg = sys.argv[2].upper() if len(sys.argv) > 2 else "EN"
     make_launcher_release(ver, reg)
