@@ -101,3 +101,15 @@ Ce document récapitule l'ensemble des travaux, corrections d'ingénierie, créa
   * `user.email` = **tyogre232@gmail.com**
 * **Réécriture de l'historique :** 100 % des commits passés (depuis le premier commit) ont été réécrits pour être attribués à `Gyotre`.
 * **Dépôt officiel en ligne :** [https://github.com/Gyotre/P5X-Traduction-FR](https://github.com/Gyotre/P5X-Traduction-FR) (synchronisé, public et à jour).
+
+---
+
+## 8. Déploiement de la Release v1.0.2 & Compatibilité P5XfrLauncher
+
+* **Release GitHub officielle :** [Release v1.0.2](https://github.com/Gyotre/P5X-Traduction-FR/releases/tag/v1.0.2)
+* **Tag Git :** `v1.0.2`
+* **Intégration P5XfrLauncher validée :**
+  * Archive générée : `translation.zip` (25,7 Ko).
+  * Structure interne conforme : `BepInEx/config/AutoTranslatorConfig.ini` et `BepInEx/Translation/fr/Text/*.txt`.
+  * Hash SHA-256 calculé et inséré dans le corps de la release GitHub pour la vérification d'intégrité automatique du launcher.
+  * Détection automatique comme `latest release` via l'API GitHub.
