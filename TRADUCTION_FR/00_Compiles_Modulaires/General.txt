@@ -1,6 +1,7 @@
 Growth & {{A}}=<size=13>Growth & {{A}}</size>
 Trust & {{A}}=<size=13>Trust & {{A}}</size>
 Departure & {{A}}=<size=13>Departure & {{A}}</size>
+Increase party's Fire damage by <color\=#2899ff>6%</color>. When a foe is Burning, increase party's Fire damage by <color\=#2899ff>6%</color> more for 2 turns.=<size=20>Augmente les dégâts Feu de l'équipe de <color\=#2899ff>6%</color> (+<color\=#2899ff>6%</color> si ennemi Brûlé, 2 tours).</size>
 Awareness & {{A}}=<size=13>Awareness & {{A}}</size>
 4 Set Effect：Increase Shield by <color\=#2899ff>18%</color>.=Effet 4 pièces : Augmente les boucliers de <color=#2899ff>18%</color>.
 Departure & Interference=<size=13>Departure & Interference</size>
@@ -21,19 +22,42 @@ Growth & Opulence=<size=13>Growth & Opulence</size>
 Departure & Ruin=<size=13>Departure & Ruin</size>
 Trust & Renewal=<size=13>Trust & Renewal</size>
 Growth & Power=<size=13>Growth & Power</size>
+Meditation & Courage=<size=13>Meditation & Courage</size>
+Departure & Hindrance=<size=13>Departure & Hindrance</size>
 Harmony & Truth=<size=13>Harmony & Truth</size>
 Faith & Love=<size=13>Faith & Love</size>
 Harmony & {{A}}=<size=13>Harmony & {{A}}</size>
+Departure & Control=<size=13>Departure & Control</size>
+Departure & Prosperity=<size=13>Departure & Prosperity</size>
 Trust & Prosperity=<size=13>Trust & Prosperity</size>
+Meditation & Love=<size=13>Meditation & Love</size>
+Increase damage dealt to foes with elemental ailments by <color\=#2899ff>12%</color>. Stacks up to 2 times.=<size=20>Augmente les dégâts aux ennemis avec altération de <color\=#2899ff>12%</color>. Max 2 cumuls.</size>
+Awareness & Truth=<size=13>Awareness & Truth</size>
+Awareness & Hindrance=<size=13>Awareness & Hindrance</size>
+Awareness & Control=<size=13>Awareness & Control</size>
+Meditation & Opulence=<size=13>Meditation & Opulence</size>
+Resolve & Labor=<size=13>Resolve & Labor</size>
+Resolve & Virtue=<size=13>Resolve & Virtue</size>
 Determination & Duty=<size=13>Determination & Duty</size>
 Determination & Virtue=<size=13>Determination & Virtue</size>
+Integrity & Pleasure=<size=13>Integrity & Pleasure</size>
+Wisdom & Oppression=<size=13>Wisdom & Oppression</size>
+Wisdom & Virtue=<size=13>Wisdom & Virtue</size>
+Wisdom & Pleasure=<size=13>Wisdom & Pleasure</size>
+Resolve & Prudence=<size=13>Resolve & Prudence</size>
+Integrity & Labor=<size=13>Integrity & Labor</size>
 Nativity & {{A}}=<size=13>Nativity & {{A}}</size>
 Nativity & Strife=<size=13>Nativity & Strife</size>
 Freedom & Defeat=<size=13>Freedom & Defeat</size>
 Freedom & Triumph=<size=13>Freedom & Triumph</size>
+Creation & Worry=<size=13>Creation & Worry</size>
 Freedom & Disappointment=<size=13>Freedom & Disappointment</size>
 Faith & Futility=<size=13>Faith & Futility</size>
+At the start of battle, increase damage of the ally with the lowest Speed by <color\=#2899ff>12%</color>. This effect won't activate if stacked.=<size=20>Au début du combat, augmente les dégâts de l'allié à plus faible Vitesse de <color\=#2899ff>12%</color>. Non cumulable.</size>
+Creation & Reconciliation=<size=13>Creation & Reconciliation</size>
+After attacking a foe, increase party's damage by <color\=#2899ff>8%</color> for 1 turn.=<size=20>Après avoir attaqué un ennemi, augmente les dégâts de l'équipe de <color\=#2899ff>8%</color> pendant 1 tour.</size>
 INFO=Infos
+Integrity & Ruin=<size=13>Integrity & Ruin</size>
 Hope & Ruin=<size=13>Hope & Ruin</size>
 Hope & Labor=<size=13>Hope & Labor</size>
 Perseverance & Sorrow=<size=13>Perseverance & Sorrow</size>

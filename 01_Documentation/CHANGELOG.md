@@ -1,5 +1,19 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.0.2.4] - 2026-11-15
+
+### 🛠️ Correctifs et Améliorations de la version 1.0.2.4 :
+
+* **Conservation des descriptions originales des Cartes de Révélation :**
+  * Rétablissement des descriptions d'effets de cartes dans leur langue originale (anglais), sans altération.
+* **Maintien strict du réglage de taille anti-chevauchement :**
+  * Tous les titres de combinaisons (56 arcanes telles que *Departure & Control*, *Creation & Reconciliation*, *Awareness & Hindrance*, *Meditation & Courage*, *Wisdom & Oppression*, etc.) et wildcards `$1` restent calibrés à `<size=13>`.
+  * Les titres tiennent sur une seule ligne (largeur ~130px), supprimant le retour à la ligne et empêchant tout chevauchement sur les descriptions.
+* **Synchronisation Steam & Cartes :**
+  * Mise à jour de `synchroniser_steam_cartes.py` qui n'altère plus les descriptions et applique uniquement le formatage de taille sur les titres de cartes.
+
+---
+
 ## [v1.0.2.3] - 2026-11-15
 
 ### 🛠️ Correctifs et Améliorations de la version 1.0.2.3 :
