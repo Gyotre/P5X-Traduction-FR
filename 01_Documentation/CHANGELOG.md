@@ -1,5 +1,16 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.1.1] - 2026-11-15
+
+### 🐛 Correction de bug :
+
+* **Cartes de Révélation :**
+  * Correction et ajout de la traduction française manquante pour l'effet 4 pièces du set **[Gain]** (*Perseverance & Gain*) :
+    > *« Effet 4 pièces : Après avoir dépensé des PV pour activer une compétence, augmente les dégâts de 12% pendant 2 tours. Cumulable jusqu'à 2 fois. »*
+  * Ajout des variantes textuelles complètes (avec/sans balises de couleur, espaces) et renforcement de la règle regex dynamique pour intercepter automatiquement l'affichage en jeu.
+
+---
+
 ## [v1.1.0] - 2026-11-15
 
 ### 🚀 Release v1.1.0 — Traduction Intégrale des Cartes de Révélation, Arcanes & Statistiques :
