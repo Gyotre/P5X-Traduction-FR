@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Numéro de version (ex: v1.0.0)'
+        description: 'Numéro de version (ex: v1.0.2.2)'
         required: true
-        default: 'v1.0.0'
+        default: 'v1.0.2.2'
 
 permissions:
   contents: write
@@ -29,35 +29,19 @@ jobs:
       - name: Compiler les traductions et générer translation.zip
         id: build
         run: |
-          python 02_Outils_Traduction/generer_pack_release.py
-          SHA=$(sha256sum 06_Releases/translation.zip | awk '{print $1}')
-          echo "SHA256=$SHA" >> $GITHUB_OUTPUT
           TAG="${{ github.ref_name }}"
           if [ -z "$TAG" ] || [ "$TAG" = "main" ]; then
             TAG="${{ github.event.inputs.version }}"
           fi
           echo "RELEASE_TAG=$TAG" >> $GITHUB_OUTPUT
+          python 02_Outils_Traduction/generer_pack_release.py "$TAG"
 
       - name: Créer la GitHub Release compatible P5XfrLauncher
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.build.outputs.RELEASE_TAG }}
           name: Mise à jour Traduction FR ${{ steps.build.outputs.RELEASE_TAG }}
-          body: |
-            ## Traduction Française - Persona 5: The Phantom X
-            
-            Cette release est automatiquement synchronisée avec **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)**.
-            
-            ### 🧪 État de la version
-            * **Personnage traduit :** Hatsune Miku (kit complet : compétences combat & menu, Conscience 0-2, Piste, Stage).
-            * Il s'agit d'une version de test pour valider le pipeline technique.
-            * 🐛 Si vous constatez un bug ou un texte manquant, signalez-le dans les [Issues](https://github.com/Gyotre/P5X-Traduction-FR/issues).
-            
-            ### Empreinte de vérification (SHA-256)
-            translation.zip: ${{ steps.build.outputs.SHA256 }}
-            
-            ---
-            *Mise à jour automatique par GitHub Actions.*
+          body_path: 06_Releases/RELEASE_NOTES.md
           files: |
             06_Releases/translation.zip
         env:

@@ -6,10 +6,12 @@ Génère les archives de publication compatibles avec le P5XfrLauncher de Garlou
 - translation.zip : Pack léger contenant BepInEx/Translation/fr/Text et BepInEx/config/AutoTranslatorConfig.ini
                    directement extrait par le launcher dans le dossier du jeu.
 - Calcul automatique du hash SHA-256 requis pour la vérification d'intégrité du launcher.
+- Génération de 06_Releases/RELEASE_NOTES.md à partir de 01_Documentation/CHANGELOG.md.
 Usage: python generer_pack_release.py [version] [region]
 """
 
 import os
+import re
 import sys
 import zipfile
 import hashlib
@@ -26,7 +28,22 @@ def compute_sha256(filepath):
             h.update(chunk)
     return h.hexdigest().lower()
 
-def make_launcher_release(version="1.0.0", region="EN"):
+def extract_changelog(version, changelog_path):
+    """Extrait la section correspondant à la version dans CHANGELOG.md."""
+    if not os.path.exists(changelog_path):
+        return ""
+    v_clean = version.lstrip('v')
+    with open(changelog_path, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # Chercher la section ## [vX.Y.Z] ou ## [X.Y.Z]
+    pattern = rf"##\s*\[v?{re.escape(v_clean)}\][^\n]*\n(.*?)(?=\n##\s*\[|\Z)"
+    match = re.search(pattern, content, re.DOTALL)
+    if match:
+        return match.group(1).strip()
+    return ""
+
+def make_launcher_release(version="1.0.2.2", region="EN"):
     """
     Génère translation.zip avec l'arborescence exacte attendue par P5XfrLauncher :
     translation.zip
@@ -66,10 +83,37 @@ def make_launcher_release(version="1.0.0", region="EN"):
     sha256 = compute_sha256(zip_path)
     file_size_kb = os.path.getsize(zip_path) / 1024
 
-    print(f"[3/3] Empreinte de sécurité calculée.")
+    # Génération de RELEASE_NOTES.md
+    v_tag = f"v{version.lstrip('v')}"
+    changelog_file = os.path.join(base_dir, "01_Documentation", "CHANGELOG.md")
+    notes_body = extract_changelog(version, changelog_file)
+    if not notes_body:
+        notes_body = f"Mise à jour de la traduction française pour Persona 5: The Phantom X ({v_tag})."
+
+    release_notes_content = f"""## Traduction Française — Persona 5: The Phantom X ({v_tag})
+
+Cette version est entièrement compatible avec **[P5XfrLauncher de Garloulou](https://github.com/Garloulou/P5XfrLauncher)**.
+
+{notes_body}
+
+---
+
+### Empreinte de vérification (SHA-256)
+translation.zip: {sha256}
+
+---
+*Mise à jour automatique par GitHub Actions pour P5XfrLauncher.*
+"""
+
+    notes_path = os.path.join(out_dir, "RELEASE_NOTES.md")
+    with open(notes_path, "w", encoding="utf-8") as f:
+        f.write(release_notes_content)
+
+    print(f"[3/3] Empreinte de sécurité calculée et notes de release générées.")
     print("\n" + "=" * 65)
     print("  SUCCÈS : PACK LAUNCHER PRÊT POUR GITHUB RELEASE")
     print("=" * 65)
+    print(f"Version  : {v_tag}")
     print(f"Fichier  : {zip_path}")
     print(f"Taille   : {file_size_kb:.1f} Ko")
     print(f"SHA-256  : {sha256}")
@@ -81,6 +125,6 @@ def make_launcher_release(version="1.0.0", region="EN"):
     return zip_path, sha256
 
 if __name__ == '__main__':
-    ver = sys.argv[1] if len(sys.argv) > 1 else "1.0.0"
+    ver = sys.argv[1] if len(sys.argv) > 1 else "1.0.2.2"
     reg = sys.argv[2].upper() if len(sys.argv) > 2 else "EN"
     make_launcher_release(ver, reg)
