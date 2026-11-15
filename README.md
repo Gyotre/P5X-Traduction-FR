@@ -11,7 +11,7 @@ Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier 
 > Pour le moment, **seul le kit complet de Hatsune Miku** (compétences en combat et dans les menus, passifs d'Awareness/Conscience 0-2, Piste, Miku's Stage, etc.) a été traduit afin de tester et valider l'ensemble du projet. Le reste du jeu sera traduit progressivement.  
 >  
 > 🐛 **Signalement de bugs :**  
-> Si vous constatez un bug, un texte qui déborde, une coquille ou un problème d'injection, n'hésitez pas à ouvrir un ticket dans l'onglet **[Issues](https://github.com/Gyotre/P5X-Traduction-Francaise/issues)** !
+> Si vous constatez un bug, un texte qui déborde, une coquille ou un problème d'injection, n'hésitez pas à ouvrir un ticket dans l'onglet **[Issues](https://github.com/Gyotre/P5X-Traduction-FR/issues)** !
 
 ---
 
@@ -67,16 +67,38 @@ Téléchargez et utilisez le launcher moderne officiel développé par Garloulou
 👉 **[P5XfrLauncher de Garloulou sur GitHub](https://github.com/Garloulou/P5XfrLauncher)**  
 *Ce launcher installe BepInEx en 1 clic, gère la bascule Vanilla/Moddé et télécharge automatiquement les nouvelles versions de cette traduction depuis GitHub.*
 
-### 2. Pour Contribuer à la Traduction (Atelier P5X)
-Double-cliquez sur **`Atelier_Traduction.bat`** :
-1. À gauche, choisis une section : **Personnages** (un fichier par personnage), **Arcanes & Cartes de Révélation**, Armes, Personas, Interface, Combat, Histoire…
-2. Pour chaque texte : l'anglais en bleu, ta traduction dans la case en dessous. `Tab` passe à la case suivante, **= EN** recopie l'anglais (pour garder un nom tel quel).
-3. **Chercher partout** trouve un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
-4. Les **textes à variables** (violet) : écris `$1`, `$2`… là où l'anglais montre `[$1]`, `[$2]`… (valeurs calculées par le jeu).
-5. **⚡ INJECTER DANS LE JEU** : vérifie les balises et variables, enregistre, compile et envoie dans le jeu. En jeu : **Alt + R**.
+### 2. 🤝 Vous voulez contribuer ou modifier une traduction ?
 
-Bon à savoir : une même phrase peut exister dans plusieurs fichiers ; l'option « Recopier dans les fichiers identiques » (cochée par défaut)
-reporte ta traduction partout, sinon le compilateur pourrait garder une autre version.
+**Où devez-vous aller ?**  
+👉 **Rendez-vous dans le dossier [`TRADUCTION_FACILE/`](https://github.com/Gyotre/P5X-Traduction-FR/tree/main/TRADUCTION_FACILE)**  
+C'est le **seul et unique endroit** où se font les traductions du projet. Il regroupe 168 fichiers `.json` simples classés par catégorie (ex: `01_Personnages/Joker.json`, `07_Cartes_Revelation_et_Sets.json`, `09_Interface_et_Menus/`, etc.).  
+*(⚠️ Ne modifiez jamais les fichiers dans `TRADUCTION_FR/` ni les archives zip : ils sont compilés automatiquement par le système).*
+
+#### 🌐 Méthode 1 : Traduire directement depuis GitHub (100% dans le navigateur, sans logiciel)
+1. Naviguez dans le dossier **[`TRADUCTION_FACILE/`](https://github.com/Gyotre/P5X-Traduction-FR/tree/main/TRADUCTION_FACILE)**.
+2. Ouvrez le fichier JSON que vous souhaitez traduire ou corriger (ex: votre Phantom Thief favori).
+3. Cliquez sur l'icône de crayon **✏️ (« Edit this file »)** en haut à droite.
+4. Renseignez la traduction française entre les guillemets de droite :
+   ```json
+   "Original English Text": "Votre traduction française ici"
+   ```
+5. En bas de page, cliquez sur **« Propose changes »** puis sur **« Create pull request »**.
+6. Dès validation de votre proposition, elle sera fusionnée et incluse dans la prochaine version du launcher !
+
+#### 💻 Méthode 2 : Traduire en local avec l'Atelier Visuel P5X
+Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée :
+1. Forkez et clonez le dépôt sur votre PC.
+2. Double-cliquez sur **`Atelier_Traduction.bat`** :
+   * À gauche, choisissez une section : **Personnages**, **Cartes de Révélation**, **Armes**, **Personas**, **Interface**, **Combat**, **Histoire**…
+   * Pour chaque texte : l'anglais apparaît en haut, votre traduction dans la case en dessous. `Tab` passe au texte suivant.
+   * Le bouton **Chercher partout** permet de retrouver un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
+   * Bouton **⚡ INJECTER DANS LE JEU** : valide la syntaxe, compile automatiquement et envoie directement dans votre jeu. Rechargement immédiat en jeu via **Alt + R**.
+3. Poussez vos modifications sur votre branche et ouvrez une **Pull Request**.
+
+#### ⚠️ Règles impératives pour les traducteurs :
+1. **Consulter le [Glossaire Officiel](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/00_Documentation/Glossaire_Officiel_P5_FR.md) :** Respectez impérativement le vocabulaire officiel Persona 5 (*Ennemi Principal*, *Attaque de Suivi*, *PV*, *PC*, *Cartes de Révélation*, *Absolue*, etc.).
+2. **Respecter scrupuleusement les balises techniques :** Les balises visuelles (`<color=#FFFC40>`, `<size=...>`, `<b>`) et les variables du moteur de jeu (`$1`, `$2`, `{{A}}`) doivent rester **strictement intactes**. Ne traduisez que le texte autour.
+3. Pour plus de détails sur les conventions, consultez le **[Guide Pratique du Traducteur](https://github.com/Gyotre/P5X-Traduction-FR/blob/main/00_Documentation/GUIDE_DU_TRADUCTEUR.md)**.
 
 ---
 
