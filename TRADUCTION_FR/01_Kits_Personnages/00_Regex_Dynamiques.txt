@@ -51,9 +51,9 @@ r:^\s*Crit Mult\.\s*=Dégâts Crit.
 r:^\s*Mark:\s*=Symbole :
 r:^\s*Speed\s*=Vitesse
 r:^\s*Defense\s*=Défense
-r:^\s*Set Effect\s*=<nobr>Effet d'Arcane</nobr>
+r:^\s*Set Effect\s*=<size=18>Effet d'Arcane</size>
 
 // --- TITRES DE SETS DE CARTES DE REVELATION (ANTI-CHEVAUCHEMENT UI) ---
-r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$"="<nobr><size=70%>$1 & $2</size></nobr>"
-r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$"="<nobr><size=70%>$1 & {{A}}</size></nobr>"
-r:"^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$"="<nobr><size=18>[$1] & [$2]</size></nobr>"
+r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$=<size=16>$1 & $2</size>
+r:^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$=<size=16>$1 & {{A}}</size>
+r:^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$=<size=16>[$1] & [$2]</size>
