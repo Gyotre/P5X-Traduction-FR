@@ -1,5 +1,49 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.1.0] - 2026-11-15
+
+### 🚀 Release v1.1.0 — Traduction Intégrale des Cartes de Révélation, Arcanes & Statistiques :
+
+* **Traduction intégrale du fichier des Arcanes (`02_Cartes_Revelation_et_Sets.json`) :**
+  * **100% du fichier traduit :** L'intégralité des Cartes de Révélation, des effets de sets (2 pièces et 4 pièces), des combinaisons d'arcanes et des interfaces associées a été traduite en français.
+  * **Statistiques d'équipement :** Traduction et harmonisation complète des statistiques principales et secondaires (`ATQ`, `DEF`, `PV`, `Récup. PC`, `Dégâts Arme +`, `Dégâts Bonus`, `Dégâts Crit.`, `Taux Crit.`, `Préc. Altération`, `Pénétration`, `Bouclier`...).
+  * **Interface & Forge de Révélation :** Menus de personnalisation, dépenses de cartes d'arcanes (*Soleil, Lune, Étoile, Monde*), avertissements de confirmation, démantèlement de cartes en matériaux et gestion des cartes marquées.
+* **Descriptions temporaires & Évolutions futures :**
+  * ⚠️ *Note importante :* Certaines descriptions de cartes utilisent pour l'instant une formulation temporaire/provisoire afin de garantir que 100% des cartes soient immédiatement compréhensibles en jeu. Des modifications et affinements stylistiques seront apportés dans les prochaines mises à jour pour parfaire le rendu.
+* **Technique & Robustesse (Moteur XUnity) :**
+  * Déploiement de la **double couche de détection** (Regex Dynamiques universelles `(?s)` + Clés statiques exhaustives avec puces `✦ ` et balises Unity) assurant une disparition totale des textes anglais résiduels sur Steam.
+  * Harmonisation terminologique sur **`Voleur Élucidateur`** (0 conflit lors de la compilation).
+  * Activation du rechargement à chaud automatique (`ReloadTranslationsOnFileChange = True`).
+* **Volume :** 2 467 entrées actives compilées et déployées dans le jeu.
+
+---
+
+## [v1.0.4] - 2026-11-15
+
+### 🌟 Mise à jour v1.0.4 — Double Couche Cartes de Révélation (Regex Dynamiques + Variantes Statiques avec Puces) & Déploiement :
+
+* **Intégration des modifications utilisateur (`02_Cartes_Revelation_et_Sets.json`) :**
+  * Dialogue de fabrication et personnalisation de Révélation (`Dépenser $1 cartes...`, `Toutes les $1 cartes Soleil, Lune...`, `Impossible de modifier...`, `Révélation personnalisée actuelle...`).
+  * Harmonisation des statistiques d'équipement : `SP Recovery` ➔ `Récup. PC`, `Gun Mult. +` ➔ `Dégâts Arme +`.
+  * Textes de démantèlement et rappels de cartes marqués.
+* **Résolution de l'affichage en jeu (Worry, Wisdom, Resolve, Perseverance, Nativity) :**
+  * Ajout d'une couche de **regex dynamiques universelles** dans `00_Regex_Dynamiques.txt` : capture tous les effets multi-lignes, indépendamment des balises de couleur (`<color=#2899ff>`), puces graphiques (`✦ `) ou deux-points pleine chasse (`：`).
+  * Ajout de **variantes statiques complètes avec et sans puce `✦ `** dans `06_Equipements_Objets_Cartes.txt`.
+  * Cas résolus spécifiquement :
+    * *Worry (Set 4 pièces)* : Remplissage jauge HIGHLIGHT de 25% au début du combat.
+    * *Wisdom & Oppression* : Malice à 5 cumuls ou plus (+20% Dégâts Physiques et Préc. Altération).
+    * *Wisdom & Pleasure* : Dégâts basés sur 50% de la Préc. Altération (max 30%).
+    * *Wisdom & Virtue* : Après HIGHLIGHT, +30% ATQ et +25% dégâts.
+    * *Resolve & Prudence* : Début de combat, 3e/4e allié dans l'ordre du tour (+24%/30% ATQ).
+    * *Perseverance & Gain* : ATQ selon PV perdus (max 40% quand PV <= 40%).
+    * *Perseverance & Sorrow* : +16% dégâts continus.
+    * *Nativity & Strife* : Début de combat ou action supplémentaire (+10% Dégâts Critiques cumulable jusqu'à 2 fois).
+    * *Voleur Élucidateur* : Effets de réduction de DEF (-10%), bonus PV/ATQ/DEF d'équipe (+2% par attribut assorti), buff PV Motoha et seuils de PV (6000, 9000 ou 12000).
+* **Déploiement direct dans le jeu :**
+  * 2 467 entrées actives compilées et déployées dans `E:\SteamLibrary\steamapps\common\P5X\client\pc\BepInEx\Translation\fr\Text\`.
+
+---
+
 ## [v1.0.3] - 2026-11-15
 
 ### 🌟 Mise à jour Majeure v1.0.3 — Arcanes, Révélations & Moteur de Traduction :

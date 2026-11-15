@@ -42,10 +42,8 @@ Integrity & Pleasure=<size\=85%>Integrity & Pleasure</size>
 Wisdom & Oppression=<size\=77%>Wisdom & Oppression</size>
 Wisdom & Virtue=Wisdom & Virtue
 Wisdom & Pleasure=<size\=88%>Wisdom & Pleasure</size>
-Resolve & Prudence=<size\=85%>Resolve & Prudence</size>
 Integrity & Labor=Integrity & Labor
 Nativity & {{A}}=<size\=88%>Nativity & {{A}}</size>
-Nativity & Strife=Nativity & Strife
 Freedom & Defeat=<size\=92%>Freedom & Defeat</size>
 Freedom & Triumph=<size\=86%>Freedom & Triumph</size>
 Creation & Worry=<size\=99%>Creation & Worry</size>

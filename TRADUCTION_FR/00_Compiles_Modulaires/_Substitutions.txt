@@ -966,7 +966,6 @@ Lodurr=Lodurr
 Shedim=Shedim
 Tartarus · Destroyer=Tartarus · Destroyer
 Ruinous Samael=Ruinous Samael
-Ruin=Ruin
 Raga=Raga
 Dvesha=Dvesha
 Moha=Moha

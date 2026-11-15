@@ -135,7 +135,7 @@ Ce document sert de guide de référence pour garantir la cohérence des termes 
 | **Taunt** | **Provocation** | Forcer l'ennemi à cibler le lanceur |
 | **Life Steal / Drain** | **Vol de vie / Absorption** | `Absorb 15% of damage dealt as HP` |
 | **Revive / Resurrect** | **Ranimer / Réanimer** | `Revive fallen ally with 50% HP` |
-| **HP Recovery / SP Recovery** | **Récupération de PV / Récupération de PC** | `Increase HP recovery by 10%` |
+| **HP Recovery / SP Recovery** | **Récupération de PV / Récup. de PC** | `Increase HP recovery by 10%` |
 | **Continuous Damage / DoT** | **Dégâts continus** | Dégâts subis à chaque tour (poison, brûlure) |
 | **Pierce / Penetration** | **Pénétration** | Ignore une partie de la défense |
 | **Damage Dealt / DMG Dealt** | **Dégâts infligés** | `Increase damage dealt by 15%` |

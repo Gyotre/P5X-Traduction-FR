@@ -7,8 +7,10 @@ Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier 
 > Le launcher officiel et recommandé pour jouer au jeu et gérer les mises à jour automatiques est **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)** développé par **Garloulou**.  
 > Ce dépôt est dédié à la production, la maintenance et la mise à disposition des fichiers de traduction française. Pour jouer au quotidien, utilisez exclusivement le launcher de Garloulou !
 
-> 🧪 **État d'avancement actuel (Phase de Test) :**  
-> Pour le moment, **seul le kit complet de Hatsune Miku** (compétences en combat et dans les menus, passifs d'Awareness/Conscience 0-2, Piste, Miku's Stage, etc.) a été traduit afin de tester et valider l'ensemble du projet. Le reste du jeu sera traduit progressivement.  
+> 🧪 **État d'avancement actuel (Version 1.1) :**  
+> * **Kit complet de Hatsune Miku :** Compétences en combat et dans les menus, passifs d'Awareness/Conscience 0-2, Piste, Concert virtuel, etc.  
+> * **Cartes de Révélation & Arcanes (100% traduit) :** L'entièreté des cartes, arcanes, effets de sets (2 pièces et 4 pièces), combinaisons et statistiques d'équipement (`ATQ`, `DEF`, `PV`, `Récup. PC`, `Dégâts Arme +`, `Dégâts Crit.`, etc.) ainsi que l'interface de personnalisation et de forge.  
+> * *Note :* Certaines descriptions de cartes utilisent des formulations temporaires qui seront affinées au fil des futures mises à jour.  
 >  
 > 🐛 **Signalement de bugs :**  
 > Si vous constatez un bug, un texte qui déborde, une coquille ou un problème d'injection, n'hésitez pas à ouvrir un ticket dans l'onglet **[Issues](https://github.com/Gyotre/P5X-Traduction-FR/issues)** !
