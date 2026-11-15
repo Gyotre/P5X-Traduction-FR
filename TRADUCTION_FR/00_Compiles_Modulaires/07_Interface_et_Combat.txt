@@ -1,4 +1,5 @@
 Revelation Card=Carte de Revelation
+At the start of battle, if the user is the 3rd/4th ally in the turn order, increase Attack by <color\=#2899ff>24%/30%</color>.=Au début du combat, si le lanceur est le 3e/4e allié dans l'ordre du tour, augmente l'Attaque de <color\=#2899ff>24%/30%</color>.
 Ends in $1d $2h=Fin dans $1j $2h
 Ends in $1d=Fin dans $1j
 Ends in $1h $2m=Fin dans $1h $2m

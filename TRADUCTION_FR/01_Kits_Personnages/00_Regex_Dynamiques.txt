@@ -45,3 +45,8 @@ r:^\s*Crit Mult\.\s*=Critique Mult.
 r:^\s*Mark:\s*=Symbole :
 r:^\s*Speed\s*=Vitesse
 r:^\s*Defense\s*=Défense
+
+// --- TITRES DE SETS DE CARTES DE REVELATION (ANTI-CHEVAUCHEMENT UI) ---
+r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*([A-Za-zÀ-ÿ\-]+)$"=<size=80%>$1 & $2</size>
+r:"^([A-Za-zÀ-ÿ\-]+)\s*&\s*\{\{A\}\}$"=<size=80%>$1 & {{A}}</size>
+r:"^<size=20>\s*\[(.+?)\]\s*&\s*\[(.+?)\]</size>$"=<size=18>[$1] & [$2]</size>
