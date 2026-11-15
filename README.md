@@ -63,32 +63,26 @@ Téléchargez et utilisez le launcher moderne officiel développé par Garloulou
 
 ### 2. 🤝 Vous voulez contribuer ou modifier une traduction ?
 
-**Où devez-vous aller ?**  
-👉 **Rendez-vous dans le dossier [`TRADUCTION_FACILE/`](https://github.com/Gyotre/P5X-Traduction-FR/tree/main/TRADUCTION_FACILE)**  
-C'est le **seul et unique endroit** où se font les traductions du projet. Il regroupe 168 fichiers `.json` simples classés par catégorie (ex: `01_Personnages/Joker.json`, `07_Cartes_Revelation_et_Sets.json`, `09_Interface_et_Menus/`, etc.).  
-*(⚠️ Ne modifiez jamais les fichiers dans `TRADUCTION_FR/` ni les archives zip : ils sont compilés automatiquement par le système).*
+> ⚠️ **IMPORTANT : Ne modifiez pas les fichiers JSON directement à la main dans le navigateur !**  
+> Une traduction manuelle directe sans passer par l'application pose plusieurs problèmes majeurs :
+> 1. **Conflits de doublons :** De nombreuses phrases existent dans plusieurs fichiers à la fois. L'application les synchronise automatiquement partout ; une édition manuelle crée des versions divergentes et bloque le compilateur.
+> 2. **Désynchronisation Steam :** Les Cartes de Révélation doivent être synchronisées avec les fichiers Steam (`11_Textes_Generaux_Steam/`) via le bouton dédié de l'application pour être effectives en jeu.
+> 3. **Risque de corruption syntaxique :** Oublier d'échapper un guillemet ou casser une balise (`<color>`, `$1`, `{{A}}`) rend le fichier JSON illisible pour le jeu.
+> 
+> 👉 **Pour traduire proprement et sans risque d'erreur, utilisez impérativement l'application dédiée !**
 
-#### 🌐 Méthode 1 : Traduire directement depuis GitHub (100% dans le navigateur, sans logiciel)
-1. Naviguez dans le dossier **[`TRADUCTION_FACILE/`](https://github.com/Gyotre/P5X-Traduction-FR/tree/main/TRADUCTION_FACILE)**.
-2. Ouvrez le fichier JSON que vous souhaitez traduire ou corriger (ex: votre Phantom Thief favori).
-3. Cliquez sur l'icône de crayon **✏️ (« Edit this file »)** en haut à droite.
-4. Renseignez la traduction française entre les guillemets de droite :
-   ```json
-   "Original English Text": "Votre traduction française ici"
-   ```
-5. En bas de page, cliquez sur **« Propose changes »** puis sur **« Create pull request »**.
-6. Dès validation de votre proposition, elle sera fusionnée et incluse dans la prochaine version du launcher !
+#### 💻 Comment contribuer étape par étape avec l'Application :
+1. **Forkez et clonez** le dépôt sur votre ordinateur (`git clone https://github.com/Gyotre/P5X-Traduction-FR.git`).
+2. Double-cliquez sur **`Application pour traduire - Facultatif.bat`** pour ouvrir l'Atelier visuel.
+3. **Traduisez en toute sécurité :**
+   * Choisissez votre catégorie à gauche (*Personnages*, *Cartes de Révélation*, *Histoire*, *Menus*...).
+   * L'anglais apparaît en haut, votre case française en dessous (`Tab` passe au texte suivant).
+   * L'option **« Recopier dans les fichiers identiques »** (activée par défaut) garantit qu'aucun doublon n'entre en conflit.
+   * Si vous modifiez les Cartes, cliquez sur **`🔄 Sync Steam (Cartes)`** pour propager instantanément les textes dans la version Steam.
+   * Cliquez sur **`⚡ INJECTER DANS LE JEU`** pour compiler et tester vos textes en direct en jeu avec **`Alt + R`**.
+4. Une fois vos modifications terminées et testées, faites un commit et ouvrez une **Pull Request** sur GitHub !
 
-#### 💻 Méthode 2 : Traduire en local avec l'Atelier Visuel P5X
-Si vous préférez cloner le dépôt et utiliser l'interface graphique dédiée :
-1. Forkez et clonez le dépôt sur votre PC.
-2. Double-cliquez sur **`Application pour traduire - Facultatif.bat`** :
-   * À gauche, choisissez une section : **Personnages**, **Cartes de Révélation**, **Armes**, **Personas**, **Interface**, **Combat**, **Histoire**…
-   * Pour chaque texte : l'anglais apparaît en haut, votre traduction dans la case en dessous. `Tab` passe au texte suivant.
-   * Le bouton **Chercher partout** permet de retrouver un mot dans tout le projet ; le filtre **Non traduits** n'affiche que ce qui reste à faire.
-   * Le bouton **🔄 Sync Steam (Cartes)** : met à jour automatiquement tous les fichiers Steam (`11_Textes_Generaux_Steam/`) en fonction de vos traductions dans `02_Cartes_Revelation_et_Sets.json`.
-   * Bouton **⚡ INJECTER DANS LE JEU** : valide la syntaxe, compile automatiquement et envoie directement dans votre jeu. Rechargement immédiat en jeu via **Alt + R**.
-3. Poussez vos modifications sur votre branche et ouvrez une **Pull Request**.
+*(💡 Si vous avez simplement repéré une coquille ou une faute sans vouloir cloner le projet, ouvrez une [Issue](https://github.com/Gyotre/P5X-Traduction-FR/issues) et nous l'intégrerons proprement pour vous !)*
 
 ---
 
