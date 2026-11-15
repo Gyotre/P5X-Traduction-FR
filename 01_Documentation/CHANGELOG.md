@@ -1,5 +1,34 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.0.3] - 2026-11-15
+
+### 🌟 Mise à jour Majeure v1.0.3 — Arcanes, Révélations & Moteur de Traduction :
+
+* **Cartes de Révélation & Descriptions d'effets officielles :**
+  * **Intégration des descriptions pour Departure et Awareness :** Traduction exacte des descriptions d'effets de cartes avec dimensionnement adapté et balises de couleurs dynamiques (`<color=#2899ff>`) :
+    * *Departure & Control* : Réduction de DEF de l'ennemi principal pendant 2 tours après attaque.
+    * *Departure & Prosperity* : Augmentation des dégâts de l'équipe pendant 1 tour lorsqu'un ennemi est attaqué.
+    * *Departure & Hindrance* : Augmentation d'ATQ pendant 3 tours après avoir vaincu un ennemi.
+    * *Awareness & Hindrance* : Augmentation d'ATQ à chaque coup sur un ennemi avec malus (jusqu'à 3 cumuls).
+    * *Awareness & Control* : Augmentation des dégâts de Feu de l'équipe (+ bonus sous Brûlure).
+    * *Awareness & Truth* : Augmentation des dégâts contre les ennemis sous altération élémentaire (jusqu'à 2 cumuls).
+  * **Conservation des noms d'arcanes d'origine :** Les noms de sets et de combinaisons (*Departure*, *Awareness*, *Meditation*, *Wisdom*, *Creation*, *Resolve*, *Integrity*...) restent strictement en anglais pour garantir une cohérence parfaite avec les tier lists, guides et builds communautaires.
+  * **Suppression définitive des chevauchements d'arcanes :** Tous les titres de combinaisons sont calibrés dynamiquement selon la largeur typographique réelle des lettres, garantissant qu'ils tiennent sur une seule ligne sans recouvrir les descriptions.
+
+* **Correctif fondamental du compilateur pour XUnity AutoTranslator :**
+  * **Échappement universel des `=` en `\=` :** Résolution du bug critique du parseur XUnity (*TextHelper*) qui rejetait en silence toute ligne contenant un `=` non échappé (balises `<size=...>`, `<color=...>`).
+  * **207 lignes de traduction débloquées :** Restauration immédiate des balises de mise en page, de taille et de mise en valeur de texte dans tout le jeu.
+
+* **Améliorations de l'Interface & Regex :**
+  * **Correction typographique :** Ajout de l'espace manquant sur la description de bonus de Feu (*Awareness & Control*).
+  * **Correction de libellé :** Correction de la coquille d'interface : `Weekly` (`Semains` → **`Semaine`**).
+  * **Sécurisation des expressions régulières :** Ancrage strict par `$` de 23 règles de libellés courts (*Defense*, etc.) pour prévenir tout remplacement accidentel de phrases commençant par ces mots.
+
+* **Compatibilité Totale Launcher :**
+  * Pack optimisé et 100 % automatisé pour **[P5XfrLauncher de Garloulou](https://github.com/Garloulou/P5XfrLauncher)** avec vérification d'intégrité SHA-256.
+
+---
+
 ## [v1.0.2.6] - 2026-11-15
 
 ### 🛠️ Correctifs et Améliorations de la version 1.0.2.6 :
