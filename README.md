@@ -7,7 +7,7 @@ Ce dépôt regroupe l'intégralité des 168 modules de textes JSON, l'**Atelier 
 > Le launcher officiel et recommandé pour jouer au jeu et gérer les mises à jour automatiques est **[P5XfrLauncher](https://github.com/Garloulou/P5XfrLauncher)** développé par **Garloulou**.  
 > Ce dépôt est dédié à la production, la maintenance et la mise à disposition des fichiers de traduction française. Pour jouer au quotidien, utilisez exclusivement le launcher de Garloulou !
 
-> 🧪 **État d'avancement actuel (Version 1.1.1) :**  
+> 🧪 **État d'avancement actuel (Version 1.1.2) :**  
 > * **Kit complet de Hatsune Miku :** Compétences en combat et dans les menus, passifs d'Awareness/Conscience 0-2, Piste, Concert virtuel, etc.  
 > * **Cartes de Révélation & Arcanes (100% traduit) :** L'entièreté des cartes, arcanes, effets de sets (2 pièces et 4 pièces - incluant le correctif sur le set Gain), combinaisons et statistiques d'équipement (`ATQ`, `DEF`, `PV`, `Récup. PC`, `Dégâts Arme +`, `Dégâts Crit.`, etc.) ainsi que l'interface de personnalisation et de forge.  
 > * *Note :* Certaines descriptions de cartes utilisent des formulations temporaires qui seront affinées au fil des futures mises à jour.  

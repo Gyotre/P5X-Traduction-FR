@@ -47,7 +47,7 @@ Ce document sert de guide de référence pour garantir la cohérence des termes 
 | :--- | :--- | :--- |
 | **All-Out Attack** | 總攻擊 | **Assaut Général** |
 | **1 More** | 1 More / 再動 | **1 More** |
-| **Baton Pass / Highlight** | 接力 / HIGHLIGHT | **Transfert / Highlight** |
+| **Baton Pass /Highlight  /  Theurgy** | 接力 /Highlight | **Transfert /Highlight /  Theurgy** |
 | **Weak** | 弱點 | **Faiblesse** |
 | **Resist** | 耐性 | **Résistance** |
 | **Block / Null** | 無效 | **Nul** (Immunité) |
@@ -175,3 +175,19 @@ Dans les fichiers XUnity, les lignes utilisent souvent des balises Unity Rich Te
 - `<size=24>Texte</size>` : **Garder les balises de taille intactes.**
 - `\n` : Représente un saut de ligne. Ne jamais le remplacer par un vrai saut de ligne physique (Entrée) dans le fichier `.txt`, sinon le fichier sera corrompu.
 - `$1`, `$2`, `$3` dans les regex : Variables dynamiques (ex: pourcentage de dégâts, nombre de tours). Conservez leur ordre ou adaptez-les selon la grammaire française.
+
+## 10. Terme pour les carte/Arcane
+| Terme Anglais | Traduction Française Recommandée | Exemple / Contexte d'usage |
+| :--- | :--- | :--- |
+| **At the start of battle** | **Au début du combat** |
+| **During battle** | **Pendant le combat** |  
+| **Elucidator** | **Elucidator**  |
+| **This effect won't activate if stacked**| **Non cumulable** | 
+| **Debuffs**| **Malus** |
+| **Main attribute**| **Type** |
+| ****| **** |
+| **** | **** |
+| 
+| 
+| 
+| 
