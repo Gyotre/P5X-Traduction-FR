@@ -1,5 +1,14 @@
 # Journal des Modifications (Changelog) — P5X Traduction FR
 
+## [v1.1.3] - 2026-11-21
+
+### 🐛 Correction de bugs :
+
+* **Correctifs :**
+  * Correction de bugs et ajustements.
+
+---
+
 ## [v1.1.2] - 2026-11-16
 
 ### 🔄 Mise à jour :
